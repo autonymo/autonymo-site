@@ -245,7 +245,7 @@ export const Navbar = () => {
                       alt={item.title}
                       width={400}
                       height={400}
-                      className="w-full h-full object-cover scale-110"
+                      className="w-full h-full object-cover scale-125"
                       loading="lazy"
                     />
                   </div>
