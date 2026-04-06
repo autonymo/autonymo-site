@@ -19,7 +19,7 @@ export const Hero = () => {
       illustration: <RealEstateIllustration />,
     },
     {
-      title: "Dental OS",
+      title: "Dental Clinic OS",
       intro: "Reactivate dormant patients via WhatsApp, automate booking and reminders, and fill empty chairs. Your front desk stops chasing, patients start coming back.",
       color: "bg-[#F5F5F7]",
       href: "/dental-os" as const,

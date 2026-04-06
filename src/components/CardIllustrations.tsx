@@ -14,7 +14,7 @@ export const RealEstateIllustration = () => (
 export const DentalIllustration = () => (
   <Image
     src="/images/dental-os-cube.png"
-    alt="Dental OS"
+    alt="Dental Clinic OS"
     width={779}
     height={789}
     className="w-full h-full object-cover"

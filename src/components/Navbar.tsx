@@ -34,7 +34,7 @@ export const Navbar = () => {
       cubeImage: "/images/real-estate-os-cube.png",
     },
     {
-      title: "Dental OS",
+      title: "Dental Clinic OS",
       description: "AI-powered scheduling, patient reactivation, and clinical documentation for modern dental practices.",
       href: "/dental-os" as const,
       icon: Heart,

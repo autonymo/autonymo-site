@@ -13,7 +13,7 @@ const Footer = () => {
   const footerLinks = {
     [t("solutions")]: [
       { name: t("realEstateOS"), href: "/real-estate-os" as const },
-      { name: "Dental OS", href: "/dental-os" as const },
+      { name: "Dental Clinic OS", href: "/dental-os" as const },
       { name: t("customSolutions"), href: "/custom-solutions" as const },
     ],
     [t("company")]: [
