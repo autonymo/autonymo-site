@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "title": "Autonymo | AI Operating Systems for Your Industry",
+    "description": "We design, build, and deploy complete AI operating systems for Real Estate, Healthcare, and custom business solutions. Live in weeks, not months."
+  },
+  "nav": {
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "benefits": "Benefits",
+    "process": "Process",
+    "about": "About",
+    "customSolutions": "Custom Solutions",
+    "blog": "Blog",
+    "bookCall": "Book a Call",
+    "more": "More",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Get the latest AI insights and product updates.",
+    "blogs": "Blogs",
+    "blogsDesc": "Insights on AI automation, industry trends, and strategies.",
+    "caseStudies": "Case Studies",
+    "caseStudiesDesc": "See how businesses are running on Autonymo OS.",
+    "realEstateOS": "Real Estate OS",
+    "realEstateOSDesc": "AI-powered lead response, listing management, and contract automation for real estate agencies.",
+    "healthServicesOS": "Health Services OS",
+    "healthServicesOSDesc": "Smart scheduling, patient reactivation, and clinical documentation for modern practices.",
+    "leadGenerationOS": "Lead Gen OS",
+    "leadGenerationOSDesc": "AI-powered lead capture, scoring, nurturing, and outbound calling to fill your pipeline automatically.",
+    "customSolutionsDesc": "Custom AI implementations tailored to your business workflows and industry.",
+    "mobileMenu": "Menu"
+  },
+  "hero": {
+    "title": "Driving the AI transition that your company needs.",
+    "titleHighlight": "",
+    "subtitle": "Your external AI team. We go inside your business, build what generates real impact, run it and make sure you stay ahead as technology evolves.",
+    "cta": "Book a Free Assessment",
+    "ctaSecondary": "See Our Solutions",
+    "trustedBy": "Working with businesses globally.",
+    "valueProp1": "Live in weeks, not months",
+    "valueProp2": "Works with your existing tools",
+    "valueProp3": "Ongoing support included"
+  },
+  "explainer": {
+    "text": "What's an AI Operating System?",
+    "description": "A connected suite of AI-powered tools built for your industry: automated lead response, smart scheduling, document generation, real-time dashboards, and more — all working together, replacing manual processes across your entire operation."
+  },
+  "whatWeBuild": {
+    "label": "What We Build",
+    "title": "Industry-specific AI platforms, not generic tools.",
+    "subtitle": "Each system is built around your industry's actual workflows — integrated with your existing tools, ready to deploy in weeks.",
+    "tabs": {
+      "realEstate": {
+        "label": "Real Estate OS",
+        "tagline": "Capture owners, respond to leads in seconds, run your agency on AI.",
+        "cta": "Explore Real Estate OS",
+        "modules": {
+          "module1": {
+            "title": "Lead Response Engine",
+            "description": "Respond to portal leads in seconds via WhatsApp — not hours. Automatic pre-qualification, enrichment, and intelligent agent distribution."
+          },
+          "module2": {
+            "title": "Active Listing Management",
+            "description": "Stale listing alerts, price monitoring, post-visit owner reports, and activity tracking for every property in your portfolio."
+          },
+          "module3": {
+            "title": "Owner Relationship Engine",
+            "description": "Re-engage past owners with market updates and automated nurture sequences. Build trust before they consider switching agencies."
+          },
+          "module4": {
+            "title": "Contract Automation",
+            "description": "Generate reserva, arras, and commission agreements in clicks. Document checklists and closing milestone tracking included."
+          }
+        }
+      },
+      "healthServices": {
+        "label": "Health Services OS",
+        "tagline": "Reactivate patients, fill chairs, automate communication.",
+        "cta": "Explore Health Services OS",
+        "modules": {
+          "module1": {
+            "title": "Smart Scheduling",
+            "description": "AI-powered booking across practitioners. Automatically fills cancellation gaps, reduces no-shows, and optimizes chair time."
+          },
+          "module2": {
+            "title": "Patient Reactivation",
+            "description": "Automated outreach to dormant patients with personalized recall campaigns. Re-engage patients who haven't visited in months."
+          },
+          "module3": {
+            "title": "Patient Communication Hub",
+            "description": "Unified WhatsApp, email, and SMS communications. Automated confirmations, follow-ups, and post-visit review requests."
+          },
+          "module4": {
+            "title": "Insurance & Documentation",
+            "description": "Automate eligibility checks, claims processing, and clinical note generation. Reduce admin burden and speed up reimbursements."
+          }
+        }
+      },
+      "leadGeneration": {
+        "label": "Lead Gen OS",
+        "tagline": "Fill your calendar with qualified leads on autopilot.",
+        "cta": "Explore Lead Generation OS",
+        "modules": {
+          "module1": {
+            "title": "Multi-Channel Capture",
+            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline — enriched and scored automatically."
+          },
+          "module2": {
+            "title": "AI Lead Scoring",
+            "description": "Score every lead in real time based on behavioral signals, firmographic data, and intent indicators. Prioritize the hottest opportunities."
+          },
+          "module3": {
+            "title": "Smart Nurture Sequences",
+            "description": "Deploy personalized email, LinkedIn, and SMS campaigns that adapt content and timing based on each prospect's engagement."
+          },
+          "module4": {
+            "title": "AI Outbound Calling",
+            "description": "Automated cold outreach and follow-up calls with AI voice agents that qualify prospects and book meetings on your behalf."
+          }
+        }
+      },
+      "custom": {
+        "label": "Custom Solutions",
+        "tagline": "AI operations tailored to your industry and processes.",
+        "cta": "Discuss Your Project",
+        "modules": {
+          "module1": {
+            "title": "Workflow Automation",
+            "description": "Map and automate any business process end-to-end — from simple task routing to complex multi-system orchestration."
+          },
+          "module2": {
+            "title": "Custom AI Agents",
+            "description": "Purpose-built AI agents trained on your data and business logic. Not generic — designed around your specific operations."
+          },
+          "module3": {
+            "title": "System Integration",
+            "description": "Connect CRMs, ERPs, databases, APIs, and legacy systems into one intelligent, automated ecosystem."
+          },
+          "module4": {
+            "title": "Dashboards & Analytics",
+            "description": "Real-time operational dashboards designed around your KPIs, data sources, and decision-making workflows."
+          }
+        }
+      }
+    }
+  },
+  "industryGrid": {
+    "label": "Industries",
+    "title": "AI operating systems for your industry.",
+    "subtitle": "We build complete AI systems tailored to how your industry actually works — not generic automation that needs months of customization.",
+    "industries": {
+      "realEstate": {
+        "title": "Real Estate",
+        "description": "Automate lead response, listing management, and contracts for agencies and property managers."
+      },
+      "healthcare": {
+        "title": "Healthcare & Dental",
+        "description": "Smart scheduling, patient reactivation, and clinical documentation for modern practices."
+      },
+      "professional": {
+        "title": "Professional Services",
+        "description": "Streamline client intake, document generation, and project workflows for law firms, accounting, and consultancies."
+      },
+      "industrial": {
+        "title": "Industrial & Manufacturing",
+        "description": "Production monitoring, supply chain automation, and quality control systems for mid-market manufacturers."
+      },
+      "agencies": {
+        "title": "Agencies",
+        "description": "Scale service delivery, automate reporting, and increase client capacity without hiring."
+      },
+      "other": {
+        "title": "Other Industries",
+        "description": "Don't see your industry? We run an AI audit and build exactly what you need."
+      }
+    }
+  },
+  "beforeAfter": {
+    "label": "Why Autonymo",
+    "title": "Your operations are about to change.",
+    "subtitle": "Stop patching workflows with spreadsheets and manual follow-ups. Start running on an intelligent operating system.",
+    "before": {
+      "title": "Before — Manual Operations",
+      "items": {
+        "item1": "Leads sit for hours — prospects move on before you respond",
+        "item2": "Staff drowns in admin, data entry, and manual follow-ups",
+        "item3": "Scaling means hiring more people for every new account",
+        "item4": "Information scattered across tools, inboxes, and spreadsheets",
+        "item5": "Decisions based on gut feeling, not real-time data",
+        "item6": "Every new process takes months to set up and optimize"
+      }
+    },
+    "after": {
+      "title": "After — Autonymo OS",
+      "items": {
+        "item1": "AI responds to inquiries in seconds, 24/7 — no lead left behind",
+        "item2": "Automated workflows handle the repetitive work so your team focuses on value",
+        "item3": "Same team handles 3-5x more with AI doing the heavy lifting",
+        "item4": "One unified system with real-time dashboards and connected data",
+        "item5": "AI surfaces insights, spots patterns, and recommends actions",
+        "item6": "New capabilities deployed in days, not months"
+      }
+    },
+    "bottomNote": "The teams already using Autonymo are operating at a different speed"
+  },
+  "howItWorks": {
+    "label": "How We Work",
+    "title": "Your AI operations team.",
+    "pillars": {
+      "deploy": {
+        "title": "Deploy",
+        "description": "We build and configure AI systems on your existing tools. No rip-and-replace."
+      },
+      "train": {
+        "title": "Train",
+        "description": "We train your team to work alongside the new systems. No tech skills required."
+      },
+      "evolve": {
+        "title": "Evolve",
+        "description": "AI moves fast. We evaluate new capabilities and deploy what matters for YOUR business. You stay ahead."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to see what AI",
+    "titleLine2": "can do for your business?",
+    "subtitle": "Book a free 15-minute assessment. We'll show you where AI can make the biggest impact on your operations.",
+    "button": "Book a Free Assessment"
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "company": "Company",
+    "social": "Social",
+    "legal": "Legal",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "bookCall": "Book a Call",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "copyright": "© {year} Autonymo. All rights reserved.",
+    "realEstateOS": "Real Estate OS",
+    "healthServicesOS": "Health Services OS",
+    "leadGenerationOS": "Lead Gen OS",
+    "customSolutions": "Custom Solutions"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "ca": "Català"
+  }
+}
