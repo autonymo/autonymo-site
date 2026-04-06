@@ -239,13 +239,13 @@ export const Navbar = () => {
                     {item.description}
                   </p>
 
-                  <div className={`mt-auto aspect-[4/3] rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
+                  <div className={`mt-auto aspect-square rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
                     <Image
                       src={item.cubeImage}
                       alt={item.title}
                       width={400}
                       height={400}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                       loading="lazy"
                     />
                   </div>
