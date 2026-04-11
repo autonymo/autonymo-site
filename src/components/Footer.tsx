@@ -14,7 +14,6 @@ const Footer = () => {
     [t("solutions")]: [
       { name: t("realEstateOS"), href: "/real-estate-os" as const },
       { name: t("dentalClinicOS"), href: "/dental-clinic-os" as const },
-      { name: t("industrialOS"), href: "/industrial-os" as const },
       { name: t("customSolutions"), href: "/custom-solutions" as const },
     ],
     [t("company")]: [

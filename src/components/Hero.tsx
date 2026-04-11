@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import Threads from "@/components/Threads";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { RealEstateIllustration, DentalIllustration, IndustrialIllustration, CustomIllustration } from "@/components/CardIllustrations";
+import { RealEstateIllustration, DentalIllustration, CustomIllustration } from "@/components/CardIllustrations";
 import { Settings2 } from "lucide-react";
 
 export const Hero = () => {
@@ -25,13 +25,6 @@ export const Hero = () => {
       color: "bg-[#F5F5F7]",
       href: "/dental-clinic-os" as const,
       illustration: <DentalIllustration alt={t("hero.cards.dental.title")} />,
-    },
-    {
-      title: t("hero.cards.industrial.title"),
-      intro: t("hero.cards.industrial.intro"),
-      color: "bg-[#FEF3C7]",
-      href: "/industrial-os" as const,
-      illustration: <IndustrialIllustration alt={t("hero.cards.industrial.title")} />,
     },
   ];
 
@@ -102,7 +95,7 @@ export const Hero = () => {
               <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-3 block">
                 {t("hero.groupHeadings.purposeBuilt")}
               </span>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {osCards.map((card, index) => (
                   <div key={index}>
                     <Link

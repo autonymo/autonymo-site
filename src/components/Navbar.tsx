@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart, Factory, Settings2 } from "lucide-react";
+import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart, Settings2 } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -41,15 +41,6 @@ export const Navbar = () => {
       color: "bg-[#F5F5F7]",
       iconColor: "text-emerald-600",
       cubeImage: "/images/dental-clinic-os-cube.png",
-    },
-    {
-      title: t("industrialOS"),
-      description: t("industrialOSDesc"),
-      href: "/industrial-os" as const,
-      icon: Factory,
-      color: "bg-[#FEF3C7]",
-      iconColor: "text-amber-600",
-      cubeImage: "/images/industrial-os-cube.png",
     },
   ];
 
@@ -217,7 +208,7 @@ export const Navbar = () => {
               <span className="font-display text-[10px] text-accent-blue font-bold tracking-[0.08em] uppercase mb-2 block px-1">
                 {t("purposeBuilt")}
               </span>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {osProducts.map((item, index) => (
                   <Link
                     key={index}

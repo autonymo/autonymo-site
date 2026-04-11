@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autonymo \u2014 Sistemas Operativos de IA para Tu Industria",
+    "title": "Autonymo — Sistemas Operativos de IA para Tu Industria",
     "description": "Diseñamos, construimos y desplegamos sistemas operativos de IA completos para Inmobiliaria, Salud y soluciones empresariales personalizadas. Listos en semanas, no meses."
   },
   "nav": {
@@ -28,8 +28,6 @@
     "leadGenerationOSDesc": "AI-powered lead capture, scoring, nurturing, and outbound calling to fill your pipeline automatically.",
     "dentalClinicOS": "Dental Clinic OS",
     "dentalClinicOSDesc": "AI-powered scheduling, patient reactivation, and clinical documentation for modern dental practices.",
-    "industrialOS": "Industrial OS",
-    "industrialOSDesc": "Production monitoring, supply chain automation, and quality control systems for mid-market manufacturers.",
     "mobileMenu": "Menú",
     "subscribe": "Subscribe",
     "social": "Social",
@@ -57,10 +55,6 @@
         "title": "Dental Clinic OS",
         "intro": "Reactivate dormant patients via WhatsApp, automate booking and reminders, and fill empty chairs. Your front desk stops chasing, patients start coming back."
       },
-      "industrial": {
-        "title": "Industrial OS",
-        "intro": "Monitor production lines in real time, automate supply chain coordination, and catch quality issues before they ship. Your factory runs smarter."
-      },
       "custom": {
         "title": "Custom Solutions",
         "intro": "We audit your operations, find where time and money are leaking, and build AI systems around how you actually work. No templates, no forced migrations."
@@ -73,12 +67,12 @@
   },
   "explainer": {
     "text": "¿Qué es un Sistema Operativo de IA?",
-    "description": "Un conjunto conectado de herramientas impulsadas por IA diseñadas para tu industria: respuesta automática a leads, programación inteligente, generación de documentos, dashboards en tiempo real y más \u2014 todo funcionando en conjunto, sustituyendo procesos manuales en toda tu operación."
+    "description": "Un conjunto conectado de herramientas impulsadas por IA diseñadas para tu industria: respuesta automática a leads, programación inteligente, generación de documentos, dashboards en tiempo real y más — todo funcionando en conjunto, sustituyendo procesos manuales en toda tu operación."
   },
   "whatWeBuild": {
     "label": "Lo Que Construimos",
     "title": "Plataformas de IA específicas para tu industria, no herramientas genéricas.",
-    "subtitle": "Cada sistema está construido alrededor de los flujos de trabajo reales de tu industria \u2014 integrado con tus herramientas existentes, listo para desplegar en semanas.",
+    "subtitle": "Cada sistema está construido alrededor de los flujos de trabajo reales de tu industria — integrado con tus herramientas existentes, listo para desplegar en semanas.",
     "tabs": {
       "realEstate": {
         "label": "Real Estate OS",
@@ -87,7 +81,7 @@
         "modules": {
           "module1": {
             "title": "Motor de Respuesta a Leads",
-            "description": "Responde a leads de portales en segundos por WhatsApp \u2014 no en horas. Pre-cualificación automática, enriquecimiento y distribución inteligente a agentes."
+            "description": "Responde a leads de portales en segundos por WhatsApp — no en horas. Pre-cualificación automática, enriquecimiento y distribución inteligente a agentes."
           },
           "module2": {
             "title": "Gestión Activa de Propiedades",
@@ -133,7 +127,7 @@
         "modules": {
           "module1": {
             "title": "Multi-Channel Capture",
-            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline \u2014 enriched and scored automatically."
+            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline — enriched and scored automatically."
           },
           "module2": {
             "title": "AI Lead Scoring",
@@ -156,11 +150,11 @@
         "modules": {
           "module1": {
             "title": "Automatización de Flujos de Trabajo",
-            "description": "Mapea y automatiza cualquier proceso de negocio de principio a fin \u2014 desde enrutamiento simple de tareas hasta orquestación compleja multi-sistema."
+            "description": "Mapea y automatiza cualquier proceso de negocio de principio a fin — desde enrutamiento simple de tareas hasta orquestación compleja multi-sistema."
           },
           "module2": {
             "title": "Agentes de IA Personalizados",
-            "description": "Agentes de IA diseñados a medida, entrenados con tus datos y lógica de negocio. No genéricos \u2014 diseñados alrededor de tus operaciones específicas."
+            "description": "Agentes de IA diseñados a medida, entrenados con tus datos y lógica de negocio. No genéricos — diseñados alrededor de tus operaciones específicas."
           },
           "module3": {
             "title": "Integración de Sistemas",
@@ -177,7 +171,7 @@
   "industryGrid": {
     "label": "Industrias",
     "title": "Sistemas operativos de IA para tu industria.",
-    "subtitle": "Construimos sistemas de IA completos adaptados a cómo funciona realmente tu industria \u2014 no automatización genérica que necesita meses de personalización.",
+    "subtitle": "Construimos sistemas de IA completos adaptados a cómo funciona realmente tu industria — no automatización genérica que necesita meses de personalización.",
     "industries": {
       "realEstate": {
         "title": "Inmobiliaria",
@@ -210,9 +204,9 @@
     "title": "Tus operaciones están a punto de cambiar.",
     "subtitle": "Deja de parchear flujos de trabajo con hojas de cálculo y seguimientos manuales. Empieza a funcionar con un sistema operativo inteligente.",
     "before": {
-      "title": "Antes \u2014 Operaciones Manuales",
+      "title": "Antes — Operaciones Manuales",
       "items": {
-        "item1": "Los leads esperan horas \u2014 los prospectos se van antes de que respondas",
+        "item1": "Los leads esperan horas — los prospectos se van antes de que respondas",
         "item2": "El equipo se ahoga en administración, entrada de datos y seguimientos manuales",
         "item3": "Escalar significa contratar más personas por cada nueva cuenta",
         "item4": "Información dispersa entre herramientas, bandejas de entrada y hojas de cálculo",
@@ -221,9 +215,9 @@
       }
     },
     "after": {
-      "title": "Después \u2014 Autonymo OS",
+      "title": "Después — Autonymo OS",
       "items": {
-        "item1": "La IA responde a consultas en segundos, 24/7 \u2014 ningún lead se queda sin atender",
+        "item1": "La IA responde a consultas en segundos, 24/7 — ningún lead se queda sin atender",
         "item2": "Flujos automatizados gestionan el trabajo repetitivo para que tu equipo se enfoque en el valor",
         "item3": "El mismo equipo gestiona 3-5x más con la IA haciendo el trabajo pesado",
         "item4": "Un sistema unificado con dashboards en tiempo real y datos conectados",
@@ -273,7 +267,6 @@
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
     "leadGenerationOS": "Lead Gen OS",
-    "industrialOS": "Industrial OS",
     "customSolutions": "Soluciones Personalizadas"
   },
   "languages": {
@@ -284,15 +277,15 @@
   },
   "manifesto": {
     "heading1": "You know AI will change your business.",
-    "heading2": "You just haven\u2019t started.",
-    "paragraph1": "Not because you don\u2019t want to. Not because you don\u2019t see it coming. But because you\u2019re busy running a business today. Hiring takes too long. Tools don\u2019t fit. And nobody on your team has the bandwidth to figure out what actually works.",
+    "heading2": "You just haven’t started.",
+    "paragraph1": "Not because you don’t want to. Not because you don’t see it coming. But because you’re busy running a business today. Hiring takes too long. Tools don’t fit. And nobody on your team has the bandwidth to figure out what actually works.",
     "weDo": "We do.",
     "paragraph2": "Autonymo embeds into your operations, builds on the tools you already use, and improves your systems every month as the technology evolves. No disruption. No learning curve. Just results that compound.",
-    "closing": "We don\u2019t care about hype. We care about what ships."
+    "closing": "We don’t care about hype. We care about what ships."
   },
   "whyUs": {
     "label": "Why Us",
-    "heading": "We don\u2019t sell software. We do the work.",
+    "heading": "We don’t sell software. We do the work.",
     "vendorTitle": "What Most Vendors Do",
     "vendorItems": {
       "item1": "Sell you a platform and disappear",
@@ -308,7 +301,7 @@
       "item4": "Measure success by the impact we generate for you"
     },
     "bottomNote": "For every €1 spent on software, €6 are spent on the work that software is supposed to do.",
-    "bottomNoteHighlight": "We\u2019re here for the €6."
+    "bottomNoteHighlight": "We’re here for the €6."
   },
   "howItWorksSteps": {
     "label": "How We Work",
@@ -316,7 +309,7 @@
     "steps": {
       "step1": {
         "title": "We audit your operations",
-        "description": "We map your processes, find where time and money are leaking, and identify the highest-impact opportunities. You get a clear picture of what\u2019s worth building before we build anything."
+        "description": "We map your processes, find where time and money are leaking, and identify the highest-impact opportunities. You get a clear picture of what’s worth building before we build anything."
       },
       "step2": {
         "title": "We build and deploy",
@@ -324,13 +317,13 @@
       },
       "step3": {
         "title": "We train, manage, and expand",
-        "description": "We train your team on the new system, monitor performance, and keep improving it. When you\u2019re ready, we move to the next opportunity."
+        "description": "We train your team on the new system, monitor performance, and keep improving it. When you’re ready, we move to the next opportunity."
       }
     }
   },
   "finalCta": {
-    "defaultHeading": "Let\u2019s look at {verticalPhrase}.",
-    "defaultSubtitle": "Book a free 30-minute assessment. We\u2019ll identify where AI can make the biggest impact on your business.",
+    "defaultHeading": "Let’s look at {verticalPhrase}.",
+    "defaultSubtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business.",
     "button": "Book a Free Assessment",
     "checks": {
       "noCommitment": "No commitment required",
@@ -339,8 +332,8 @@
     }
   },
   "whyWeDifferent": {
-    "label": "Why We\u2019re Different",
-    "heading": "We don\u2019t sell software. We understand your business first, then build exactly what you need.",
+    "label": "Why We’re Different",
+    "heading": "We don’t sell software. We understand your business first, then build exactly what you need.",
     "vendorTitle": "What Most Vendors Do",
     "ourTitle": "What We Do",
     "defaultVendor": {
@@ -363,8 +356,8 @@
     "name": "Arnau Fabrega",
     "role": "Founder & CEO",
     "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
-    "bio2": "They didn\u2019t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-    "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That\u2019s what we do every day."
+    "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
+    "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
   },
   "dentalClinicOS": {
     "hero": {
@@ -389,13 +382,13 @@
           "description": "Receptionists handle calls, scheduling, and billing all at once. Patient reactivation is always the first thing dropped."
         },
         "item3": {
-          "title": "Revenue you can\u2019t see",
-          "description": "A patient who comes for a hygiene generates far more than the cleaning fee. Every patient who doesn\u2019t come back is a cascade of treatments that never happens."
+          "title": "Revenue you can’t see",
+          "description": "A patient who comes for a hygiene generates far more than the cleaning fee. Every patient who doesn’t come back is a cascade of treatments that never happens."
         }
       }
     },
     "whyDifferent": {
-      "industryExample": "We don\u2019t send mass messages. We analyze each patient\u2019s history and reactivate them for the specific treatment they need.",
+      "industryExample": "We don’t send mass messages. We analyze each patient’s history and reactivate them for the specific treatment they need.",
       "vendorItems": {
         "item1": "Sell software, disappear",
         "item2": "Blast generic SMS to your database",
@@ -404,7 +397,7 @@
       },
       "ourItems": {
         "item1": "Connect to your clinic management system",
-        "item2": "Personalized reactivation based on each patient\u2019s treatment history",
+        "item2": "Personalized reactivation based on each patient’s treatment history",
         "item3": "Conversations via WhatsApp, not spam",
         "item4": "Manage & optimize monthly"
       }
@@ -416,16 +409,16 @@
         "item1": {
           "title": "Intelligent Patient Reactivation",
           "promise": "Dormant patients come back for the care they need.",
-          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder \u2014 a relevant conversation about the care they need. They book directly from the chat."
+          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder — a relevant conversation about the care they need. They book directly from the chat."
         },
         "item2": {
           "title": "Smart Appointment Booking",
           "promise": "Patients book through WhatsApp, no back-and-forth.",
-          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks \u2014 no double bookings, no back-and-forth."
+          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks — no double bookings, no back-and-forth."
         },
         "item3": {
           "title": "Multi-Practitioner Scheduling",
-          "promise": "Every practitioner\u2019s schedule stays full, automatically.",
+          "promise": "Every practitioner’s schedule stays full, automatically.",
           "description": "Appointments coordinated across doctors, hygienists, and rooms automatically."
         },
         "item4": {
@@ -458,7 +451,7 @@
           "label": "Estimated revenue generated"
         }
       },
-      "insight": "Reactivated patients don\u2019t just come back for a cleaning. They come back into your ecosystem, and your doctors find treatments that would never have started otherwise. On average, every reactivated visit generated 4x more revenue than expected."
+      "insight": "Reactivated patients don’t just come back for a cleaning. They come back into your ecosystem, and your doctors find treatments that would never have started otherwise. On average, every reactivated visit generated 4x more revenue than expected."
     },
     "howWeWork": {
       "label": "How We Work",
@@ -472,7 +465,7 @@
         "step2": {
           "label": "Step 2",
           "title": "The system starts reactivating your patient database",
-          "description": "We analyze who\u2019s overdue and for what, and launch personalized WhatsApp conversations for each patient\u2019s specific situation."
+          "description": "We analyze who’s overdue and for what, and launch personalized WhatsApp conversations for each patient’s specific situation."
         },
         "step3": {
           "label": "Step 3",
@@ -491,11 +484,11 @@
         },
         "item2": {
           "question": "Do we need to change our WhatsApp number?",
-          "answer": "No. Messages come from your clinic\u2019s number. Patients see your clinic, not a third party."
+          "answer": "No. Messages come from your clinic’s number. Patients see your clinic, not a third party."
         },
         "item3": {
           "question": "Will my front desk need to learn anything new?",
-          "answer": "No. This is completely done for you. Their workload decreases \u2014 patients arrive pre-booked."
+          "answer": "No. This is completely done for you. Their workload decreases — patients arrive pre-booked."
         },
         "item4": {
           "question": "What about all the new incoming messages?",
@@ -507,7 +500,7 @@
         },
         "item6": {
           "question": "What do patients actually receive?",
-          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts \u2014 real conversations."
+          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts — real conversations."
         },
         "item7": {
           "question": "How quickly will we see results?",
@@ -520,8 +513,8 @@
       }
     },
     "finalCta": {
-      "heading": "Let\u2019s fill your chairs.",
-      "subtitle": "Book a free 30-minute assessment. We\u2019ll show you how many dormant patients your clinic has and what reactivating them could mean for your revenue."
+      "heading": "Let’s fill your chairs.",
+      "subtitle": "Book a free 30-minute assessment. We’ll show you how many dormant patients your clinic has and what reactivating them could mean for your revenue."
     }
   },
   "realEstateOS": {
@@ -536,15 +529,15 @@
     },
     "problem": {
       "label": "The Problem",
-      "heading": "Your agency runs on manual work. It doesn\u2019t have to.",
+      "heading": "Your agency runs on manual work. It doesn’t have to.",
       "items": {
         "item1": {
-          "title": "Owners you\u2019re not capturing",
+          "title": "Owners you’re not capturing",
           "description": "Private owners list in your zone every week. By the time your team spots them, three agencies have already called."
         },
         "item2": {
           "title": "Leads going cold",
-          "description": "A buyer enquiry comes in at 8pm. By the time your agent sees it the next morning, they\u2019ve already moved on."
+          "description": "A buyer enquiry comes in at 8pm. By the time your agent sees it the next morning, they’ve already moved on."
         },
         "item3": {
           "title": "Agents doing ops instead of selling",
@@ -553,7 +546,7 @@
       }
     },
     "whyDifferent": {
-      "industryExample": "This isn\u2019t off-the-shelf software. It\u2019s an operating system built around your agency. Your team operates it, we make sure it keeps getting better.",
+      "industryExample": "This isn’t off-the-shelf software. It’s an operating system built around your agency. Your team operates it, we make sure it keeps getting better.",
       "vendorItems": {
         "item1": "Sell you a generic CRM",
         "item2": "Assume your team will figure it out",
@@ -575,33 +568,33 @@
         "item1": {
           "title": "Intelligent CRM",
           "promise": "All enquiries in one place, in real time.",
-          "description": "A CRM built specifically for your agency \u2014 not a generic platform you have to adapt to. Connected to every major property portal in your market, so all enquiries flow into one place in real time. Lead management, viewing coordination, automated follow-ups, deal tracking, and agent activity \u2014 all in one system designed around how your team actually works."
+          "description": "A CRM built specifically for your agency — not a generic platform you have to adapt to. Connected to every major property portal in your market, so all enquiries flow into one place in real time. Lead management, viewing coordination, automated follow-ups, deal tracking, and agent activity — all in one system designed around how your team actually works."
         },
         "item2": {
           "title": "Owner Capture",
           "promise": "Contact new owners before your competitors.",
-          "description": "New owners entering the market in your zone are identified and flagged automatically. Your team contacts them first \u2014 before competitors even know the listing exists. Automated outreach, review-then-send workflows, and a pipeline to track every opportunity."
+          "description": "New owners entering the market in your zone are identified and flagged automatically. Your team contacts them first — before competitors even know the listing exists. Automated outreach, review-then-send workflows, and a pipeline to track every opportunity."
         },
         "item3": {
           "title": "Operations Management",
           "promise": "Contracts in minutes, not hours.",
-          "description": "Contracts generated in minutes, not hours. Bilingual documents, scheduling, task coordination, and reporting \u2014 all automated. Your agents stop doing admin and start doing what they were hired for."
+          "description": "Contracts generated in minutes, not hours. Bilingual documents, scheduling, task coordination, and reporting — all automated. Your agents stop doing admin and start doing what they were hired for."
         },
         "item4": {
           "title": "Portfolio Reactivation",
           "promise": "Stay top of mind with every past client.",
-          "description": "Past clients and inactive owners receive personalized outreach \u2014 market updates, valuation insights, relevant opportunities. When they\u2019re ready to buy, sell, or list again, your agency is already top of mind."
+          "description": "Past clients and inactive owners receive personalized outreach — market updates, valuation insights, relevant opportunities. When they’re ready to buy, sell, or list again, your agency is already top of mind."
         }
       }
     },
     "caseStudy": {
       "label": "Case Study",
       "heading": "Already running. Already delivering.",
-      "description": "The Real Estate OS is live for agencies across Spain. Here\u2019s what changes once it\u2019s deployed.",
+      "description": "The Real Estate OS is live for agencies across Spain. Here’s what changes once it’s deployed.",
       "metrics": {
         "item1": {
           "value": "Lead response: from over an hour to under 30 seconds",
-          "label": "Every lead that comes in gets an instant, personalized response and is qualified automatically. Your agents only spend time on leads that are genuinely interested \u2014 no more chasing dead ends."
+          "label": "Every lead that comes in gets an instant, personalized response and is qualified automatically. Your agents only spend time on leads that are genuinely interested — no more chasing dead ends."
         },
         "item2": {
           "value": "Viewings that book themselves",
@@ -613,7 +606,7 @@
         },
         "item4": {
           "value": "Your entire portfolio stays warm",
-          "label": "Strategic, automated follow-ups keep every past owner and client top of mind. When they\u2019re ready to sell, list, or buy again, your agency is the first call \u2014 not a competitor they found online."
+          "label": "Strategic, automated follow-ups keep every past owner and client top of mind. When they’re ready to sell, list, or buy again, your agency is the first call — not a competitor they found online."
         },
         "item5": {
           "value": "Hundreds of new owner contacts every month",
@@ -639,7 +632,7 @@
         "step3": {
           "label": "Step 3",
           "title": "We monitor, optimize, and expand",
-          "description": "Your team runs the system day-to-day. We check in monthly to review performance, fine-tune what\u2019s working, and roll out new modules when you\u2019re ready."
+          "description": "Your team runs the system day-to-day. We check in monthly to review performance, fine-tune what’s working, and roll out new modules when you’re ready."
         }
       }
     },
@@ -682,22 +675,22 @@
       }
     },
     "finalCta": {
-      "heading": "Let\u2019s talk about your agency.",
-      "subtitle": "Book a free 30-minute assessment. We\u2019ll map your operations and show you exactly where AI makes the biggest impact."
+      "heading": "Let’s talk about your agency.",
+      "subtitle": "Book a free 30-minute assessment. We’ll map your operations and show you exactly where AI makes the biggest impact."
     }
   },
   "customSolutionsPage": {
     "hero": {
       "label": "Custom Solutions",
       "heading": "AI operations built for your business. Not from a template.",
-      "description": "For companies with processes that don\u2019t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
+      "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
       "ctaPrimary": "Book a Free Assessment",
       "ctaSecondary": "See how it works",
       "imageAlt": "Custom Solutions"
     },
     "problem": {
       "label": "The Problem",
-      "heading": "You know AI could help. You just don\u2019t know where to start.",
+      "heading": "You know AI could help. You just don’t know where to start.",
       "items": {
         "item1": {
           "title": "Manual processes eating your margin",
@@ -705,18 +698,18 @@
         },
         "item2": {
           "title": "Tools that solved 60% of the problem",
-          "description": "You\u2019ve tried off-the-shelf software. It never quite fits. The other 40% is still manual."
+          "description": "You’ve tried off-the-shelf software. It never quite fits. The other 40% is still manual."
         },
         "item3": {
           "title": "No internal AI expertise",
-          "description": "You don\u2019t have the team to evaluate what\u2019s possible, build the right solution, or maintain it over time."
+          "description": "You don’t have the team to evaluate what’s possible, build the right solution, or maintain it over time."
         }
       }
     },
     "solutions": {
       "label": "What We Deploy",
-      "heading": "Every business is different. Here\u2019s what we typically deploy.",
-      "promise": "We don\u2019t sell software. We understand your business first, then build exactly what you need.",
+      "heading": "Every business is different. Here’s what we typically deploy.",
+      "promise": "We don’t sell software. We understand your business first, then build exactly what you need.",
       "items": {
         "item1": {
           "title": "Process Automation",
@@ -773,7 +766,7 @@
         "step1": {
           "label": "Step 1",
           "title": "We audit your operations",
-          "description": "We map your processes, identify where time and money are leaking, and put a number on each opportunity. You get a clear picture of what\u2019s worth automating and what isn\u2019t."
+          "description": "We map your processes, identify where time and money are leaking, and put a number on each opportunity. You get a clear picture of what’s worth automating and what isn’t."
         },
         "step2": {
           "label": "Step 2",
@@ -783,7 +776,7 @@
         "step3": {
           "label": "Step 3",
           "title": "We train, manage, and expand",
-          "description": "We train your team on the new system, monitor performance, and keep improving it. When you\u2019re ready, we expand to the next opportunity."
+          "description": "We train your team on the new system, monitor performance, and keep improving it. When you’re ready, we expand to the next opportunity."
         }
       }
     },
@@ -819,11 +812,11 @@
       "items": {
         "item1": {
           "question": "What industries do you work with?",
-          "answer": "Any. We\u2019ve worked with real estate, healthcare, and professional services. The approach is the same: audit, build, manage."
+          "answer": "Any. We’ve worked with real estate, healthcare, and professional services. The approach is the same: audit, build, manage."
         },
         "item2": {
           "question": "How much does it cost?",
-          "answer": "It depends on the project. We work best as your AI internal team over an extended period, typically several months. That said, we\u2019re flexible at the start so you can see our work and build trust before committing long-term."
+          "answer": "It depends on the project. We work best as your AI internal team over an extended period, typically several months. That said, we’re flexible at the start so you can see our work and build trust before committing long-term."
         },
         "item3": {
           "question": "Do we need technical skills?",
@@ -845,163 +838,14 @@
     },
     "finalCta": {
       "verticalPhrase": "your operations",
-      "heading": "Let\u2019s look at your operations.",
-      "subtitle": "Book a free 30-minute assessment. We\u2019ll identify where AI can make the biggest impact on your business."
-    }
-  },
-  "industrialOS": {
-    "hero": {
-      "label": "Industrial OS",
-      "heading1": "Your engineers build.",
-      "heading2": "Our AI runs the floor.",
-      "description": "We monitor production lines in real time, automate supply chain coordination, and catch quality issues before they ship. Deployed on your existing systems, managed by our team.",
-      "ctaPrimary": "Book a Free Assessment",
-      "ctaSecondary": "See how it works",
-      "imageAlt": "Industrial OS"
-    },
-    "problem": {
-      "label": "The Problem",
-      "heading": "Your factory runs on manual tracking. It doesn\u2019t have to.",
-      "items": {
-        "item1": {
-          "title": "Production blind spots",
-          "description": "You don\u2019t know a line is down until someone walks over. Manual logs mean you\u2019re always reacting, never predicting."
-        },
-        "item2": {
-          "title": "Supply chain firefighting",
-          "description": "Materials arrive late, orders change, and your team spends half their day on calls and spreadsheets trying to keep production on schedule."
-        },
-        "item3": {
-          "title": "Quality caught too late",
-          "description": "Defects are found at final inspection or worse \u2014 by the customer. Each recall or rework eats into margin and trust."
-        }
-      }
-    },
-    "whyDifferent": {
-      "industryExample": "We don\u2019t sell dashboards. We connect to your PLCs, ERP, and MES, then build intelligence layers that actually reduce downtime and waste.",
-      "vendorItems": {
-        "item1": "Sell generic IoT platforms",
-        "item2": "Require months of integration",
-        "item3": "Same dashboards for every factory",
-        "item4": "No ongoing optimization"
-      },
-      "ourItems": {
-        "item1": "Connect to your existing PLCs, ERP, and MES",
-        "item2": "Deploy production-specific AI models in weeks",
-        "item3": "Custom alerts and workflows for your processes",
-        "item4": "Manage and optimize monthly"
-      }
-    },
-    "solutions": {
-      "label": "What We Deploy",
-      "heading": "Your factory, fully connected.",
-      "items": {
-        "item1": {
-          "title": "Production Monitoring",
-          "promise": "See every line, every machine, in real time.",
-          "description": "Live dashboards connected to your PLCs and sensors. Track OEE, cycle times, and throughput across every production line. Anomalies trigger instant alerts so your team acts before problems cascade."
-        },
-        "item2": {
-          "title": "Supply Chain Automation",
-          "promise": "Materials arrive when you need them, not when you remember to order.",
-          "description": "Automated purchase orders triggered by real consumption data. Supplier lead times, inventory levels, and production schedules synchronized in one system. No more stockouts, no more overstock."
-        },
-        "item3": {
-          "title": "Quality Control Systems",
-          "promise": "Catch defects at the source, not at the dock.",
-          "description": "AI-powered inspection and statistical process control integrated into your production flow. Detect deviations early, trace root causes automatically, and reduce scrap rates without slowing the line."
-        },
-        "item4": {
-          "title": "Predictive Maintenance",
-          "promise": "Fix machines before they break.",
-          "description": "Vibration, temperature, and performance data analyzed continuously. The system predicts failures days in advance and schedules maintenance during planned downtime \u2014 not in the middle of a production run."
-        }
-      }
-    },
-    "caseStudy": {
-      "label": "Case Study",
-      "heading": "6 months. One manufacturer. Real results.",
-      "description": "A mid-market manufacturer in Spain with 3 production lines and 85 employees.",
-      "metrics": {
-        "item1": {
-          "value": "37%",
-          "label": "Reduction in unplanned downtime"
-        },
-        "item2": {
-          "value": "22%",
-          "label": "Decrease in scrap rate"
-        },
-        "item3": {
-          "value": "\u20ac340K+",
-          "label": "Estimated annual savings"
-        }
-      },
-      "insight": "The biggest wins came from connecting systems that had never talked to each other. Once production data, supplier timelines, and quality metrics lived in one place, the operations team could make decisions in minutes that used to take days of spreadsheet analysis."
-    },
-    "howWeWork": {
-      "label": "How We Work",
-      "heading": "From first call to live monitoring in 4 weeks.",
-      "steps": {
-        "step1": {
-          "label": "Step 1",
-          "title": "We audit your production floor",
-          "description": "We walk your lines, map your systems, and identify the highest-impact opportunities for automation and monitoring."
-        },
-        "step2": {
-          "label": "Step 2",
-          "title": "We connect and deploy",
-          "description": "We integrate with your PLCs, ERP, and MES. First monitoring dashboards and alerts go live within 4 weeks."
-        },
-        "step3": {
-          "label": "Step 3",
-          "title": "We optimize and expand",
-          "description": "We monitor performance weekly, refine models, and roll out additional modules \u2014 quality control, predictive maintenance, supply chain \u2014 as you\u2019re ready."
-        }
-      }
-    },
-    "faq": {
-      "label": "FAQ",
-      "heading": "Common questions",
-      "items": {
-        "item1": {
-          "question": "Does this work with our existing ERP?",
-          "answer": "Yes. We integrate with SAP, Oracle, Microsoft Dynamics, Odoo, and most mid-market ERPs. No rip-and-replace."
-        },
-        "item2": {
-          "question": "How long does implementation take?",
-          "answer": "First module live in 4 weeks. Full deployment across production, quality, and supply chain typically takes 3\u20136 months depending on complexity."
-        },
-        "item3": {
-          "question": "What industries do you work with?",
-          "answer": "Any discrete or process manufacturing. We\u2019ve worked with automotive suppliers, food processing, metal fabrication, and plastics. The approach adapts to your specific production environment."
-        },
-        "item4": {
-          "question": "Do we need to install new sensors?",
-          "answer": "Usually not. Most modern PLCs and machines already generate the data we need. If gaps exist, we recommend targeted additions \u2014 not a full retrofit."
-        },
-        "item5": {
-          "question": "What about data security?",
-          "answer": "Your production data stays on your infrastructure. We use encrypted connections and follow industrial cybersecurity best practices. No data leaves your network without your explicit approval."
-        },
-        "item6": {
-          "question": "How do you handle the ongoing management?",
-          "answer": "We check in monthly to review system performance, update models as your processes evolve, and expand to new use cases when you\u2019re ready."
-        },
-        "item7": {
-          "question": "What if we stop working together?",
-          "answer": "You keep everything we built. Dashboards, integrations, models \u2014 it\u2019s all yours. No vendor lock-in."
-        }
-      }
-    },
-    "finalCta": {
-      "heading": "Let\u2019s optimize your production floor.",
-      "subtitle": "Book a free 30-minute assessment. We\u2019ll walk through your operations and show you where AI monitoring and automation can make the biggest impact."
+      "heading": "Let’s look at your operations.",
+      "subtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business."
     }
   },
   "bookCall": {
     "hero": {
       "label": "Book a Free Assessment",
-      "heading": "Let\u2019s find where AI can make the biggest impact.",
+      "heading": "Let’s find where AI can make the biggest impact.",
       "description": "A free 15-minute call to understand your situation, identify opportunities, and see if we can help. No commitment, no pitch.",
       "badges": {
         "item1": "15 minutes",
@@ -1035,7 +879,7 @@
     "hero": {
       "label": "About Autonymo",
       "heading1": "The AI transition is happening.",
-      "heading2": "We make sure you\u2019re on the right side of it.",
+      "heading2": "We make sure you’re on the right side of it.",
       "description": "Not as a consultant. Not as a software vendor. As your external AI team."
     },
     "theShift": {
@@ -1043,12 +887,12 @@
       "heading": "Something permanent is happening.",
       "paragraph1": "For decades, the gap between large corporations and small businesses was defined by access. Access to talent, to technology, to the infrastructure that compounds over time.",
       "paragraph2": "AI is collapsing that gap. For the first time, a 30-person manufacturing company can operate with the same intelligence infrastructure as a Fortune 500. The tools exist. The models exist. What most businesses lack is the team to put it together and keep it running.",
-      "closing": "That\u2019s the opening Autonymo was built for."
+      "closing": "That’s the opening Autonymo was built for."
     },
     "whoWeAre": {
       "label": "Who We Are",
-      "heading": "We don\u2019t consult. We build.",
-      "paragraph1": "Autonymo is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don\u2019t know where to start, or have tried and been disappointed.",
+      "heading": "We don’t consult. We build.",
+      "paragraph1": "Autonymo is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don’t know where to start, or have tried and been disappointed.",
       "paragraph2": "We go inside the business. We spend time understanding how it actually works: the processes, the bottlenecks, the workarounds that have existed for years. Then we build AI systems that fit into that reality. Not templates. Not off-the-shelf platforms. Systems designed for how this specific business operates.",
       "paragraph3": "We deploy fast. First solution live in 4 weeks. Then we stay on, monitoring, improving, and expanding as the business grows and as AI evolves.",
       "paragraph4": "Every improvement in AI makes our service faster, cheaper, and more powerful. We pass that directly to our clients.",
@@ -1074,27 +918,27 @@
       "label": "Why We Exist",
       "heading": "For every €1 spent on software, €6 are spent on the work.",
       "paragraph1": "The AI industry has spent years building tools for the people doing the work. Copilots. Assistants. Productivity layers.",
-      "paragraph2": "We think the bigger opportunity is different. Most businesses don\u2019t need another tool. They need someone to do the work, and do it better than any human team could.",
-      "closing": "That\u2019s what autopilots do. And that\u2019s what we build."
+      "paragraph2": "We think the bigger opportunity is different. Most businesses don’t need another tool. They need someone to do the work, and do it better than any human team could.",
+      "closing": "That’s what autopilots do. And that’s what we build."
     },
     "theTeam": {
       "label": "The Team",
       "heading": "Based in Barcelona. Built to move fast.",
-      "description1": "We\u2019re a small team of engineers, operators, and builders. We move fast, we care about every client as if it were our own business, and we measure ourselves by the impact we generate, not by the hours we bill or the licenses we sell.",
-      "description2": "We\u2019re early. We\u2019re hungry. And we believe the companies that adopt AI now will define their industries for the next decade.",
+      "description1": "We’re a small team of engineers, operators, and builders. We move fast, we care about every client as if it were our own business, and we measure ourselves by the impact we generate, not by the hours we bill or the licenses we sell.",
+      "description2": "We’re early. We’re hungry. And we believe the companies that adopt AI now will define their industries for the next decade.",
       "founder": {
         "name": "Arnau Fabrega",
         "role": "Founder & CEO",
         "imageAlt": "Arnau Fabrega",
         "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
-        "bio2": "They didn\u2019t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-        "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That\u2019s what we do every day."
+        "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
+        "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
       }
     },
     "cta": {
-      "heading1": "If you\u2019re ready to start,",
+      "heading1": "If you’re ready to start,",
       "heading2": "so are we.",
-      "description": "Book a free 30-minute assessment. We\u2019ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
+      "description": "Book a free 30-minute assessment. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
       "button": "Book a Free Assessment",
       "noCommitment": "No commitment required"
     }
@@ -1108,7 +952,7 @@
     "featured": {
       "badge": "Featured",
       "title": "Why AI Agents Are the Future of Business Operations",
-      "excerpt": "The shift from static automation to intelligent agents is transforming how companies operate. Here\u2019s what business leaders need to know about the agent revolution, and how to prepare for it.",
+      "excerpt": "The shift from static automation to intelligent agents is transforming how companies operate. Here’s what business leaders need to know about the agent revolution, and how to prepare for it.",
       "category": "AI Strategy",
       "date": "Coming Soon",
       "readTime": "8 min read"
@@ -1122,7 +966,7 @@
         "readTime": "6 min read"
       },
       "post2": {
-        "title": "The Real Estate Agent\u2019s Guide to AI Lead Nurturing",
+        "title": "The Real Estate Agent’s Guide to AI Lead Nurturing",
         "excerpt": "From cold leads to warm prospects: how AI-powered follow-up sequences are changing the game for real estate teams.",
         "category": "Real Estate",
         "date": "Coming Soon",
