@@ -401,78 +401,66 @@ export const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute top-[calc(100%+8px)] left-3 right-3 md:hidden z-40 bg-white border border-sand rounded-2xl shadow-xl p-6 max-h-[80vh] overflow-y-auto"
+            className="absolute top-[calc(100%+6px)] left-0 right-0 md:hidden z-40 bg-white border border-sand rounded-xl shadow-xl p-4"
           >
-            {/* Group 1: Industry OS Products */}
-            <div className="mb-6">
-              <h5 className="text-xs font-bold text-accent-blue uppercase tracking-widest mb-3">
+            <div className="mb-3">
+              <h5 className="text-[10px] font-bold text-accent-blue uppercase tracking-widest mb-2">
                 {t("purposeBuilt")}
               </h5>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1">
                 {osProducts.map((item, index) => (
                   <Link
                     key={index}
                     href={item.href}
                     onClick={closeAll}
-                    className="flex items-start gap-3 p-3 rounded-xl hover:bg-cream transition-colors group"
+                    className="flex items-center gap-3 py-2 px-3 rounded-xl hover:bg-cream transition-colors"
                   >
                     <div
-                      className={`w-10 h-10 rounded-xl ${item.color} flex items-center justify-center shrink-0`}
+                      className={`w-8 h-8 rounded-lg ${item.color} flex items-center justify-center shrink-0`}
                     >
-                      <item.icon className={`w-5 h-5 ${item.iconColor}`} />
+                      <item.icon className={`w-4 h-4 ${item.iconColor}`} />
                     </div>
-                    <div>
-                      <h4 className="font-heading text-sm font-bold text-charcoal">
-                        {item.title}
-                      </h4>
-                      <p className="text-text-muted text-xs leading-relaxed mt-0.5">
-                        {item.description}
-                      </p>
-                    </div>
+                    <h4 className="font-heading text-sm font-bold text-charcoal">
+                      {item.title}
+                    </h4>
                   </Link>
                 ))}
               </div>
             </div>
 
-            <div className="border-t border-sand/50 my-4" />
+            <div className="border-t border-sand/50 my-2" />
 
-            {/* Group 2: Custom Solutions */}
-            <div className="mb-6">
-              <h5 className="text-xs font-bold text-warm-gray uppercase tracking-widest mb-3">
+            <div className="mb-3">
+              <h5 className="text-[10px] font-bold text-warm-gray uppercase tracking-widest mb-2">
                 {t("tailored")}
               </h5>
               <Link
                 href="/custom-solutions"
                 onClick={closeAll}
-                className="flex items-start gap-3 p-3 rounded-xl bg-charcoal/5 hover:bg-charcoal/10 transition-colors group"
+                className="flex items-center gap-3 py-2 px-3 rounded-xl bg-charcoal/5 hover:bg-charcoal/10 transition-colors"
               >
-                <div className="w-10 h-10 rounded-xl bg-charcoal/10 flex items-center justify-center shrink-0">
-                  <Settings2 className="w-5 h-5 text-amber-600" />
+                <div className="w-8 h-8 rounded-lg bg-charcoal/10 flex items-center justify-center shrink-0">
+                  <Settings2 className="w-4 h-4 text-amber-600" />
                 </div>
-                <div>
-                  <h4 className="font-heading text-sm font-bold text-charcoal">
-                    {t("customSolutions")}
-                  </h4>
-                  <p className="text-text-muted text-xs leading-relaxed mt-0.5">
-                    {t("customSolutionsDesc")}
-                  </p>
-                </div>
+                <h4 className="font-heading text-sm font-bold text-charcoal">
+                  {t("customSolutions")}
+                </h4>
               </Link>
             </div>
 
-            <div className="border-t border-sand/50 my-4" />
+            <div className="border-t border-sand/50 my-2" />
 
-            <div className="mb-6">
-              <h5 className="text-xs font-bold text-text-muted uppercase tracking-widest mb-3">
+            <div className="mb-3">
+              <h5 className="text-[10px] font-bold text-text-muted uppercase tracking-widest mb-2">
                 {t("more")}
               </h5>
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col gap-0.5">
                 {moreLinks.map((link, index) => (
                   <Link
                     key={index}
                     href={link.href}
                     onClick={closeAll}
-                    className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-cream transition-colors"
+                    className="flex items-center justify-between py-1.5 px-3 rounded-lg hover:bg-cream transition-colors"
                   >
                     <span className="text-sm font-medium text-text-muted">
                       {link.title}
@@ -483,32 +471,12 @@ export const Navbar = () => {
               </div>
             </div>
 
-            <div className="border-t border-sand/50 my-4" />
-
-            <div className="mb-6">
-              <h5 className="text-xs font-bold text-text-muted uppercase tracking-widest mb-3">
-                {t("language")}
-              </h5>
-              <div className="flex gap-2">
-                {locales.map((loc) => (
-                  <button
-                    key={loc}
-                    onClick={() => switchLocale(loc)}
-                    className={`px-4 py-2 text-xs font-bold rounded-lg transition-all ${loc === locale
-                      ? "bg-charcoal text-white"
-                      : "bg-cream text-text-muted hover:bg-sand/50"
-                      }`}
-                  >
-                    {localeLabels[loc]}
-                  </button>
-                ))}
-              </div>
-            </div>
+            <div className="border-t border-sand/50 my-2" />
 
             <Link
               href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
               onClick={closeAll}
-              className="flex items-center justify-center gap-1.5 w-full px-5 py-3 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
+              className="flex items-center justify-center gap-1.5 w-full px-5 py-2.5 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >
               <ArrowUpRight className="w-4 h-4" />
               {t("bookCall")}
