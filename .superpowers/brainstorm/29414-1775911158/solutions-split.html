@@ -1,0 +1,153 @@
+<h2>Solutions Section Split: 3 Approaches</h2>
+<p class="subtitle">How to visually differentiate "Purpose-built OS" (Group 1) from "Custom Solutions" (Group 2) in the hero cards</p>
+
+<div class="cards">
+
+  <!-- APPROACH A -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #FAFAF8;">
+      <!-- Group 1 -->
+      <div style="margin-bottom: 8px;">
+        <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #3B82F6;">Purpose-built for your field</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-bottom: 12px;">
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #E8F0FE; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Real Estate OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Lead response, listings...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #E8F0FE; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #F5F5F7; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Dental Clinic OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Patient reactivation...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #F5F5F7; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #FEF3C7; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Industrial OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Production monitoring...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #FEF3C7; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+      </div>
+      <!-- Group 2 -->
+      <div style="background: #1a1a1a; border-radius: 10px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+        <div style="flex: 1;">
+          <div style="font-size: 9px; font-weight: 700; color: white;">Custom Solutions</div>
+          <div style="font-size: 7px; color: rgba(255,255,255,0.5); margin-top: 2px;">We audit your operations and build AI systems around how you actually work.</div>
+        </div>
+        <div style="width: 28px; height: 28px; background: rgba(255,255,255,0.1); border-radius: 6px; flex-shrink: 0;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A: Dark Banner Below</h3>
+      <p>3 white OS cards in a row, then Custom Solutions as a full-width dark (charcoal) banner underneath. Clear hierarchy: products on top, consulting on bottom. Custom Solutions feels like a catch-all fallback.</p>
+    </div>
+  </div>
+
+  <!-- APPROACH B -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #FAFAF8;">
+      <!-- Group 1 -->
+      <div style="margin-bottom: 8px;">
+        <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #3B82F6;">Purpose-built for your field</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-bottom: 12px;">
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #E8F0FE; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Real Estate OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Lead response, listings...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #E8F0FE; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #F5F5F7; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Dental Clinic OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Patient reactivation...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #F5F5F7; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 10px;">
+          <div style="width: 20px; height: 20px; background: #FEF3C7; border-radius: 4px; margin-bottom: 6px;"></div>
+          <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Industrial OS</div>
+          <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">Production monitoring...</div>
+          <div style="width: 100%; aspect-ratio: 1; background: #FEF3C7; border-radius: 4px; margin-top: 6px;"></div>
+        </div>
+      </div>
+      <!-- Group 2 -->
+      <div style="border-top: 1px dashed #D4CFC7; padding-top: 10px;">
+        <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8C8478; display: block; margin-bottom: 6px;">Don't see your industry?</span>
+        <div style="background: white; border: 1px solid #E8E4DE; border-radius: 10px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+          <div style="width: 32px; height: 32px; background: #F0F4F8; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+            <span style="font-size: 14px; color: #D97706;">&#9881;</span>
+          </div>
+          <div style="flex: 1;">
+            <div style="font-size: 9px; font-weight: 700; color: #1a1a1a;">Custom Solutions</div>
+            <div style="font-size: 7px; color: #8C8478; margin-top: 2px;">We audit your operations and build AI systems around how you actually work.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B: Dashed Divider + "Don't see your industry?"</h3>
+      <p>Same 3 OS cards, then a dashed line separator with a question prompt heading. Custom Solutions is a white card but clearly in a different zone. Conversational and inviting.</p>
+    </div>
+  </div>
+
+  <!-- APPROACH C -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #FAFAF8;">
+      <div style="display: grid; grid-template-columns: 3fr 1fr; gap: 8px;">
+        <!-- Group 1 -->
+        <div>
+          <div style="margin-bottom: 8px;">
+            <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #3B82F6;">Purpose-built for your field</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px;">
+            <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 8px;">
+              <div style="width: 16px; height: 16px; background: #E8F0FE; border-radius: 3px; margin-bottom: 4px;"></div>
+              <div style="font-size: 8px; font-weight: 700; color: #1a1a1a;">Real Estate OS</div>
+              <div style="font-size: 6px; color: #8C8478; margin-top: 2px;">Lead response...</div>
+              <div style="width: 100%; aspect-ratio: 1.2; background: #E8F0FE; border-radius: 3px; margin-top: 4px;"></div>
+            </div>
+            <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 8px;">
+              <div style="width: 16px; height: 16px; background: #F5F5F7; border-radius: 3px; margin-bottom: 4px;"></div>
+              <div style="font-size: 8px; font-weight: 700; color: #1a1a1a;">Dental Clinic OS</div>
+              <div style="font-size: 6px; color: #8C8478; margin-top: 2px;">Patient reactivation...</div>
+              <div style="width: 100%; aspect-ratio: 1.2; background: #F5F5F7; border-radius: 3px; margin-top: 4px;"></div>
+            </div>
+            <div style="background: white; border: 1px solid #E8E4DE; border-radius: 8px; padding: 8px;">
+              <div style="width: 16px; height: 16px; background: #FEF3C7; border-radius: 3px; margin-bottom: 4px;"></div>
+              <div style="font-size: 8px; font-weight: 700; color: #1a1a1a;">Industrial OS</div>
+              <div style="font-size: 6px; color: #8C8478; margin-top: 2px;">Production monitoring...</div>
+              <div style="width: 100%; aspect-ratio: 1.2; background: #FEF3C7; border-radius: 3px; margin-top: 4px;"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Group 2 -->
+        <div>
+          <div style="margin-bottom: 8px;">
+            <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8C8478;">Tailored</span>
+          </div>
+          <div style="background: #1a1a1a; border-radius: 8px; padding: 10px; height: calc(100% - 22px); display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="width: 20px; height: 20px; background: rgba(255,255,255,0.1); border-radius: 4px; margin-bottom: 6px; display: flex; align-items: center; justify-content: center;">
+                <span style="font-size: 10px; color: #D97706;">&#9881;</span>
+              </div>
+              <div style="font-size: 9px; font-weight: 700; color: white;">Custom Solutions</div>
+              <div style="font-size: 7px; color: rgba(255,255,255,0.5); margin-top: 3px;">We audit your ops and build AI systems around how you actually work.</div>
+            </div>
+            <div style="font-size: 7px; color: rgba(255,255,255,0.3); margin-top: 8px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 6px;">No templates. No migrations.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C: Side-by-Side Split</h3>
+      <p>3 OS cards take 75% width, Custom Solutions is a tall dark card on the right taking 25%. Both groups visible at once. Clear visual separation without stacking. Custom Solutions feels premium, not secondary.</p>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top: 24px; padding: 16px; background: rgba(59,130,246,0.05); border-radius: 8px; border: 1px solid rgba(59,130,246,0.1);">
+  <p style="font-size: 12px; color: #666; margin: 0;"><strong>Note:</strong> These show the hero card layout. The navbar mega menu would follow the same grouping logic with adapted proportions.</p>
+</div>

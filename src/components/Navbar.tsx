@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart, Settings2 } from "lucide-react";
+import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart, Factory, Settings2 } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -23,7 +23,7 @@ export const Navbar = () => {
   const isMobileOpen = openMenu === "mobile";
   const navRef = useRef<HTMLDivElement>(null);
 
-  const industries = [
+  const osProducts = [
     {
       title: t("realEstateOS"),
       description: t("realEstateOSDesc"),
@@ -34,22 +34,22 @@ export const Navbar = () => {
       cubeImage: "/images/real-estate-os-cube.png",
     },
     {
-      title: "Dental Clinic OS",
-      description: "AI-powered scheduling, patient reactivation, and clinical documentation for modern dental practices.",
-      href: "/dental-os" as const,
+      title: t("dentalClinicOS"),
+      description: t("dentalClinicOSDesc"),
+      href: "/dental-clinic-os" as const,
       icon: Heart,
       color: "bg-[#F5F5F7]",
       iconColor: "text-emerald-600",
-      cubeImage: "/images/dental-os-cube.png",
+      cubeImage: "/images/dental-clinic-os-cube.png",
     },
     {
-      title: t("customSolutions"),
-      description: t("customSolutionsDesc"),
-      href: "/custom-solutions" as const,
-      icon: Settings2,
-      color: "bg-[#F0F4F8]",
+      title: t("industrialOS"),
+      description: t("industrialOSDesc"),
+      href: "/industrial-os" as const,
+      icon: Factory,
+      color: "bg-[#FEF3C7]",
       iconColor: "text-amber-600",
-      cubeImage: "/images/custom-solutions-cube.png",
+      cubeImage: "/images/industrial-os-cube.png",
     },
   ];
 
@@ -202,7 +202,7 @@ export const Navbar = () => {
         </div>
       </motion.nav>
 
-      {/* Solutions Mega Menu */}
+      {/* Solutions Mega Menu — Two-Group Split */}
       <AnimatePresence>
         {isSolutionsOpen && (
           <motion.div
@@ -210,48 +210,87 @@ export const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute top-[calc(100%+6px)] left-3 right-3 sm:left-0 sm:right-0 z-40 hidden md:grid grid-cols-3 gap-2"
+            className="absolute top-[calc(100%+6px)] left-3 right-3 sm:left-0 sm:right-0 z-40 hidden md:grid grid-cols-[3fr_1fr] gap-3"
           >
-            {industries.map((item, index) => (
-              <Link
-                key={index}
-                href={item.href}
-                onClick={closeAll}
-                className="flex flex-col h-full group bg-white border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
-              >
-                <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${item.color} pointer-events-none`} style={{ opacity: 0 }} />
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-[0.04] transition-opacity duration-500 bg-gradient-to-br from-transparent via-transparent to-current pointer-events-none" />
+            {/* Group 1: Industry OS Products */}
+            <div>
+              <span className="font-display text-[10px] text-accent-blue font-bold tracking-[0.08em] uppercase mb-2 block px-1">
+                {t("purposeBuilt")}
+              </span>
+              <div className="grid grid-cols-3 gap-2">
+                {osProducts.map((item, index) => (
+                  <Link
+                    key={index}
+                    href={item.href}
+                    onClick={closeAll}
+                    className="flex flex-col h-full group bg-white border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
+                  >
+                    <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${item.color} pointer-events-none`} style={{ opacity: 0 }} />
 
-                <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-sand group-hover:text-charcoal/50 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
+                    <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-sand group-hover:text-charcoal/50 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
+
+                    <div className="relative z-10 flex flex-col h-full">
+                      <div
+                        className={`w-9 h-9 rounded-lg ${item.color} flex items-center justify-center mb-3 group-hover:scale-105 transition-transform duration-300`}
+                      >
+                        <item.icon className={`w-4 h-4 ${item.iconColor}`} />
+                      </div>
+
+                      <h4 className="font-heading text-[15px] font-bold text-charcoal mb-1.5 leading-tight group-hover:underline underline-offset-4">
+                        {item.title}
+                      </h4>
+
+                      <p className="text-text-muted text-[11px] leading-relaxed mb-4 flex-1">
+                        {item.description}
+                      </p>
+
+                      <div className={`mt-auto aspect-square rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
+                        <Image
+                          src={item.cubeImage}
+                          alt={item.title}
+                          width={400}
+                          height={400}
+                          className="w-full h-full object-cover scale-125"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Group 2: Custom Solutions */}
+            <div>
+              <span className="font-display text-[10px] text-warm-gray font-bold tracking-[0.08em] uppercase mb-2 block px-1">
+                {t("tailored")}
+              </span>
+              <Link
+                href="/custom-solutions"
+                onClick={closeAll}
+                className="flex flex-col h-[calc(100%-1.5rem)] group bg-charcoal rounded-2xl shadow-lg p-5 relative overflow-hidden hover:bg-black transition-colors duration-300"
+              >
+                <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-white/30 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
 
                 <div className="relative z-10 flex flex-col h-full">
-                  <div
-                    className={`w-9 h-9 rounded-lg ${item.color} flex items-center justify-center mb-3 group-hover:scale-105 transition-transform duration-300`}
-                  >
-                    <item.icon className={`w-4 h-4 ${item.iconColor}`} />
+                  <div className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center mb-3">
+                    <Settings2 className="w-4 h-4 text-amber-500" />
                   </div>
 
-                  <h4 className="font-heading text-[15px] font-bold text-charcoal mb-1.5 leading-tight group-hover:underline underline-offset-4">
-                    {item.title}
+                  <h4 className="font-heading text-[15px] font-bold text-white mb-1.5 leading-tight group-hover:underline underline-offset-4">
+                    {t("customSolutions")}
                   </h4>
 
-                  <p className="text-text-muted text-[11px] leading-relaxed mb-4 flex-1">
-                    {item.description}
+                  <p className="text-white/50 text-[11px] leading-relaxed flex-1">
+                    {t("customSolutionsDesc")}
                   </p>
 
-                  <div className={`mt-auto aspect-square rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
-                    <Image
-                      src={item.cubeImage}
-                      alt={item.title}
-                      width={400}
-                      height={400}
-                      className="w-full h-full object-cover scale-125"
-                      loading="lazy"
-                    />
-                  </div>
+                  <p className="mt-auto pt-4 border-t border-white/10 text-white/30 text-[10px]">
+                    No templates. No migrations.
+                  </p>
                 </div>
               </Link>
-            ))}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -311,7 +350,7 @@ export const Navbar = () => {
                     type="submit"
                     className="px-4 py-2 text-xs font-semibold text-white bg-charcoal rounded-lg hover:bg-black transition-colors active:scale-95 shrink-0"
                   >
-                    Subscribe
+                    {t("subscribe")}
                   </button>
                 </form>
               </div>
@@ -335,7 +374,7 @@ export const Navbar = () => {
 
                 <div className="bg-charcoal rounded-2xl shadow-lg p-4 flex flex-col overflow-hidden">
                   <h5 className="text-sm font-bold text-white mb-2">
-                    Social
+                    {t("social")}
                   </h5>
                   <div className="flex gap-2 mt-auto">
                     <a
@@ -364,12 +403,13 @@ export const Navbar = () => {
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
             className="absolute top-[calc(100%+8px)] left-3 right-3 md:hidden z-40 bg-white border border-sand rounded-2xl shadow-xl p-6 max-h-[80vh] overflow-y-auto"
           >
+            {/* Group 1: Industry OS Products */}
             <div className="mb-6">
-              <h5 className="text-xs font-bold text-text-muted uppercase tracking-widest mb-3">
-                {t("solutions")}
+              <h5 className="text-xs font-bold text-accent-blue uppercase tracking-widest mb-3">
+                {t("purposeBuilt")}
               </h5>
               <div className="flex flex-col gap-2">
-                {industries.map((item, index) => (
+                {osProducts.map((item, index) => (
                   <Link
                     key={index}
                     href={item.href}
@@ -392,6 +432,32 @@ export const Navbar = () => {
                   </Link>
                 ))}
               </div>
+            </div>
+
+            <div className="border-t border-sand/50 my-4" />
+
+            {/* Group 2: Custom Solutions */}
+            <div className="mb-6">
+              <h5 className="text-xs font-bold text-warm-gray uppercase tracking-widest mb-3">
+                {t("tailored")}
+              </h5>
+              <Link
+                href="/custom-solutions"
+                onClick={closeAll}
+                className="flex items-start gap-3 p-3 rounded-xl bg-charcoal/5 hover:bg-charcoal/10 transition-colors group"
+              >
+                <div className="w-10 h-10 rounded-xl bg-charcoal/10 flex items-center justify-center shrink-0">
+                  <Settings2 className="w-5 h-5 text-amber-600" />
+                </div>
+                <div>
+                  <h4 className="font-heading text-sm font-bold text-charcoal">
+                    {t("customSolutions")}
+                  </h4>
+                  <p className="text-text-muted text-xs leading-relaxed mt-0.5">
+                    {t("customSolutionsDesc")}
+                  </p>
+                </div>
+              </Link>
             </div>
 
             <div className="border-t border-sand/50 my-4" />
@@ -421,7 +487,7 @@ export const Navbar = () => {
 
             <div className="mb-6">
               <h5 className="text-xs font-bold text-text-muted uppercase tracking-widest mb-3">
-                Language
+                {t("language")}
               </h5>
               <div className="flex gap-2">
                 {locales.map((loc) => (

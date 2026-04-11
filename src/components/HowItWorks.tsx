@@ -1,36 +1,25 @@
-import Image from "next/image";
+"use client";
 
-const steps = [
-  {
-    key: "deploy",
-    title: "We audit your operations",
-    description:
-      "We map your processes, find where time and money are leaking, and identify the highest-impact opportunities. You get a clear picture of what\u2019s worth building before we build anything.",
-  },
-  {
-    key: "train",
-    title: "We build and deploy",
-    description:
-      "We take the highest-impact opportunity and build it. Live, working, integrated with your existing tools. First solution running in 4 weeks.",
-  },
-  {
-    key: "evolve",
-    title: "We train, manage, and expand",
-    description:
-      "We train your team on the new system, monitor performance, and keep improving it. When you\u2019re ready, we move to the next opportunity.",
-  },
-];
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export const HowItWorks = () => {
+  const t = useTranslations("howItWorksSteps");
+
+  const steps = [
+    { key: "deploy", title: t("steps.step1.title"), description: t("steps.step1.description") },
+    { key: "train", title: t("steps.step2.title"), description: t("steps.step2.description") },
+    { key: "evolve", title: t("steps.step3.title"), description: t("steps.step3.description") },
+  ];
   return (
     <section id="how-it-works" className="py-14 px-6 bg-cream border-y border-sand relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mb-10">
           <h2 className="font-heading text-caption text-blue-primary font-bold tracking-[0.08em] uppercase mb-4">
-            How We Work
+            {t("label")}
           </h2>
           <h3 className="font-heading text-4xl sm:text-5xl font-bold text-charcoal leading-tight">
-            From first call to live system in 4 weeks.
+            {t("heading")}
           </h3>
         </div>
 

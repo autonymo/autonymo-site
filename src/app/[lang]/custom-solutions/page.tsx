@@ -13,12 +13,13 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import ScrollReveal from "@/components/reactbits/ScrollReveal";
 import WhyWeDifferent from "@/components/WhyWeDifferent";
 import FinalCTA from "@/components/FinalCTA";
 
 /*  Custom Workflow Illustration  */
-function WorkflowIllustration() {
+function WorkflowIllustration({ alt }: { alt: string }) {
   return (
     <motion.div
       initial={{ opacity: 0, x: 40 }}
@@ -29,7 +30,7 @@ function WorkflowIllustration() {
       <div className="rounded-2xl border border-sand bg-white p-4 overflow-hidden flex items-center justify-center">
         <Image
           src="/images/custom-solutions-cube.png"
-          alt="Custom Solutions"
+          alt={alt}
           width={732}
           height={733}
           className="w-full h-full object-cover rounded-xl"
@@ -61,21 +62,23 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 }
 
 export default function CustomSolutions() {
+  const t = useTranslations("customSolutionsPage");
+
   const solutions = [
-    { title: "Process Automation", desc: "Turn manual, repetitive workflows into systems that run without human intervention." },
-    { title: "Intelligent Document Processing", desc: "Extract, classify, and route information from documents, emails, and forms automatically." },
-    { title: "AI-Powered Communication", desc: "WhatsApp bots, voice agents, and automated outreach that handle routine conversations with your clients." },
-    { title: "Client and Lead Management", desc: "Custom CRM workflows, lead qualification, and follow-up automation tailored to your sales process." },
-    { title: "Dashboards and Reporting", desc: "Live dashboards that show what matters. No more compiling spreadsheets." },
+    { title: t("solutions.items.item1.title"), desc: t("solutions.items.item1.description") },
+    { title: t("solutions.items.item2.title"), desc: t("solutions.items.item2.description") },
+    { title: t("solutions.items.item3.title"), desc: t("solutions.items.item3.description") },
+    { title: t("solutions.items.item4.title"), desc: t("solutions.items.item4.description") },
+    { title: t("solutions.items.item5.title"), desc: t("solutions.items.item5.description") },
   ];
 
   const faqs = [
-    { q: "What industries do you work with?", a: "Any. We\u2019ve worked with real estate, healthcare, and professional services. The approach is the same: audit, build, manage." },
-    { q: "How much does it cost?", a: "It depends on the project. We work best as your AI internal team over an extended period, typically several months. That said, we\u2019re flexible at the start so you can see our work and build trust before committing long-term." },
-    { q: "Do we need technical skills?", a: "No. We handle everything from design to deployment. Your team needs zero technical knowledge." },
-    { q: "How long before we see results?", a: "First solution live within 4 weeks. Most clients see measurable impact within the first month." },
-    { q: "What happens if we stop?", a: "You keep everything we built. No lock-in, no proprietary platforms." },
-    { q: "Can you work with our existing systems?", a: "Yes. We build on top of what you already use. No rip-and-replace." },
+    { q: t("faq.items.item1.question"), a: t("faq.items.item1.answer") },
+    { q: t("faq.items.item2.question"), a: t("faq.items.item2.answer") },
+    { q: t("faq.items.item3.question"), a: t("faq.items.item3.answer") },
+    { q: t("faq.items.item4.question"), a: t("faq.items.item4.answer") },
+    { q: t("faq.items.item5.question"), a: t("faq.items.item5.answer") },
+    { q: t("faq.items.item6.question"), a: t("faq.items.item6.answer") },
   ];
 
   return (
@@ -92,30 +95,27 @@ export default function CustomSolutions() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
-                Custom Solutions
+                {t("hero.label")}
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-charcoal sm:text-5xl lg:text-6xl leading-[1.08]">
-                AI operations built for your business.{" "}
-                Not from a template.
+                {t("hero.heading")}
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-text-muted max-w-xl">
-                For companies with processes that don&apos;t fit a standard product. We audit your
-                operations, build AI systems around how you actually work, and stay on to manage
-                and improve them.
+                {t("hero.description")}
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions" className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95">
-                  Book a Free Assessment
+                  {t("hero.ctaPrimary")}
                   <ArrowUpRight className="ml-2 w-4 h-4" />
                 </Link>
                 <a href="#solutions" className="inline-flex items-center justify-center px-6 py-3.5 font-medium tracking-tight text-charcoal text-base rounded-xl bg-white border border-charcoal/15 hover:border-charcoal/30 transition-colors active:scale-95">
-                  See how it works
+                  {t("hero.ctaSecondary")}
                   <ArrowDown className="ml-2 w-4 h-4" />
                 </a>
               </div>
             </motion.div>
             <div className="hidden lg:block">
-              <WorkflowIllustration />
+              <WorkflowIllustration alt={t("hero.imageAlt")} />
             </div>
           </div>
         </div>
@@ -128,16 +128,16 @@ export default function CustomSolutions() {
       <section className="py-24 px-6 bg-cream">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">The Problem</h2>
+            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("problem.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">
-              You know AI could help. You just don&apos;t know where to start.
+              {t("problem.heading")}
             </h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             {[
-              { icon: Clock, title: "Manual processes eating your margin", desc: "Your team spends hours on repetitive work that adds no value. Data entry, report generation, coordination, follow-ups. It all adds up." },
-              { icon: Code2, title: "Tools that solved 60% of the problem", desc: "You\u2019ve tried off-the-shelf software. It never quite fits. The other 40% is still manual." },
-              { icon: Cpu, title: "No internal AI expertise", desc: "You don\u2019t have the team to evaluate what\u2019s possible, build the right solution, or maintain it over time." },
+              { icon: Clock, title: t("problem.items.item1.title"), desc: t("problem.items.item1.description") },
+              { icon: Code2, title: t("problem.items.item2.title"), desc: t("problem.items.item2.description") },
+              { icon: Cpu, title: t("problem.items.item3.title"), desc: t("problem.items.item3.description") },
             ].map((item, i) => (
               <ScrollReveal key={i} delay={i * 0.08} className="p-6 rounded-xl bg-white border border-sand flex flex-col">
                 <item.icon className="w-5 h-5 text-charcoal/30 mb-4" />
@@ -151,15 +151,15 @@ export default function CustomSolutions() {
 
       {/*  T4: WHY WE'RE DIFFERENT  */}
       <WhyWeDifferent
-        industryExample="We don't sell software. We understand your business first, then build exactly what you need."
+        industryExample={t("solutions.promise")}
       />
 
       {/*  T5: SOLUTION PORTFOLIO  */}
       <section id="solutions" className="py-24 px-6 bg-cream">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">What We Deploy</h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">Every business is different. Here&apos;s what we typically deploy.</h3>
+            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("solutions.label")}</h2>
+            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("solutions.heading")}</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {solutions.map((sol, i) => (
@@ -181,13 +181,13 @@ export default function CustomSolutions() {
       <section className="py-24 px-6 bg-white border-y border-sand">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">How to Get Started</h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">From first call to live system in 4 weeks.</h3>
+            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("howToStart.label")}</h2>
+            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">{t("howToStart.heading")}</h3>
             <div className="flex flex-col items-center gap-4 mb-12">
               {[
-                { label: "Audit", desc: "We map your operations" },
-                { label: "Build", desc: "First system goes live" },
-                { label: "Expand", desc: "We train, manage, and grow" },
+                { label: t("howToStart.steps.step1.label"), desc: t("howToStart.steps.step1.description") },
+                { label: t("howToStart.steps.step2.label"), desc: t("howToStart.steps.step2.description") },
+                { label: t("howToStart.steps.step3.label"), desc: t("howToStart.steps.step3.description") },
               ].map((step, i) => (
                 <div key={i} className="flex flex-col items-center">
                   {i > 0 && <div className="w-px h-6 bg-sand mb-4" />}
@@ -199,7 +199,7 @@ export default function CustomSolutions() {
               ))}
             </div>
             <Link href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions" className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95">
-              Book a Free Assessment
+              {t("hero.ctaPrimary")}
               <ArrowUpRight className="ml-2 w-4 h-4" />
             </Link>
           </div>
@@ -210,19 +210,15 @@ export default function CustomSolutions() {
       <section className="py-24 px-6 bg-cream">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">How It Works</h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">From first call to live system in 4 weeks.</h3>
+            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("howItWorks.label")}</h2>
+            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("howItWorks.heading")}</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { step: "Step 1", title: "We audit your operations", desc: "We map your processes, identify where time and money are leaking, and put a number on each opportunity. You get a clear picture of what\u2019s worth automating and what isn\u2019t." },
-              { step: "Step 2", title: "We build and deploy", desc: "We take the highest-impact opportunity and build it. Live, working, integrated with your existing tools. No pilots that go nowhere." },
-              { step: "Step 3", title: "We train, manage, and expand", desc: "We train your team on the new system, monitor performance, and keep improving it. When you\u2019re ready, we expand to the next opportunity." },
-            ].map((item, i) => (
+            {([1, 2, 3] as const).map((n, i) => (
               <ScrollReveal key={i} delay={i * 0.1} className="group p-6 rounded-xl bg-white border border-sand hover:border-warm-gray transition-colors duration-500 flex flex-col">
-                <span className="font-display text-xs font-bold text-accent-blue uppercase tracking-wider bg-accent-blue/5 px-3 py-1 rounded-full self-start mb-5">{item.step}</span>
-                <h4 className="font-display text-xl font-bold text-charcoal mb-3">{item.title}</h4>
-                <p className="text-text-muted leading-relaxed text-sm">{item.desc}</p>
+                <span className="font-display text-xs font-bold text-accent-blue uppercase tracking-wider bg-accent-blue/5 px-3 py-1 rounded-full self-start mb-5">{t(`howItWorks.steps.step${n}.label`)}</span>
+                <h4 className="font-display text-xl font-bold text-charcoal mb-3">{t(`howItWorks.steps.step${n}.title`)}</h4>
+                <p className="text-text-muted leading-relaxed text-sm">{t(`howItWorks.steps.step${n}.description`)}</p>
               </ScrollReveal>
             ))}
           </div>
@@ -233,15 +229,15 @@ export default function CustomSolutions() {
       <section className="py-24 px-6 bg-white border-y border-sand">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">What to Expect</h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">Benchmarks from custom engagements.</h3>
+            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("benchmarks.label")}</h2>
+            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("benchmarks.heading")}</h3>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              "Average audit identifies 8\u201312 automation opportunities",
-              "First automation live within 4 weeks",
-              "60% reduction in manual work from the first solution",
-              "You own everything we build, no vendor lock-in",
+              t("benchmarks.items.item1.description"),
+              t("benchmarks.items.item2.description"),
+              t("benchmarks.items.item3.description"),
+              t("benchmarks.items.item4.description"),
             ].map((text, i) => (
               <ScrollReveal key={i} delay={i * 0.08} className="flex items-start gap-3 p-4 rounded-xl bg-cream border border-sand">
                 <CheckCircle2 className="w-4 h-4 text-accent-blue flex-shrink-0 mt-0.5" />
@@ -255,8 +251,8 @@ export default function CustomSolutions() {
       {/*  T9: FAQ  */}
       <section className="py-24 px-6 bg-cream">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">FAQ</h2>
-          <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-12">Common questions</h3>
+          <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("faq.label")}</h2>
+          <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-12">{t("faq.heading")}</h3>
           <div>
             {faqs.map((faq, i) => (
               <FAQItem key={i} question={faq.q} answer={faq.a} index={i} />
@@ -266,7 +262,11 @@ export default function CustomSolutions() {
       </section>
 
       {/*  T10: FINAL CTA  */}
-      <FinalCTA verticalPhrase="your operations" />
+      <FinalCTA
+        verticalPhrase={t("finalCta.verticalPhrase")}
+        heading={t("finalCta.heading")}
+        subtitle={t("finalCta.subtitle")}
+      />
     </div>
   );
 }
