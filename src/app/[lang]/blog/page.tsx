@@ -3,37 +3,40 @@
 import { Link } from "@/i18n/navigation";
 import { ArrowUpRight, Clock } from "lucide-react";
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 
 export default function Blog() {
+  const t = useTranslations("blog");
+
   const featuredPost = {
-    title: "Why AI Agents Are the Future of Business Operations",
-    excerpt: "The shift from static automation to intelligent agents is transforming how companies operate. Here's what business leaders need to know about the agent revolution, and how to prepare for it.",
-    category: "AI Strategy",
-    date: "Coming Soon",
-    readTime: "8 min read"
+    title: t("featured.title"),
+    excerpt: t("featured.excerpt"),
+    category: t("featured.category"),
+    date: t("featured.date"),
+    readTime: t("featured.readTime"),
   };
 
   const posts = [
     {
-      title: "How We Reduced Insurance Processing Time by 35% with AI",
-      excerpt: "A deep dive into how Health Services OS automates eligibility checks, pre-authorizations, and claims for healthcare practices.",
-      category: "Case Study",
-      date: "Coming Soon",
-      readTime: "6 min read"
+      title: t("posts.post1.title"),
+      excerpt: t("posts.post1.excerpt"),
+      category: t("posts.post1.category"),
+      date: t("posts.post1.date"),
+      readTime: t("posts.post1.readTime"),
     },
     {
-      title: "The Real Estate Agent's Guide to AI Lead Nurturing",
-      excerpt: "From cold leads to warm prospects: how AI-powered follow-up sequences are changing the game for real estate teams.",
-      category: "Real Estate",
-      date: "Coming Soon",
-      readTime: "5 min read"
+      title: t("posts.post2.title"),
+      excerpt: t("posts.post2.excerpt"),
+      category: t("posts.post2.category"),
+      date: t("posts.post2.date"),
+      readTime: t("posts.post2.readTime"),
     },
     {
-      title: "Building Custom AI Agents: Our Technical Approach",
-      excerpt: "A look behind the scenes at how we design, train, and deploy purpose-built AI agents for enterprise clients.",
-      category: "Engineering",
-      date: "Coming Soon",
-      readTime: "10 min read"
+      title: t("posts.post3.title"),
+      excerpt: t("posts.post3.excerpt"),
+      category: t("posts.post3.category"),
+      date: t("posts.post3.date"),
+      readTime: t("posts.post3.readTime"),
     },
   ];
 
@@ -49,13 +52,13 @@ export default function Blog() {
             className="text-center mx-auto"
           >
             <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
-              Blog
+              {t("hero.label")}
             </span>
             <h1 className="font-display text-4xl font-bold tracking-tight text-charcoal sm:text-5xl leading-[1.1]">
-              Insights on AI, automation, and growth.
+              {t("hero.heading")}
             </h1>
             <p className="mt-6 text-lg leading-8 text-text-muted max-w-2xl mx-auto sm:text-xl">
-              Deep dives into the strategies, technology, and case studies behind modern AI automation.
+              {t("hero.description")}
             </p>
           </motion.div>
         </div>
@@ -75,7 +78,7 @@ export default function Blog() {
 
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="px-3 py-1 rounded-full bg-accent-blue/10 text-accent-blue text-[10px] font-bold uppercase tracking-widest">
-                Featured
+                {t("featured.badge")}
               </span>
               <span className="px-3 py-1 rounded-full bg-cream text-[10px] font-bold text-warm-gray uppercase tracking-widest border border-sand">
                 {featuredPost.category}
@@ -145,19 +148,19 @@ export default function Blog() {
       <section className="py-24 px-6 bg-cream">
         <div className="max-w-7xl mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Stay ahead of the curve.
+            {t("newsletter.heading")}
           </h2>
           <p className="text-white/70 text-lg mb-10 max-w-xl mx-auto">
-            Get our latest insights on AI automation, delivered straight to your inbox. No spam, just value.
+            {t("newsletter.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input
               type="email"
-              placeholder="your@email.com"
+              placeholder={t("newsletter.placeholder")}
               className="flex-1 px-5 py-3 rounded-lg bg-white/10 border border-white/10 text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-accent-blue transition-colors"
             />
             <button className="px-6 py-3 rounded-lg bg-accent-blue text-white text-sm font-bold hover:bg-accent-blue/90 transition-[background-color,transform] active:scale-95">
-              Subscribe
+              {t("newsletter.button")}
             </button>
           </div>
         </div>

@@ -1,16 +1,22 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export const WhyUs = () => {
+  const t = useTranslations("whyUs");
+
   const vendorItems = [
-    "Sell you a platform and disappear",
-    "Force you into their workflow",
-    "Same product for every company",
-    "Measure success by licenses sold",
+    t("vendorItems.item1"),
+    t("vendorItems.item2"),
+    t("vendorItems.item3"),
+    t("vendorItems.item4"),
   ];
 
   const ourItems = [
-    "Audit your operations before proposing anything",
-    "Build on top of your existing tools. No rip-and-replace",
-    "Deploy solutions tailored to how your business actually works",
-    "Measure success by the impact we generate for you",
+    t("ourItems.item1"),
+    t("ourItems.item2"),
+    t("ourItems.item3"),
+    t("ourItems.item4"),
   ];
 
   return (
@@ -18,10 +24,10 @@ export const WhyUs = () => {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
-            Why Us
+            {t("label")}
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-charcoal leading-tight">
-            We don&apos;t sell software. We do the work.
+            {t("heading")}
           </h2>
         </div>
 
@@ -29,7 +35,7 @@ export const WhyUs = () => {
           {/* What Most Vendors Do */}
           <div className="p-8 rounded-xl bg-white border border-sand">
             <h3 className="font-display text-sm font-bold text-text-muted uppercase tracking-widest mb-6">
-              What Most Vendors Do
+              {t("vendorTitle")}
             </h3>
             <ul className="space-y-4">
               {vendorItems.map((item, i) => (
@@ -44,7 +50,7 @@ export const WhyUs = () => {
           {/* What We Do */}
           <div className="p-8 rounded-xl bg-charcoal text-white">
             <h3 className="text-sm font-bold text-white/60 uppercase tracking-widest mb-6">
-              What We Do
+              {t("ourTitle")}
             </h3>
             <ul className="space-y-4">
               {ourItems.map((item, i) => (
@@ -58,8 +64,8 @@ export const WhyUs = () => {
         </div>
 
         <p className="text-lg sm:text-xl text-text-muted max-w-3xl">
-          For every €1 spent on software, €6 are spent on the work that software is supposed to do.{" "}
-          <span className="text-charcoal font-semibold">We&apos;re here for the €6.</span>
+          {t("bottomNote")}{" "}
+          <span className="text-charcoal font-semibold">{t("bottomNoteHighlight")}</span>
         </p>
       </div>
     </section>

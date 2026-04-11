@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { X, Check } from "lucide-react";
 
 interface WhyWeDifferentProps {
@@ -9,18 +10,20 @@ interface WhyWeDifferentProps {
 }
 
 export default function WhyWeDifferent({ industryExample, vendorItems: vendorItemsProp, ourItems: ourItemsProp }: WhyWeDifferentProps) {
+  const t = useTranslations("whyWeDifferent");
+
   const vendorItems = vendorItemsProp ?? [
-    "Sell a platform, disappear",
-    "Force you into their workflow",
-    "Same product for every company",
-    "No ongoing support",
+    t("defaultVendor.item1"),
+    t("defaultVendor.item2"),
+    t("defaultVendor.item3"),
+    t("defaultVendor.item4"),
   ];
 
   const ourItems = ourItemsProp ?? [
-    "Start with an operational audit",
-    "Build around your existing tools and processes",
-    "Train your team",
-    "Manage and optimize monthly",
+    t("defaultOur.item1"),
+    t("defaultOur.item2"),
+    t("defaultOur.item3"),
+    t("defaultOur.item4"),
   ];
 
   return (
@@ -28,10 +31,10 @@ export default function WhyWeDifferent({ industryExample, vendorItems: vendorIte
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mb-16">
           <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">
-            Why We&apos;re Different
+            {t("label")}
           </h2>
           <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">
-            We don&apos;t sell software. We understand your business first, then build exactly what you need.
+            {t("heading")}
           </h3>
         </div>
 
@@ -39,7 +42,7 @@ export default function WhyWeDifferent({ industryExample, vendorItems: vendorIte
           {/* Left - What Most Vendors Do */}
           <div className="p-8 rounded-2xl bg-white border border-sand">
             <h4 className="font-display text-sm font-bold text-charcoal/50 uppercase tracking-wider mb-6">
-              What Most Vendors Do
+              {t("vendorTitle")}
             </h4>
             <div className="space-y-4">
               {vendorItems.map((item, i) => (
@@ -56,7 +59,7 @@ export default function WhyWeDifferent({ industryExample, vendorItems: vendorIte
           {/* Right - What We Do */}
           <div className="p-8 rounded-2xl bg-charcoal text-white">
             <h4 className="font-display text-sm font-bold text-white/60 uppercase tracking-wider mb-6">
-              What We Do
+              {t("ourTitle")}
             </h4>
             <div className="space-y-4 mb-8">
               {ourItems.map((item, i) => (
