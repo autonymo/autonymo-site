@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { useTranslations } from "next-intl";
 
-const ease = [0.22, 1, 0.36, 1];
+const ease = [0.22, 1, 0.36, 1] as const;
 
 export const WhyUs = () => {
   const t = useTranslations("whyUs");
