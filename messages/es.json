@@ -40,6 +40,7 @@
     "titleHighlight": "que impulsan tu negocio.",
     "subtitle": "Desplegamos soluciones probadas, formamos a tu equipo y mejoramos continuamente para que tu negocio se mantenga a la vanguardia mientras la IA evoluciona.",
     "cta": "Reservar Evaluación Gratuita",
+    "ctaShort": "Reservar Llamada",
     "ctaSecondary": "Ver Nuestras Soluciones",
     "trustedBy": "Trabajando con empresas a nivel global.",
     "valueProp1": "Listo en semanas, no meses",
@@ -249,7 +250,8 @@
     "title": "¿Listo para ver qué puede hacer la IA",
     "titleLine2": "por tu negocio?",
     "subtitle": "Reserva una evaluación gratuita de 15 minutos. Te mostraremos dónde la IA puede tener el mayor impacto en tus operaciones.",
-    "button": "Reservar Evaluación Gratuita"
+    "button": "Reservar Evaluación Gratuita",
+    "buttonShort": "Reservar Llamada"
   },
   "footer": {
     "solutions": "Soluciones",
@@ -325,6 +327,7 @@
     "defaultHeading": "Let’s look at {verticalPhrase}.",
     "defaultSubtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business.",
     "button": "Book a Free Assessment",
+    "buttonShort": "Reservar Llamada",
     "checks": {
       "noCommitment": "No commitment required",
       "keepEverything": "You keep everything we build",
@@ -366,6 +369,7 @@
       "heading2": "Our AI fills the chairs.",
       "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Dental Clinic OS"
     },
@@ -524,6 +528,7 @@
       "heading2": "Our AI runs the agency.",
       "description": "A complete AI-powered operating system for your real estate agency. Built around your processes, deployed on your tools, fine-tuned for you. We guide you through onboarding and stay on to optimize it every month.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Real Estate OS"
     },
@@ -685,6 +690,7 @@
       "heading": "AI operations built for your business. Not from a template.",
       "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Llamada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Custom Solutions"
     },
@@ -940,6 +946,7 @@
       "heading2": "so are we.",
       "description": "Book a free 30-minute assessment. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
       "button": "Book a Free Assessment",
+      "buttonShort": "Reservar Llamada",
       "noCommitment": "No commitment required"
     }
   },

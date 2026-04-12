@@ -54,7 +54,7 @@ export const HowItWorks = () => {
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal leading-tight mb-4 whitespace-nowrap"
+            className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal leading-tight mb-4"
           >
             {t("heading")}
           </motion.h2>

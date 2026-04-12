@@ -17,7 +17,7 @@ export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }:
   return (
     <section className="py-24 px-6 bg-cream">
       <div className="max-w-[80rem] mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
-        <div className="p-12 md:p-20 pb-8 md:pb-10 relative z-10 text-center flex flex-col items-center min-h-[400px]">
+        <div className="p-6 sm:p-12 md:p-20 pb-8 md:pb-10 relative z-10 text-center flex flex-col items-center min-h-[320px] sm:min-h-[400px]">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight">
             {heading ?? t("defaultHeading", { verticalPhrase })}
           </h2>
@@ -26,9 +26,10 @@ export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }:
           </p>
           <Link
             href={calLink ?? "https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"}
-            className="inline-flex items-center justify-center gap-2 font-semibold tracking-tight text-charcoal text-lg bg-white rounded-xl px-10 py-4 hover:opacity-90 transition-colors active:scale-95"
+            className="inline-flex items-center justify-center gap-2 font-semibold tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-10 py-4 hover:opacity-90 transition-colors active:scale-95"
           >
-            {t("button")}
+            <span className="sm:hidden">{t("buttonShort")}</span>
+            <span className="hidden sm:inline">{t("button")}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
           <div className="flex flex-wrap items-center justify-center gap-6 mt-auto pt-8">

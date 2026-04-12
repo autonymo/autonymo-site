@@ -102,7 +102,8 @@ export default function HealthServicesOS() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link href="https://cal.com/arnau-fabrega-nscdht/autonymo-dental-clinic-os" className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95">
-                  {t("hero.ctaPrimary")}
+                  <span className="sm:hidden">{t("hero.ctaPrimaryShort")}</span>
+                  <span className="hidden sm:inline">{t("hero.ctaPrimary")}</span>
                   <ArrowUpRight className="ml-2 w-4 h-4" />
                 </Link>
                 <a href="#solutions" className="inline-flex items-center justify-center px-6 py-3.5 font-medium tracking-tight text-charcoal text-base rounded-xl bg-white border border-charcoal/15 hover:border-charcoal/30 transition-colors active:scale-95">

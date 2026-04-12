@@ -35,7 +35,7 @@ const Footer = () => {
       <footer
         className="bg-white border-x border-t border-sand rounded-t-xl overflow-hidden"
       >
-        <div className="px-8 pt-12 pb-8">
+        <div className="px-5 sm:px-8 pt-12 pb-8">
           <div className="grid grid-cols-2 md:grid-cols-6 gap-12 mb-10">
             {/* Brand Column */}
             <div className="col-span-2">

@@ -130,12 +130,12 @@ export const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setOpenMenu(isLangOpen ? null : "lang")}
-                className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-text-muted hover:text-charcoal hover:bg-cream rounded-lg transition-colors focus:outline-none"
+                className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-2 text-sm font-medium text-text-muted hover:text-charcoal hover:bg-cream rounded-lg transition-colors focus:outline-none"
               >
                 <Globe className="w-4 h-4" />
                 {localeLabels[locale]}
                 <ArrowDownRight
-                  className={`w-3 h-3 transition-transform duration-300 ${isLangOpen ? "rotate-180" : ""}`}
+                  className={`w-3 h-3 hidden sm:block transition-transform duration-300 ${isLangOpen ? "rotate-180" : ""}`}
                 />
               </button>
               <AnimatePresence>
@@ -382,7 +382,7 @@ export const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute top-[calc(100%+6px)] left-0 right-0 md:hidden z-40 bg-white border border-sand rounded-xl shadow-xl p-4"
+            className="absolute top-[calc(100%+6px)] left-0 right-0 md:hidden z-40 bg-white border border-sand rounded-xl shadow-xl p-4 max-h-[calc(100dvh-5rem)] overflow-y-auto"
           >
             <div className="mb-3">
               <h5 className="text-[10px] font-bold text-accent-blue uppercase tracking-widest mb-2">
@@ -394,7 +394,7 @@ export const Navbar = () => {
                     key={index}
                     href={item.href}
                     onClick={closeAll}
-                    className="flex items-center gap-3 py-2 px-3 rounded-xl hover:bg-cream transition-colors"
+                    className="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-cream transition-colors"
                   >
                     <div
                       className={`w-8 h-8 rounded-lg ${item.color} flex items-center justify-center shrink-0`}
@@ -406,6 +406,18 @@ export const Navbar = () => {
                     </h4>
                   </Link>
                 ))}
+                <Link
+                  href="/custom-solutions"
+                  onClick={closeAll}
+                  className="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-cream transition-colors"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-charcoal flex items-center justify-center shrink-0">
+                    <ArrowUpRight className="w-4 h-4 text-white" />
+                  </div>
+                  <h4 className="font-heading text-sm font-bold text-charcoal">
+                    {t("customSolutions")}
+                  </h4>
+                </Link>
               </div>
             </div>
 
@@ -421,7 +433,7 @@ export const Navbar = () => {
                     key={index}
                     href={link.href}
                     onClick={closeAll}
-                    className="flex items-center justify-between py-1.5 px-3 rounded-lg hover:bg-cream transition-colors"
+                    className="flex items-center justify-between py-2.5 px-3 rounded-lg hover:bg-cream transition-colors"
                   >
                     <span className="text-sm font-medium text-text-muted">
                       {link.title}
@@ -437,7 +449,7 @@ export const Navbar = () => {
             <Link
               href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
               onClick={closeAll}
-              className="flex items-center justify-center gap-1.5 w-full px-5 py-2.5 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
+              className="flex items-center justify-center gap-1.5 w-full px-5 py-3 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >
               <ArrowUpRight className="w-4 h-4" />
               {t("bookCall")}

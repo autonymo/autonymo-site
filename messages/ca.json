@@ -40,6 +40,7 @@
     "titleHighlight": "que impulsen el teu negoci.",
     "subtitle": "Despleguem solucions provades, formem el teu equip i millorem contínuament perquè el teu negoci es mantingui al capdavant mentre la IA evoluciona.",
     "cta": "Reservar Avaluació Gratuïta",
+    "ctaShort": "Reservar Trucada",
     "ctaSecondary": "Veure Les Nostres Solucions",
     "trustedBy": "Treballant amb empreses a nivell global.",
     "valueProp1": "Llest en setmanes, no mesos",
@@ -249,7 +250,8 @@
     "title": "Preparat per veure què pot fer la IA",
     "titleLine2": "pel teu negoci?",
     "subtitle": "Reserva una avaluació gratuïta de 15 minuts. Et mostrarem on la IA pot tenir el major impacte en les teves operacions.",
-    "button": "Reservar Avaluació Gratuïta"
+    "button": "Reservar Avaluació Gratuïta",
+    "buttonShort": "Reservar Trucada"
   },
   "footer": {
     "solutions": "Solucions",
@@ -325,6 +327,7 @@
     "defaultHeading": "Let’s look at {verticalPhrase}.",
     "defaultSubtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business.",
     "button": "Book a Free Assessment",
+    "buttonShort": "Reservar Trucada",
     "checks": {
       "noCommitment": "No commitment required",
       "keepEverything": "You keep everything we build",
@@ -366,6 +369,7 @@
       "heading2": "Our AI fills the chairs.",
       "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Dental Clinic OS"
     },
@@ -524,6 +528,7 @@
       "heading2": "Our AI runs the agency.",
       "description": "A complete AI-powered operating system for your real estate agency. Built around your processes, deployed on your tools, fine-tuned for you. We guide you through onboarding and stay on to optimize it every month.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Real Estate OS"
     },
@@ -685,6 +690,7 @@
       "heading": "AI operations built for your business. Not from a template.",
       "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
       "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimaryShort": "Reservar Trucada",
       "ctaSecondary": "See how it works",
       "imageAlt": "Custom Solutions"
     },
@@ -940,6 +946,7 @@
       "heading2": "so are we.",
       "description": "Book a free 30-minute assessment. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
       "button": "Book a Free Assessment",
+      "buttonShort": "Reservar Trucada",
       "noCommitment": "No commitment required"
     }
   },

@@ -36,7 +36,7 @@ export const Hero = () => {
             <div className="relative inline-block max-w-full">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] sm:w-[140%] h-[140%] bg-cream/90 backdrop-blur-2xl rounded-full z-0" />
 
-              <h1 className="relative z-10 font-heading text-[1.75rem] leading-[1.15] font-bold tracking-tight text-charcoal sm:text-6xl sm:leading-tight lg:text-7xl">
+              <h1 className="relative z-10 font-heading text-[1.75rem] leading-[1.15] font-bold tracking-tight text-charcoal sm:text-5xl sm:leading-tight md:text-6xl lg:text-7xl">
                 {t("hero.title")}
               </h1>
 
@@ -52,7 +52,8 @@ export const Hero = () => {
                     href="https://cal.com/arnau-fabrega-nscdht/autonymo-custom-solutions"
                     className="inline-flex w-full sm:w-auto items-center justify-center font-medium tracking-tight text-white text-base sm:text-lg bg-charcoal rounded-xl px-8 py-3.5 sm:py-3 cursor-pointer"
                   >
-                    {t("hero.cta")}
+                    <span className="sm:hidden">{t("hero.ctaShort")}</span>
+                    <span className="hidden sm:inline">{t("hero.cta")}</span>
                   </Link>
                 </motion.div>
 

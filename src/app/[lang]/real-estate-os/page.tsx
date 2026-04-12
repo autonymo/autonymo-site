@@ -114,7 +114,8 @@ export default function RealEstateOS() {
                   href="https://cal.com/arnau-fabrega-nscdht/autonymo-real-estate-os"
                   className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95"
                 >
-                  {t("hero.ctaPrimary")}
+                  <span className="sm:hidden">{t("hero.ctaPrimaryShort")}</span>
+                  <span className="hidden sm:inline">{t("hero.ctaPrimary")}</span>
                   <ArrowUpRight className="ml-2 w-4 h-4" />
                 </Link>
                 <a

@@ -108,7 +108,7 @@ export const Manifesto = () => {
               <p className="text-xs font-semibold uppercase tracking-widest text-cream/30 mb-4">
                 {t("othersLabel")}
               </p>
-              <div className="relative flex flex-col gap-1.5">
+              <div className="relative flex flex-col gap-1.5 overflow-hidden">
                 {othersKeys.map((key, i) => (
                   <div
                     key={key}

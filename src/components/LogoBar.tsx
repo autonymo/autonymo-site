@@ -19,16 +19,31 @@ export const LogoBar = () => {
       <p className="text-center text-sm font-medium text-warm-gray tracking-wide uppercase mb-5">
         Built on
       </p>
-      <LogoLoop
-        logos={logos}
-        speed={30}
-        logoHeight={52}
-        gap={80}
-        pauseOnHover
-        fadeOut
-        fadeOutColor="#F5F0EB"
-        ariaLabel="Technology partners"
-      />
+      {/* Mobile: smaller logos + tighter gap; Desktop: original sizing */}
+      <div className="sm:hidden">
+        <LogoLoop
+          logos={logos}
+          speed={30}
+          logoHeight={32}
+          gap={40}
+          pauseOnHover
+          fadeOut
+          fadeOutColor="#F5F0EB"
+          ariaLabel="Technology partners"
+        />
+      </div>
+      <div className="hidden sm:block">
+        <LogoLoop
+          logos={logos}
+          speed={30}
+          logoHeight={52}
+          gap={80}
+          pauseOnHover
+          fadeOut
+          fadeOutColor="#F5F0EB"
+          ariaLabel="Technology partners"
+        />
+      </div>
     </div>
   );
 };
