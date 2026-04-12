@@ -29,10 +29,10 @@ function RealEstateIllustration({ alt }: { alt: string }) {
     >
       <div className="rounded-2xl border border-sand bg-white p-4 overflow-hidden flex items-center justify-center">
         <Image
-          src="/images/real-estate-os-cube.png"
+          src="/images/real-estate-os-illustration.svg"
           alt={alt}
-          width={732}
-          height={733}
+          width={1024}
+          height={1024}
           className="w-full h-full object-cover rounded-xl"
         />
       </div>

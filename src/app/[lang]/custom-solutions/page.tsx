@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { Link } from "@/i18n/navigation";
+import { CustomIllustration } from "@/components/CardIllustrations";
 import {
   Cpu,
   Code2,
@@ -27,14 +27,8 @@ function WorkflowIllustration({ alt }: { alt: string }) {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
       className="relative w-full max-w-lg mx-auto"
     >
-      <div className="rounded-2xl border border-sand bg-white p-4 overflow-hidden flex items-center justify-center">
-        <Image
-          src="/images/custom-solutions-cube.png"
-          alt={alt}
-          width={732}
-          height={733}
-          className="w-full h-full object-cover rounded-xl"
-        />
+      <div className="rounded-2xl border border-sand overflow-hidden flex items-center justify-center">
+        <CustomIllustration alt={alt} />
       </div>
     </motion.div>
   );

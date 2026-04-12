@@ -29,10 +29,10 @@ function HealthIllustration() {
     >
       <div className="rounded-2xl border border-sand bg-white p-4 overflow-hidden flex items-center justify-center">
         <Image
-          src="/images/dental-clinic-os-cube.png"
+          src="/images/dental-clinic-os-illustration.svg"
           alt={t("hero.imageAlt")}
-          width={732}
-          height={733}
+          width={1024}
+          height={1024}
           className="w-full h-full object-cover rounded-xl"
         />
       </div>
