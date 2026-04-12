@@ -32,7 +32,7 @@ export const Navbar = () => {
       icon: Building2,
       color: "bg-[#E8F0FE]",
       iconColor: "text-blue-600",
-      cubeImage: "/images/real-estate-os-cube.png",
+      cubeImage: "/images/real-estate-os-illustration.svg",
     },
     {
       title: t("dentalClinicOS"),
@@ -41,7 +41,7 @@ export const Navbar = () => {
       icon: ToothIcon,
       color: "bg-[#F5F5F7]",
       iconColor: "text-emerald-600",
-      cubeImage: "/images/dental-clinic-os-cube.png",
+      cubeImage: "/images/dental-clinic-os-illustration.svg",
     },
   ];
 
