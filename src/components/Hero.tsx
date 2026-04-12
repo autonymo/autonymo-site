@@ -6,7 +6,7 @@ import Threads from "@/components/Threads";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { RealEstateIllustration, DentalIllustration, CustomIllustration } from "@/components/CardIllustrations";
-import { Settings2 } from "lucide-react";
+import { LogoBar } from "@/components/LogoBar";
 
 export const Hero = () => {
   const t = useTranslations();
@@ -30,8 +30,8 @@ export const Hero = () => {
 
   return (
     <div className="bg-cream rounded-b-3xl border-b border-sand/30 relative overflow-hidden">
-      <section className="relative pt-24 pb-28 px-5 sm:pt-44 sm:pb-48 sm:px-6 lg:pt-52 lg:pb-60">
-        <div className="max-w-site mx-auto">
+      <section className="relative pt-24 pb-12 px-5 sm:pt-44 sm:pb-16 sm:px-6 lg:pt-52 lg:pb-20">
+        <div className="max-w-[80rem] mx-auto">
           <div className="text-center">
             <div className="relative inline-block max-w-full">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] sm:w-[140%] h-[140%] bg-cream/90 backdrop-blur-2xl rounded-full z-0" />
@@ -76,7 +76,7 @@ export const Hero = () => {
         </div>
 
         {/* Threads Overlay */}
-        <div className="absolute -top-[15%] left-0 right-0 bottom-0 z-0 pointer-events-none will-change-transform">
+        <div className="absolute inset-0 z-0 pointer-events-none will-change-transform">
           <Threads
             color={[0.64, 0.62, 0.59]}
             amplitude={0.65}
@@ -87,70 +87,52 @@ export const Hero = () => {
       </section>
 
       {/* Featured Platform Cards — Two-Group Split */}
-      <section id="solutions" className="pb-12 px-5 sm:pb-16 sm:px-6 bg-transparent relative z-10 -mt-14 sm:-mt-24 lg:-mt-32 will-change-transform">
-        <div className="max-w-site mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-4 sm:gap-6">
-            {/* Group 1: Industry OS Products */}
-            <div>
-              <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-3 block">
-                {t("hero.groupHeadings.purposeBuilt")}
-              </span>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {osCards.map((card, index) => (
-                  <div key={index}>
-                    <Link
-                      href={card.href}
-                      className="flex bg-white rounded-xl border border-sand p-4 sm:p-6 relative flex-col h-full overflow-hidden group hover:border-warm-gray transition-colors duration-300 cursor-pointer"
-                    >
-                      <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
-                        <h3 className="font-heading text-xl sm:text-2xl font-bold text-charcoal">
-                          {card.title}
-                        </h3>
-                        <ArrowUpRight className="w-5 h-5 text-warm-gray shrink-0 mt-1 group-hover:text-charcoal/70 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
-                      </div>
-
-                      <p className="text-text-muted text-sm leading-relaxed mb-4 sm:mb-8 min-h-0 sm:min-h-[3rem] line-clamp-2 sm:line-clamp-3">
-                        {card.intro}
-                      </p>
-
-                      <div className={`mt-auto rounded-2xl ${card.color} border border-sand/50 overflow-hidden`}>
-                        {card.illustration}
-                      </div>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Group 2: Custom Solutions */}
-            <div>
-              <span className="font-display text-caption text-warm-gray font-bold tracking-[0.08em] uppercase mb-3 block">
-                {t("hero.groupHeadings.tailored")}
-              </span>
+      <section id="solutions" className="pb-12 px-5 sm:pb-16 sm:px-6 bg-transparent relative z-10 will-change-transform">
+        <div className="max-w-[80rem] mx-auto">
+          <LogoBar />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 mt-12 sm:mt-16">
+            {osCards.map((card, index) => (
               <Link
-                href="/custom-solutions"
-                className="flex flex-col h-auto lg:h-[calc(100%-2rem)] bg-charcoal rounded-xl p-5 sm:p-6 relative overflow-hidden group hover:bg-black transition-colors duration-300 cursor-pointer"
+                key={index}
+                href={card.href}
+                className="flex bg-white rounded-xl border border-sand p-4 sm:p-6 relative flex-col h-full overflow-hidden group hover:border-warm-gray transition-colors duration-300 cursor-pointer"
               >
                 <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
-                  <div className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center">
-                    <Settings2 className="w-4 h-4 text-amber-500" />
-                  </div>
-                  <ArrowUpRight className="w-5 h-5 text-white/30 shrink-0 mt-1 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
+                  <h3 className="font-heading text-xl sm:text-2xl font-bold text-charcoal">
+                    {card.title}
+                  </h3>
+                  <ArrowUpRight className="w-5 h-5 text-warm-gray shrink-0 mt-1 group-hover:text-charcoal/70 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
                 </div>
 
-                <h3 className="font-heading text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
-                  {t("hero.cards.custom.title")}
-                </h3>
-
-                <p className="text-white/60 text-sm leading-relaxed flex-1">
-                  {t("hero.cards.custom.intro")}
+                <p className="text-text-muted text-sm leading-relaxed mb-4 sm:mb-8 min-h-0 sm:min-h-[3rem] line-clamp-2 sm:line-clamp-3">
+                  {card.intro}
                 </p>
 
-                <div className="mt-auto pt-5 sm:pt-6 border-t border-white/10">
-                  <CustomIllustration alt={t("hero.cards.custom.title")} />
+                <div className={`mt-auto rounded-2xl ${card.color} border border-sand/50 overflow-hidden`}>
+                  {card.illustration}
                 </div>
               </Link>
-            </div>
+            ))}
+
+            <Link
+              href="/custom-solutions"
+              className="flex flex-col bg-charcoal rounded-xl p-4 sm:p-6 relative overflow-hidden group hover:bg-black transition-colors duration-300 cursor-pointer sm:col-span-2 lg:col-span-1"
+            >
+              <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
+                <h3 className="font-heading text-xl sm:text-2xl font-bold text-white">
+                  {t("hero.cards.custom.title")}
+                </h3>
+                <ArrowUpRight className="w-5 h-5 text-white/30 shrink-0 mt-1 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
+              </div>
+
+              <p className="text-white/60 text-sm leading-relaxed mb-4 sm:mb-8 min-h-0 sm:min-h-[3rem] line-clamp-2 sm:line-clamp-3">
+                {t("hero.cards.custom.intro")}
+              </p>
+
+              <div className="mt-auto rounded-2xl bg-white/5 border border-white/10 overflow-hidden">
+                <CustomIllustration alt={t("hero.cards.custom.title")} />
+              </div>
+            </Link>
           </div>
         </div>
       </section>

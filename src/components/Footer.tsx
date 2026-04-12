@@ -31,7 +31,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="relative w-full max-w-site mx-auto z-10 px-3 sm:px-0">
+    <div className="relative w-full max-w-[80rem] mx-auto z-10 px-3 sm:px-0">
       <footer
         className="bg-white border-x border-t border-sand rounded-t-xl overflow-hidden"
       >

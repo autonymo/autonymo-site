@@ -6,7 +6,7 @@ export const Founder = () => {
   const t = useTranslations("founder");
   return (
     <section className="py-24 sm:py-32 px-6 bg-cream border-t border-sand/50">
-      <div className="max-w-site mx-auto">
+      <div className="max-w-[80rem] mx-auto">
         <div className="mb-12">
           <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
             {t("label")}

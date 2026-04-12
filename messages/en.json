@@ -36,7 +36,7 @@
     "tailored": "Tailored"
   },
   "hero": {
-    "title": "Driving the AI transition that your company needs.",
+    "title": "We build and operate AI systems that compound your business.",
     "titleHighlight": "",
     "subtitle": "Your external AI team. We go inside your business, build what generates real impact, run it and make sure you stay ahead as technology evolves.",
     "cta": "Book a Free Assessment",
@@ -276,12 +276,21 @@
     "ca": "Català"
   },
   "manifesto": {
-    "heading1": "You know AI will change your business.",
-    "heading2": "You just haven’t started.",
-    "paragraph1": "Not because you don’t want to. Not because you don’t see it coming. But because you’re busy running a business today. Hiring takes too long. Tools don’t fit. And nobody on your team has the bandwidth to figure out what actually works.",
-    "weDo": "We do.",
-    "paragraph2": "Autonymo embeds into your operations, builds on the tools you already use, and improves your systems every month as the technology evolves. No disruption. No learning curve. Just results that compound.",
-    "closing": "We don’t care about hype. We care about what ships."
+    "heading1": "AI isn’t a tool you buy.",
+    "heading2": "It’s a <hi>system</hi> you <hi>operate</hi>.",
+    "paragraph1": "Every week brings a new model, a new framework, a new breakthrough that could change how your business works. None of it matters unless someone builds it into your tools and keeps it sharp while the rest of the market is still reading about it.",
+    "weDo": "That someone is us.",
+    "paragraph2": "We design, build, and operate the AI systems that compound your business, so you can stop buying dashboards and start building real advantage.",
+    "closing": "",
+    "othersLabel": "What others sell you",
+    "others1": "A SaaS subscription",
+    "others2": "A dashboard nobody opens",
+    "others3": "A 6-month strategy deck",
+    "others4": "A pilot that dies at month 3",
+    "others5": "A consultant's handoff",
+    "usLabel": "What we build and operate",
+    "usTitle": "A running AI system",
+    "usDescription": "That compounds every month it operates."
   },
   "whyUs": {
     "label": "Why Us",
@@ -305,19 +314,26 @@
   },
   "howItWorksSteps": {
     "label": "How We Work",
-    "heading": "From first call to live system in 4 weeks.",
+    "heading": "The path from AI\u2011curious to AI\u2011native.",
+    "subtitle": "Three steps. One team. Continuous compound.",
     "steps": {
       "step1": {
-        "title": "We audit your operations",
-        "description": "We map your processes, find where time and money are leaking, and identify the highest-impact opportunities. You get a clear picture of what’s worth building before we build anything."
+        "phase": "Audit \u00b7 Week 1\u20132",
+        "title": "Find what to build.",
+        "description": "Two weeks. Three highest-ROI AI opportunities, scored, prioritized, priced.",
+        "tags": ["No 6-month diagnostics", "No 80-slide decks"]
       },
       "step2": {
-        "title": "We build and deploy",
-        "description": "We take the highest-impact opportunity and build it. Live, working, integrated with your existing tools. First solution running in 4 weeks."
+        "phase": "Build \u00b7 Week 3\u20134",
+        "title": "Ship what matters.",
+        "description": "Built and deployed on top of your existing tools. Live in production in 30 to 60 days.",
+        "tags": ["No rip-and-replace", "No dead pilots"]
       },
       "step3": {
-        "title": "We train, manage, and expand",
-        "description": "We train your team on the new system, monitor performance, and keep improving it. When you’re ready, we move to the next opportunity."
+        "phase": "Operate \u00b7 Week 4+",
+        "title": "Run it like a team member.",
+        "description": "We monitor, iterate, retrain, and deploy what’s new. Every month, sharper.",
+        "tags": ["No handoffs, ever", "Compound kicks in"]
       }
     }
   },

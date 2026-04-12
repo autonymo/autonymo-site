@@ -9,7 +9,7 @@ export const HomeCTA = () => {
 
   return (
     <section className="py-14 px-3 sm:px-px bg-cream">
-      <div className="max-w-site mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden shadow-lg">
+      <div className="max-w-[80rem] mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden shadow-lg">
         <div className="flex flex-col items-center">
           <h2 className="font-heading text-4xl md:text-6xl font-bold mb-6 tracking-tight">
             {t("title")} <br />

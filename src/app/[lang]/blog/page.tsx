@@ -44,7 +44,7 @@ export default function Blog() {
     <div className="flex flex-col min-h-screen bg-cream font-sans overflow-x-clip">
       {/* Hero */}
       <section className="relative pt-28 pb-16 px-6 sm:pt-36 sm:pb-20 bg-cream overflow-hidden">
-        <div className="max-w-site mx-auto relative">
+        <div className="max-w-[80rem] mx-auto relative">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export default function Blog() {
 
       {/* Featured Post */}
       <section className="pb-12 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ export default function Blog() {
 
       {/* Posts Grid */}
       <section className="py-12 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {posts.map((post, i) => (
               <motion.div
@@ -146,7 +146,7 @@ export default function Blog() {
 
       {/* Newsletter CTA */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden">
+        <div className="max-w-[80rem] mx-auto p-12 md:p-20 rounded-xl bg-charcoal text-white text-center relative overflow-hidden">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
             {t("newsletter.heading")}
           </h2>

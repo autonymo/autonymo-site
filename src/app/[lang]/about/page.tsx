@@ -23,7 +23,7 @@ export default function About() {
           </span>
         </div>
 
-        <div className="max-w-site mx-auto relative z-10">
+        <div className="max-w-[80rem] mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-end">
             <div>
               <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-6 block font-display">
@@ -69,7 +69,7 @@ export default function About() {
 
       {/* Who We Are */}
       <section className="py-24 px-6 bg-cream border-t border-sand/50">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
@@ -139,7 +139,7 @@ export default function About() {
 
       {/* The Team */}
       <section className="py-24 px-6 bg-cream border-b border-sand/50">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-12">
             <span className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block">
               {t("theTeam.label")}
@@ -200,7 +200,7 @@ export default function About() {
 
       {/* CTA */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
+        <div className="max-w-[80rem] mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-accent-blue/10 to-transparent pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-1/4 h-1/2 bg-gradient-to-tr from-accent-blue/5 to-transparent pointer-events-none" />
           <div className="absolute -bottom-16 -right-16 pointer-events-none select-none opacity-[0.06] blur-sm" aria-hidden="true">

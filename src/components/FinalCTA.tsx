@@ -16,7 +16,7 @@ export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }:
 
   return (
     <section className="py-24 px-6 bg-cream">
-      <div className="max-w-site mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
+      <div className="max-w-[80rem] mx-auto rounded-2xl bg-charcoal text-white relative overflow-hidden">
         <div className="p-12 md:p-20 pb-8 md:pb-10 relative z-10 text-center flex flex-col items-center min-h-[400px]">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight">
             {heading ?? t("defaultHeading", { verticalPhrase })}
