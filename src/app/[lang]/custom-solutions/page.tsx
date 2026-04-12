@@ -91,7 +91,7 @@ export default function CustomSolutions() {
             <div className="absolute top-0 right-0 w-[141%] h-[1px] bg-warm-gray/[0.08] origin-top-right -rotate-45" />
           </div>
         </div>
-        <div className="max-w-site mx-auto relative z-10">
+        <div className="max-w-[80rem] mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
@@ -126,7 +126,7 @@ export default function CustomSolutions() {
 
       {/*  T3: THE PROBLEM  */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("problem.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">
@@ -156,7 +156,7 @@ export default function CustomSolutions() {
 
       {/*  T5: SOLUTION PORTFOLIO  */}
       <section id="solutions" className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("solutions.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("solutions.heading")}</h3>
@@ -179,7 +179,7 @@ export default function CustomSolutions() {
 
       {/*  T6: HOW TO GET STARTED  */}
       <section className="py-24 px-6 bg-white border-y border-sand">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("howToStart.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">{t("howToStart.heading")}</h3>
@@ -208,7 +208,7 @@ export default function CustomSolutions() {
 
       {/*  T7: PROCESS  */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("howItWorks.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("howItWorks.heading")}</h3>
@@ -227,7 +227,7 @@ export default function CustomSolutions() {
 
       {/*  T8: WHAT TO EXPECT  */}
       <section className="py-24 px-6 bg-white border-y border-sand">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("benchmarks.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("benchmarks.heading")}</h3>

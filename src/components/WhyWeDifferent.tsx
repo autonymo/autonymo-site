@@ -28,7 +28,7 @@ export default function WhyWeDifferent({ industryExample, vendorItems: vendorIte
 
   return (
     <section className="py-24 px-6 bg-cream border-y border-sand">
-      <div className="max-w-site mx-auto">
+      <div className="max-w-[80rem] mx-auto">
         <div className="max-w-3xl mb-16">
           <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">
             {t("label")}

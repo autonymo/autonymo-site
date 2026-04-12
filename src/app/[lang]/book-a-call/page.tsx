@@ -12,7 +12,7 @@ export default function BookACall() {
   return (
     <div className="flex flex-col min-h-screen bg-cream font-sans overflow-x-clip">
       <section className="relative pt-28 pb-24 px-6 sm:pt-36 sm:pb-32 bg-cream overflow-hidden">
-        <div className="max-w-site mx-auto relative">
+        <div className="max-w-[80rem] mx-auto relative">
           <div className="text-center mb-12">
             <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
               {t("hero.label")}
@@ -52,7 +52,7 @@ export default function BookACall() {
 
       {/* What Happens Next */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">
               {t("whatHappensNext.label")}

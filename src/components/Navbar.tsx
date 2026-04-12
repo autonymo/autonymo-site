@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart, Settings2 } from "lucide-react";
+import { ArrowDownRight, Globe, ArrowUpRight, Menu, X, Building2, Heart } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -75,7 +75,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div ref={navRef} className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full max-w-site px-3 sm:px-0 will-change-transform">
+    <div ref={navRef} className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full max-w-[80rem] px-3 sm:px-0 will-change-transform">
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -144,14 +144,14 @@ export const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -4 }}
                     transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                    className="absolute top-[calc(100%+8px)] right-0 w-36 bg-white border border-sand rounded-xl shadow-lg p-1 z-50"
+                    className="absolute top-[calc(100%+6px)] right-0 w-44 bg-white border border-sand rounded-2xl shadow-lg p-2 z-50"
                   >
-                    <div className="flex flex-col gap-0.5">
+                    <div className="flex flex-col gap-1">
                       {locales.map((loc) => (
                         <button
                           key={loc}
                           onClick={() => switchLocale(loc)}
-                          className={`w-full text-left px-2.5 py-1.5 text-xs font-medium rounded-lg transition-colors duration-300 group flex items-center justify-between hover:bg-cream ${loc === locale
+                          className={`w-full text-left px-3 py-2.5 text-sm font-medium rounded-xl transition-colors duration-300 flex items-center justify-between hover:bg-cream ${loc === locale
                             ? "text-charcoal bg-cream"
                             : "text-text-muted hover:text-charcoal"
                             }`}
@@ -201,87 +201,76 @@ export const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute top-[calc(100%+6px)] left-3 right-3 sm:left-0 sm:right-0 z-40 hidden md:grid grid-cols-[3fr_1fr] gap-3"
+            className="absolute top-[calc(100%+6px)] left-3 right-3 sm:left-0 sm:right-0 z-40 hidden md:grid grid-cols-3 gap-2"
           >
-            {/* Group 1: Industry OS Products */}
-            <div>
-              <span className="font-display text-[10px] text-accent-blue font-bold tracking-[0.08em] uppercase mb-2 block px-1">
-                {t("purposeBuilt")}
-              </span>
-              <div className="grid grid-cols-2 gap-2">
-                {osProducts.map((item, index) => (
-                  <Link
-                    key={index}
-                    href={item.href}
-                    onClick={closeAll}
-                    className="flex flex-col h-full group bg-white border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
-                  >
-                    <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${item.color} pointer-events-none`} style={{ opacity: 0 }} />
-
-                    <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-sand group-hover:text-charcoal/50 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
-
-                    <div className="relative z-10 flex flex-col h-full">
-                      <div
-                        className={`w-9 h-9 rounded-lg ${item.color} flex items-center justify-center mb-3 group-hover:scale-105 transition-transform duration-300`}
-                      >
-                        <item.icon className={`w-4 h-4 ${item.iconColor}`} />
-                      </div>
-
-                      <h4 className="font-heading text-[15px] font-bold text-charcoal mb-1.5 leading-tight group-hover:underline underline-offset-4">
-                        {item.title}
-                      </h4>
-
-                      <p className="text-text-muted text-[11px] leading-relaxed mb-4 flex-1">
-                        {item.description}
-                      </p>
-
-                      <div className={`mt-auto aspect-square rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
-                        <Image
-                          src={item.cubeImage}
-                          alt={item.title}
-                          width={400}
-                          height={400}
-                          className="w-full h-full object-cover scale-125"
-                          loading="lazy"
-                        />
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Group 2: Custom Solutions */}
-            <div>
-              <span className="font-display text-[10px] text-warm-gray font-bold tracking-[0.08em] uppercase mb-2 block px-1">
-                {t("tailored")}
-              </span>
+            {osProducts.map((item, index) => (
               <Link
-                href="/custom-solutions"
+                key={index}
+                href={item.href}
                 onClick={closeAll}
-                className="flex flex-col h-[calc(100%-1.5rem)] group bg-charcoal rounded-2xl shadow-lg p-5 relative overflow-hidden hover:bg-black transition-colors duration-300"
+                className="flex flex-col h-full group bg-white border border-sand/80 rounded-2xl shadow-lg p-5 relative overflow-hidden hover:border-warm-gray hover:shadow-xl transition-colors duration-300"
               >
-                <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-white/30 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
+                <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${item.color} pointer-events-none`} style={{ opacity: 0 }} />
+
+                <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-sand group-hover:text-charcoal/50 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
 
                 <div className="relative z-10 flex flex-col h-full">
-                  <div className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center mb-3">
-                    <Settings2 className="w-4 h-4 text-amber-500" />
+                  <div
+                    className={`w-9 h-9 rounded-lg ${item.color} flex items-center justify-center mb-3 group-hover:scale-105 transition-transform duration-300`}
+                  >
+                    <item.icon className={`w-4 h-4 ${item.iconColor}`} />
                   </div>
 
-                  <h4 className="font-heading text-[15px] font-bold text-white mb-1.5 leading-tight group-hover:underline underline-offset-4">
-                    {t("customSolutions")}
+                  <h4 className="font-heading text-[15px] font-bold text-charcoal mb-1.5 leading-tight group-hover:underline underline-offset-4">
+                    {item.title}
                   </h4>
 
-                  <p className="text-white/50 text-[11px] leading-relaxed flex-1">
-                    {t("customSolutionsDesc")}
+                  <p className="text-text-muted text-[11px] leading-relaxed mb-4 flex-1">
+                    {item.description}
                   </p>
 
-                  <p className="mt-auto pt-4 border-t border-white/10 text-white/30 text-[10px]">
-                    No templates. No migrations.
-                  </p>
+                  <div className={`mt-auto aspect-square rounded-lg ${item.color} border border-sand/50 overflow-hidden`}>
+                    <Image
+                      src={item.cubeImage}
+                      alt={item.title}
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover scale-125"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               </Link>
-            </div>
+            ))}
+
+            <Link
+              href="/custom-solutions"
+              onClick={closeAll}
+              className="flex flex-col h-full group bg-charcoal rounded-2xl shadow-lg p-5 relative overflow-hidden hover:bg-black transition-colors duration-300"
+            >
+              <ArrowUpRight className="absolute top-4 right-4 w-4 h-4 text-white/30 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-colors duration-300" />
+
+              <div className="relative z-10 flex flex-col h-full">
+                <h4 className="font-heading text-[15px] font-bold text-white mb-1.5 leading-tight group-hover:underline underline-offset-4">
+                  {t("customSolutions")}
+                </h4>
+
+                <p className="text-white/50 text-[11px] leading-relaxed mb-4 flex-1">
+                  {t("customSolutionsDesc")}
+                </p>
+
+                <div className="mt-auto aspect-square rounded-lg bg-white/5 border border-white/10 overflow-hidden">
+                  <Image
+                    src="/images/custom-solutions-cube.png"
+                    alt={t("customSolutions")}
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover scale-125"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </Link>
           </motion.div>
         )}
       </AnimatePresence>
@@ -396,7 +385,7 @@ export const Navbar = () => {
           >
             <div className="mb-3">
               <h5 className="text-[10px] font-bold text-accent-blue uppercase tracking-widest mb-2">
-                {t("purposeBuilt")}
+                {t("solutions")}
               </h5>
               <div className="flex flex-col gap-1">
                 {osProducts.map((item, index) => (
@@ -417,26 +406,6 @@ export const Navbar = () => {
                   </Link>
                 ))}
               </div>
-            </div>
-
-            <div className="border-t border-sand/50 my-2" />
-
-            <div className="mb-3">
-              <h5 className="text-[10px] font-bold text-warm-gray uppercase tracking-widest mb-2">
-                {t("tailored")}
-              </h5>
-              <Link
-                href="/custom-solutions"
-                onClick={closeAll}
-                className="flex items-center gap-3 py-2 px-3 rounded-xl bg-charcoal/5 hover:bg-charcoal/10 transition-colors"
-              >
-                <div className="w-8 h-8 rounded-lg bg-charcoal/10 flex items-center justify-center shrink-0">
-                  <Settings2 className="w-4 h-4 text-amber-600" />
-                </div>
-                <h4 className="font-heading text-sm font-bold text-charcoal">
-                  {t("customSolutions")}
-                </h4>
-              </Link>
             </div>
 
             <div className="border-t border-sand/50 my-2" />

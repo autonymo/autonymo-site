@@ -87,7 +87,7 @@ export default function HealthServicesOS() {
     <div className="flex flex-col min-h-screen bg-white font-sans overflow-x-clip">
       {/*  T1: HERO  */}
       <section className="relative pt-28 pb-24 px-6 sm:pt-36 sm:pb-32 bg-cream overflow-hidden">
-        <div className="max-w-site mx-auto relative z-10">
+        <div className="max-w-[80rem] mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
               <span className="text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4 block font-display">
@@ -121,7 +121,7 @@ export default function HealthServicesOS() {
 
       {/*  T3: THE PROBLEM  */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("problem.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">
@@ -163,7 +163,7 @@ export default function HealthServicesOS() {
 
       {/*  T5: SOLUTION PORTFOLIO  */}
       <section id="solutions" className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("solutions.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("solutions.heading")}</h3>
@@ -185,7 +185,7 @@ export default function HealthServicesOS() {
 
       {/*  T6: CASE STUDY  */}
       <section className="py-24 px-6 bg-white border-y border-sand">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-12">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("caseStudy.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">{t("caseStudy.heading")}</h3>
@@ -215,7 +215,7 @@ export default function HealthServicesOS() {
 
       {/*  T7: HOW WE WORK  */}
       <section className="py-24 px-6 bg-cream">
-        <div className="max-w-site mx-auto">
+        <div className="max-w-[80rem] mx-auto">
           <div className="max-w-3xl mb-16">
             <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("howWeWork.label")}</h2>
             <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight">{t("howWeWork.heading")}</h3>
