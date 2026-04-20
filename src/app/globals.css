@@ -114,3 +114,12 @@
 .animate-dash-flow {
   animation: dash-flow 1.5s linear infinite;
 }
+
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+[data-active="true"] > .pulse-on-active {
+  animation: pulse-ring 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
