@@ -9,7 +9,7 @@
     "benefits": "Benefits",
     "process": "Process",
     "about": "About",
-    "customSolutions": "Custom Solutions",
+    "customSolutions": "AI Partnership",
     "blog": "Blog",
     "bookCall": "Book a Call",
     "more": "More",
@@ -25,9 +25,19 @@
     "healthServicesOSDesc": "Smart scheduling, patient reactivation, and clinical documentation for modern practices.",
     "leadGenerationOS": "Lead Gen OS",
     "leadGenerationOSDesc": "AI-powered lead capture, scoring, nurturing, and outbound calling to fill your pipeline automatically.",
-    "customSolutionsDesc": "Custom AI implementations tailored to your business workflows and industry.",
+    "customSolutionsDesc": "A dedicated AI partner embedded in your business: strategy, build, and ongoing operation as one team.",
     "dentalClinicOS": "Dental Clinic OS",
     "dentalClinicOSDesc": "AI-powered scheduling, patient reactivation, and clinical documentation for modern dental practices.",
+    "realEstateOSBullet1": "Lead response in under 30 seconds",
+    "realEstateOSBullet2": "New owners captured before competitors",
+    "realEstateOSBullet3": "Contracts and coordination, fully automated",
+    "dentalClinicOSBullet1": "Dormant patients reactivated via WhatsApp",
+    "dentalClinicOSBullet2": "Smart booking with real-time availability",
+    "dentalClinicOSBullet3": "Automated reminders that cut no-shows",
+    "customSolutionsBullet1": "A dedicated AI partner embedded in your team",
+    "customSolutionsBullet2": "From strategy to build to ongoing operation",
+    "customSolutionsBullet3": "Tailored to your exact workflow and stack",
+    "readMore": "Read more",
     "mobileMenu": "Menu",
     "subscribe": "Subscribe",
     "social": "Social",
@@ -38,10 +48,10 @@
     "techPartners": "Technology partners"
   },
   "hero": {
-    "title": "We build and operate AI systems that compound your business.",
+    "title": "We build and operate AI-native operating systems that compound traditional industries.",
     "titleHighlight": "",
     "subtitle": "Your external AI team. We go inside your business, build what generates real impact, run it and make sure you stay ahead as technology evolves.",
-    "cta": "Book a Free Assessment",
+    "cta": "Book a Free Call",
     "ctaShort": "Book a Call",
     "ctaSecondary": "See Our Solutions",
     "seeHowItWorks": "See How It Works",
@@ -59,8 +69,8 @@
         "intro": "Reactivate dormant patients via WhatsApp, automate booking and reminders, and fill empty chairs. Your front desk stops chasing, patients start coming back."
       },
       "custom": {
-        "title": "Custom Solutions",
-        "intro": "We audit your operations, find where time and money are leaking, and build AI systems around how you actually work. No templates, no forced migrations."
+        "title": "AI Partnership",
+        "intro": "We embed inside your business, audit operations, and build AI systems around how you actually work. No templates, no forced migrations: one dedicated team."
       }
     },
     "groupHeadings": {
@@ -70,12 +80,12 @@
   },
   "explainer": {
     "text": "What's an AI Operating System?",
-    "description": "A connected suite of AI-powered tools built for your industry: automated lead response, smart scheduling, document generation, real-time dashboards, and more — all working together, replacing manual processes across your entire operation."
+    "description": "A connected suite of AI-powered tools built for your industry: automated lead response, smart scheduling, document generation, real-time dashboards, and more: all working together, replacing manual processes across your entire operation."
   },
   "whatWeBuild": {
     "label": "What We Build",
     "title": "Industry-specific AI platforms, not generic tools.",
-    "subtitle": "Each system is built around your industry's actual workflows — integrated with your existing tools, ready to deploy in weeks.",
+    "subtitle": "Each system is built around your industry's actual workflows: integrated with your existing tools, ready to deploy in weeks.",
     "tabs": {
       "realEstate": {
         "label": "Real Estate OS",
@@ -84,7 +94,7 @@
         "modules": {
           "module1": {
             "title": "Lead Response Engine",
-            "description": "Respond to portal leads in seconds via WhatsApp — not hours. Automatic pre-qualification, enrichment, and intelligent agent distribution."
+            "description": "Respond to portal leads in seconds via WhatsApp: not hours. Automatic pre-qualification, enrichment, and intelligent agent distribution."
           },
           "module2": {
             "title": "Active Listing Management",
@@ -130,7 +140,7 @@
         "modules": {
           "module1": {
             "title": "Multi-Channel Capture",
-            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline — enriched and scored automatically."
+            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline: enriched and scored automatically."
           },
           "module2": {
             "title": "AI Lead Scoring",
@@ -153,11 +163,11 @@
         "modules": {
           "module1": {
             "title": "Workflow Automation",
-            "description": "Map and automate any business process end-to-end — from simple task routing to complex multi-system orchestration."
+            "description": "Map and automate any business process end-to-end: from simple task routing to complex multi-system orchestration."
           },
           "module2": {
             "title": "Custom AI Agents",
-            "description": "Purpose-built AI agents trained on your data and business logic. Not generic — designed around your specific operations."
+            "description": "Purpose-built AI agents trained on your data and business logic. Not generic: designed around your specific operations."
           },
           "module3": {
             "title": "System Integration",
@@ -174,7 +184,7 @@
   "industryGrid": {
     "label": "Industries",
     "title": "AI operating systems for your industry.",
-    "subtitle": "We build complete AI systems tailored to how your industry actually works — not generic automation that needs months of customization.",
+    "subtitle": "We build complete AI systems tailored to how your industry actually works: not generic automation that needs months of customization.",
     "industries": {
       "realEstate": {
         "title": "Real Estate",
@@ -207,9 +217,9 @@
     "title": "Your operations are about to change.",
     "subtitle": "Stop patching workflows with spreadsheets and manual follow-ups. Start running on an intelligent operating system.",
     "before": {
-      "title": "Before — Manual Operations",
+      "title": "Before: Manual Operations",
       "items": {
-        "item1": "Leads sit for hours — prospects move on before you respond",
+        "item1": "Leads sit for hours: prospects move on before you respond",
         "item2": "Staff drowns in admin, data entry, and manual follow-ups",
         "item3": "Scaling means hiring more people for every new account",
         "item4": "Information scattered across tools, inboxes, and spreadsheets",
@@ -218,9 +228,9 @@
       }
     },
     "after": {
-      "title": "After — Autonymo OS",
+      "title": "After: Autonymo OS",
       "items": {
-        "item1": "AI responds to inquiries in seconds, 24/7 — no lead left behind",
+        "item1": "AI responds to inquiries in seconds, 24/7: no lead left behind",
         "item2": "Automated workflows handle the repetitive work so your team focuses on value",
         "item3": "Same team handles 3-5x more with AI doing the heavy lifting",
         "item4": "One unified system with real-time dashboards and connected data",
@@ -252,7 +262,7 @@
     "title": "Ready to see what AI",
     "titleLine2": "can do for your business?",
     "subtitle": "Book a free 15-minute assessment. We'll show you where AI can make the biggest impact on your operations.",
-    "button": "Book a Free Assessment",
+    "button": "Book a Free Call",
     "buttonShort": "Book a Call"
   },
   "footer": {
@@ -271,7 +281,7 @@
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
     "leadGenerationOS": "Lead Gen OS",
-    "customSolutions": "Custom Solutions"
+    "customSolutions": "AI Partnership"
   },
   "languages": {
     "en": "English",
@@ -343,7 +353,7 @@
   "finalCta": {
     "defaultHeading": "Let’s look at {verticalPhrase}.",
     "defaultSubtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business.",
-    "button": "Book a Free Assessment",
+    "button": "Book a Free Call",
     "buttonShort": "Book a Call",
     "checks": {
       "noCommitment": "No commitment required",
@@ -385,7 +395,7 @@
       "heading1": "Your dentists treat.",
       "heading2": "Our AI fills the chairs.",
       "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
-      "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimary": "Book a Free Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Dental Clinic OS"
@@ -430,12 +440,12 @@
         "item1": {
           "title": "Intelligent Patient Reactivation",
           "promise": "Dormant patients come back for the care they need.",
-          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder — a relevant conversation about the care they need. They book directly from the chat."
+          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder: a relevant conversation about the care they need. They book directly from the chat."
         },
         "item2": {
           "title": "Smart Appointment Booking",
           "promise": "Patients book through WhatsApp, no back-and-forth.",
-          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks — no double bookings, no back-and-forth."
+          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks: no double bookings, no back-and-forth."
         },
         "item3": {
           "title": "Multi-Practitioner Scheduling",
@@ -509,7 +519,7 @@
         },
         "item3": {
           "question": "Will my front desk need to learn anything new?",
-          "answer": "No. This is completely done for you. Their workload decreases — patients arrive pre-booked."
+          "answer": "No. This is completely done for you. Their workload decreases: patients arrive pre-booked."
         },
         "item4": {
           "question": "What about all the new incoming messages?",
@@ -521,7 +531,7 @@
         },
         "item6": {
           "question": "What do patients actually receive?",
-          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts — real conversations."
+          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts: real conversations."
         },
         "item7": {
           "question": "How quickly will we see results?",
@@ -545,7 +555,7 @@
       "heading1": "Your agents sell.",
       "heading2": "Our AI runs the agency.",
       "description": "A complete AI-powered operating system for your real estate agency. Built around your processes, deployed on your tools, fine-tuned for you. We guide you through onboarding and stay on to optimize it every month.",
-      "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimary": "Book a Free Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Real Estate OS"
@@ -591,22 +601,22 @@
         "item1": {
           "title": "Intelligent CRM",
           "promise": "All enquiries in one place, in real time.",
-          "description": "A CRM built specifically for your agency — not a generic platform you have to adapt to. Connected to every major property portal in your market, so all enquiries flow into one place in real time. Lead management, viewing coordination, automated follow-ups, deal tracking, and agent activity — all in one system designed around how your team actually works."
+          "description": "A CRM built specifically for your agency: not a generic platform you have to adapt to. Connected to every major property portal in your market, so all enquiries flow into one place in real time. Lead management, viewing coordination, automated follow-ups, deal tracking, and agent activity: all in one system designed around how your team actually works."
         },
         "item2": {
           "title": "Owner Capture",
           "promise": "Contact new owners before your competitors.",
-          "description": "New owners entering the market in your zone are identified and flagged automatically. Your team contacts them first — before competitors even know the listing exists. Automated outreach, review-then-send workflows, and a pipeline to track every opportunity."
+          "description": "New owners entering the market in your zone are identified and flagged automatically. Your team contacts them first: before competitors even know the listing exists. Automated outreach, review-then-send workflows, and a pipeline to track every opportunity."
         },
         "item3": {
           "title": "Operations Management",
           "promise": "Contracts in minutes, not hours.",
-          "description": "Contracts generated in minutes, not hours. Bilingual documents, scheduling, task coordination, and reporting — all automated. Your agents stop doing admin and start doing what they were hired for."
+          "description": "Contracts generated in minutes, not hours. Bilingual documents, scheduling, task coordination, and reporting: all automated. Your agents stop doing admin and start doing what they were hired for."
         },
         "item4": {
           "title": "Portfolio Reactivation",
           "promise": "Stay top of mind with every past client.",
-          "description": "Past clients and inactive owners receive personalized outreach — market updates, valuation insights, relevant opportunities. When they’re ready to buy, sell, or list again, your agency is already top of mind."
+          "description": "Past clients and inactive owners receive personalized outreach: market updates, valuation insights, relevant opportunities. When they’re ready to buy, sell, or list again, your agency is already top of mind."
         }
       }
     },
@@ -617,7 +627,7 @@
       "metrics": {
         "item1": {
           "value": "Lead response: from over an hour to under 30 seconds",
-          "label": "Every lead that comes in gets an instant, personalized response and is qualified automatically. Your agents only spend time on leads that are genuinely interested — no more chasing dead ends."
+          "label": "Every lead that comes in gets an instant, personalized response and is qualified automatically. Your agents only spend time on leads that are genuinely interested: no more chasing dead ends."
         },
         "item2": {
           "value": "Viewings that book themselves",
@@ -629,7 +639,7 @@
         },
         "item4": {
           "value": "Your entire portfolio stays warm",
-          "label": "Strategic, automated follow-ups keep every past owner and client top of mind. When they’re ready to sell, list, or buy again, your agency is the first call — not a competitor they found online."
+          "label": "Strategic, automated follow-ups keep every past owner and client top of mind. When they’re ready to sell, list, or buy again, your agency is the first call: not a competitor they found online."
         },
         "item5": {
           "value": "Hundreds of new owner contacts every month",
@@ -707,7 +717,7 @@
       "label": "Custom Solutions",
       "heading": "AI operations built for your business. Not from a template.",
       "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
-      "ctaPrimary": "Book a Free Assessment",
+      "ctaPrimary": "Book a Free Call",
       "ctaPrimaryShort": "Book a Call",
       "ctaSecondary": "See how it works",
       "imageAlt": "Custom Solutions"
@@ -868,7 +878,7 @@
   },
   "bookCall": {
     "hero": {
-      "label": "Book a Free Assessment",
+      "label": "Book a Free Call",
       "heading": "Let’s find where AI can make the biggest impact.",
       "description": "A free 15-minute call to understand your situation, identify opportunities, and see if we can help. No commitment, no pitch.",
       "badges": {
@@ -963,7 +973,7 @@
       "heading1": "If you’re ready to start,",
       "heading2": "so are we.",
       "description": "Book a free 30-minute assessment. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
-      "button": "Book a Free Assessment",
+      "button": "Book a Free Call",
       "buttonShort": "Book a Call",
       "noCommitment": "No commitment required"
     }

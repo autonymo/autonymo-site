@@ -9,7 +9,7 @@
     "benefits": "Beneficis",
     "process": "Procés",
     "about": "Sobre nosaltres",
-    "customSolutions": "Solucions Personalitzades",
+    "customSolutions": "AI Partnership",
     "blog": "Blog",
     "bookCall": "Reservar Trucada",
     "more": "Més",
@@ -25,9 +25,19 @@
     "healthServicesOSDesc": "Programació intel·ligent, reactivació de pacients i documentació clínica per a consultes modernes.",
     "leadGenerationOS": "Lead Gen OS",
     "leadGenerationOSDesc": "Captació, qualificació, nurturing i trucades sortints impulsades per IA per omplir el teu pipeline automàticament.",
-    "customSolutionsDesc": "Implementacions d'IA personalitzades adaptades als fluxos de treball del teu negoci i indústria.",
+    "customSolutionsDesc": "Un soci d'IA dedicat integrat al teu negoci: estratègia, construcció i operació contínua com un sol equip.",
     "dentalClinicOS": "Dental Clinic OS",
     "dentalClinicOSDesc": "Programació, reactivació de pacients i documentació clínica impulsades per IA per a clíniques dentals modernes.",
+    "realEstateOSBullet1": "Resposta a leads en menys de 30 segons",
+    "realEstateOSBullet2": "Propietaris nous captats abans que la competència",
+    "realEstateOSBullet3": "Contractes i coordinació, totalment automatitzats",
+    "dentalClinicOSBullet1": "Pacients inactius reactivats per WhatsApp",
+    "dentalClinicOSBullet2": "Reserves intel·ligents amb disponibilitat en temps real",
+    "dentalClinicOSBullet3": "Recordatoris automàtics que redueixen les absències",
+    "customSolutionsBullet1": "Un soci d'IA dedicat i integrat al teu equip",
+    "customSolutionsBullet2": "De l'estratègia a la construcció i operació contínua",
+    "customSolutionsBullet3": "Adaptat al teu flux de treball i stack exactes",
+    "readMore": "Llegir més",
     "mobileMenu": "Menú",
     "subscribe": "Subscriure's",
     "social": "Social",
@@ -38,7 +48,7 @@
     "techPartners": "Socis tecnològics"
   },
   "hero": {
-    "title": "Construïm i operem sistemes d'IA que fan créixer el teu negoci de forma composta.",
+    "title": "Construïm i operem sistemes operatius natius d'IA que fan créixer de forma composta les indústries tradicionals.",
     "titleHighlight": "",
     "subtitle": "El teu equip d'IA extern. Entrem dins el teu negoci, construïm el que genera impacte real, el fem funcionar i ens assegurem que et mantinguis al capdavant mentre la tecnologia evoluciona.",
     "cta": "Reservar Avaluació Gratuïta",
@@ -59,8 +69,8 @@
         "intro": "Reactiva pacients inactius per WhatsApp, automatitza reserves i recordatoris, i omple cadires buides. La teva recepció deixa de perseguir, els pacients comencen a tornar."
       },
       "custom": {
-        "title": "Custom Solutions",
-        "intro": "Auditem les teves operacions, trobem on es perd temps i diners, i construïm sistemes d'IA al voltant de com treballes realment. Sense plantilles, sense migracions forçades."
+        "title": "AI Partnership",
+        "intro": "Ens integrem al teu negoci, auditem les operacions i construïm sistemes d'IA al voltant de com treballes realment. Sense plantilles, sense migracions forçades: un equip dedicat."
       }
     },
     "groupHeadings": {
@@ -70,12 +80,12 @@
   },
   "explainer": {
     "text": "Què és un Sistema Operatiu d'IA?",
-    "description": "Un conjunt connectat d'eines impulsades per IA dissenyades per a la teva indústria: resposta automàtica a leads, programació intel·ligent, generació de documents, dashboards en temps real i més — tot funcionant en conjunt, substituint processos manuals a tota la teva operació."
+    "description": "Un conjunt connectat d'eines impulsades per IA dissenyades per a la teva indústria: resposta automàtica a leads, programació intel·ligent, generació de documents, dashboards en temps real i més: tot funcionant en conjunt, substituint processos manuals a tota la teva operació."
   },
   "whatWeBuild": {
     "label": "Què Construïm",
     "title": "Plataformes d'IA específiques per a la teva indústria, no eines genèriques.",
-    "subtitle": "Cada sistema està construït al voltant dels fluxos de treball reals de la teva indústria — integrat amb les teves eines existents, llest per desplegar en setmanes.",
+    "subtitle": "Cada sistema està construït al voltant dels fluxos de treball reals de la teva indústria: integrat amb les teves eines existents, llest per desplegar en setmanes.",
     "tabs": {
       "realEstate": {
         "label": "Real Estate OS",
@@ -84,7 +94,7 @@
         "modules": {
           "module1": {
             "title": "Motor de Resposta a Leads",
-            "description": "Respon a leads de portals en segons per WhatsApp — no en hores. Pre-qualificació automàtica, enriquiment i distribució intel·ligent a agents."
+            "description": "Respon a leads de portals en segons per WhatsApp: no en hores. Pre-qualificació automàtica, enriquiment i distribució intel·ligent a agents."
           },
           "module2": {
             "title": "Gestió Activa d'Immobles",
@@ -130,7 +140,7 @@
         "modules": {
           "module1": {
             "title": "Captació Multicanal",
-            "description": "Captura leads de formularis web, anuncis socials, LinkedIn, landing pages i referències en un únic pipeline unificat — enriquits i puntuats automàticament."
+            "description": "Captura leads de formularis web, anuncis socials, LinkedIn, landing pages i referències en un únic pipeline unificat: enriquits i puntuats automàticament."
           },
           "module2": {
             "title": "Puntuació de Leads amb IA",
@@ -153,11 +163,11 @@
         "modules": {
           "module1": {
             "title": "Automatització de Fluxos de Treball",
-            "description": "Mapeja i automatitza qualsevol procés de negoci de principi a fi — des d'enrutament simple de tasques fins a orquestració complexa multi-sistema."
+            "description": "Mapeja i automatitza qualsevol procés de negoci de principi a fi: des d'enrutament simple de tasques fins a orquestració complexa multi-sistema."
           },
           "module2": {
             "title": "Agents d'IA Personalitzats",
-            "description": "Agents d'IA dissenyats a mida, entrenats amb les teves dades i lògica de negoci. No genèrics — dissenyats al voltant de les teves operacions específiques."
+            "description": "Agents d'IA dissenyats a mida, entrenats amb les teves dades i lògica de negoci. No genèrics: dissenyats al voltant de les teves operacions específiques."
           },
           "module3": {
             "title": "Integració de Sistemes",
@@ -174,7 +184,7 @@
   "industryGrid": {
     "label": "Indústries",
     "title": "Sistemes operatius d'IA per a la teva indústria.",
-    "subtitle": "Construïm sistemes d'IA complets adaptats a com funciona realment la teva indústria — no automatització genèrica que necessita mesos de personalització.",
+    "subtitle": "Construïm sistemes d'IA complets adaptats a com funciona realment la teva indústria: no automatització genèrica que necessita mesos de personalització.",
     "industries": {
       "realEstate": {
         "title": "Immobiliària",
@@ -207,9 +217,9 @@
     "title": "Les teves operacions estan a punt de canviar.",
     "subtitle": "Deixa de pedaçar fluxos de treball amb fulls de càlcul i seguiments manuals. Comença a funcionar amb un sistema operatiu intel·ligent.",
     "before": {
-      "title": "Abans — Operacions Manuals",
+      "title": "Abans: Operacions Manuals",
       "items": {
-        "item1": "Els leads esperen hores — els prospectes marxen abans que responguis",
+        "item1": "Els leads esperen hores: els prospectes marxen abans que responguis",
         "item2": "L'equip s'ofega en administració, entrada de dades i seguiments manuals",
         "item3": "Escalar significa contractar més persones per cada nou compte",
         "item4": "Informació dispersa entre eines, safates d'entrada i fulls de càlcul",
@@ -218,9 +228,9 @@
       }
     },
     "after": {
-      "title": "Després — Autonymo OS",
+      "title": "Després: Autonymo OS",
       "items": {
-        "item1": "La IA respon a consultes en segons, 24/7 — cap lead es queda sense atendre",
+        "item1": "La IA respon a consultes en segons, 24/7: cap lead es queda sense atendre",
         "item2": "Fluxos automatitzats gestionen el treball repetitiu perquè el teu equip s'enfoqui en el valor",
         "item3": "El mateix equip gestiona 3-5x més amb la IA fent la feina pesada",
         "item4": "Un sistema unificat amb dashboards en temps real i dades connectades",
@@ -271,7 +281,7 @@
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
     "leadGenerationOS": "Lead Gen OS",
-    "customSolutions": "Solucions Personalitzades"
+    "customSolutions": "AI Partnership"
   },
   "languages": {
     "en": "English",
@@ -430,12 +440,12 @@
         "item1": {
           "title": "Reactivació Intel·ligent de Pacients",
           "promise": "Els pacients inactius tornen per rebre l'atenció que necessiten.",
-          "description": "Els pacients inactius reben missatges de WhatsApp personalitzats segons el seu historial de tractaments. No un recordatori genèric — una conversa rellevant sobre l'atenció que necessiten. Reserven directament des del xat."
+          "description": "Els pacients inactius reben missatges de WhatsApp personalitzats segons el seu historial de tractaments. No un recordatori genèric: una conversa rellevant sobre l'atenció que necessiten. Reserven directament des del xat."
         },
         "item2": {
           "title": "Reserva Intel·ligent de Cites",
           "promise": "Els pacients reserven per WhatsApp, sense anades i vingudes.",
-          "description": "Els pacients reserven per WhatsApp, integrat amb el programari de la teva clínica. Comprovació de disponibilitat en temps real — sense dobles reserves ni intercanvis innecessaris."
+          "description": "Els pacients reserven per WhatsApp, integrat amb el programari de la teva clínica. Comprovació de disponibilitat en temps real: sense dobles reserves ni intercanvis innecessaris."
         },
         "item3": {
           "title": "Agenda Multi-Professional",
@@ -509,7 +519,7 @@
         },
         "item3": {
           "question": "La meva recepció haurà d'aprendre alguna cosa nova?",
-          "answer": "No. Ho fem tot nosaltres. La seva càrrega de feina disminueix — els pacients arriben amb cita ja reservada."
+          "answer": "No. Ho fem tot nosaltres. La seva càrrega de feina disminueix: els pacients arriben amb cita ja reservada."
         },
         "item4": {
           "question": "I tots els missatges nous que entrin?",
@@ -521,7 +531,7 @@
         },
         "item6": {
           "question": "Què reben realment els pacients?",
-          "answer": "Missatges naturals de WhatsApp personalitzats segons el seu historial de tractaments. No enviaments massius — converses reals."
+          "answer": "Missatges naturals de WhatsApp personalitzats segons el seu historial de tractaments. No enviaments massius: converses reals."
         },
         "item7": {
           "question": "Amb quina rapidesa veurem resultats?",
@@ -591,22 +601,22 @@
         "item1": {
           "title": "CRM Intel·ligent",
           "promise": "Totes les consultes en un sol lloc, en temps real.",
-          "description": "Un CRM construït específicament per a la teva agència — no una plataforma genèrica a la qual t'has d'adaptar. Connectat a tots els portals immobiliaris principals del teu mercat, de manera que totes les consultes flueixen a un sol lloc en temps real. Gestió de leads, coordinació de visites, seguiments automàtics, seguiment d'operacions i activitat dels agents — tot en un sistema dissenyat al voltant de com treballa realment el teu equip."
+          "description": "Un CRM construït específicament per a la teva agència: no una plataforma genèrica a la qual t'has d'adaptar. Connectat a tots els portals immobiliaris principals del teu mercat, de manera que totes les consultes flueixen a un sol lloc en temps real. Gestió de leads, coordinació de visites, seguiments automàtics, seguiment d'operacions i activitat dels agents: tot en un sistema dissenyat al voltant de com treballa realment el teu equip."
         },
         "item2": {
           "title": "Captació de Propietaris",
           "promise": "Contacta amb nous propietaris abans que els teus competidors.",
-          "description": "Els nous propietaris que entren al mercat a la teva zona són identificats i marcats automàticament. El teu equip els contacta primer — abans que els competidors sàpiguen que existeix l'anunci. Contacte automatitzat, fluxos de revisió-abans-d'enviar, i un pipeline per fer seguiment de cada oportunitat."
+          "description": "Els nous propietaris que entren al mercat a la teva zona són identificats i marcats automàticament. El teu equip els contacta primer: abans que els competidors sàpiguen que existeix l'anunci. Contacte automatitzat, fluxos de revisió-abans-d'enviar, i un pipeline per fer seguiment de cada oportunitat."
         },
         "item3": {
           "title": "Gestió d'Operacions",
           "promise": "Contractes en minuts, no en hores.",
-          "description": "Contractes generats en minuts, no en hores. Documents bilingües, agenda, coordinació de tasques i informes — tot automatitzat. Els teus agents deixen de fer administració i comencen a fer allò pel que els vas contractar."
+          "description": "Contractes generats en minuts, no en hores. Documents bilingües, agenda, coordinació de tasques i informes: tot automatitzat. Els teus agents deixen de fer administració i comencen a fer allò pel que els vas contractar."
         },
         "item4": {
           "title": "Reactivació de Cartera",
           "promise": "Mantén-te present a la ment de cada client passat.",
-          "description": "Els clients passats i propietaris inactius reben contacte personalitzat — informes de mercat, valoracions, oportunitats rellevants. Quan estan preparats per comprar, vendre o posar a la venda de nou, la teva agència ja és la primera opció."
+          "description": "Els clients passats i propietaris inactius reben contacte personalitzat: informes de mercat, valoracions, oportunitats rellevants. Quan estan preparats per comprar, vendre o posar a la venda de nou, la teva agència ja és la primera opció."
         }
       }
     },
@@ -617,7 +627,7 @@
       "metrics": {
         "item1": {
           "value": "Resposta a leads: de més d'una hora a menys de 30 segons",
-          "label": "Cada lead que entra rep una resposta instantània i personalitzada i es qualifica automàticament. Els teus agents només dediquen temps a leads realment interessats — s'acabà perseguir camins morts."
+          "label": "Cada lead que entra rep una resposta instantània i personalitzada i es qualifica automàticament. Els teus agents només dediquen temps a leads realment interessats: s'acabà perseguir camins morts."
         },
         "item2": {
           "value": "Visites que es reserven soles",
@@ -629,7 +639,7 @@
         },
         "item4": {
           "value": "Tota la teva cartera es manté activa",
-          "label": "Seguiments estratègics i automatitzats mantenen present cada propietari i client passat. Quan estan preparats per vendre, posar a la venda o comprar de nou, la teva agència és la primera trucada — no un competidor que han trobat online."
+          "label": "Seguiments estratègics i automatitzats mantenen present cada propietari i client passat. Quan estan preparats per vendre, posar a la venda o comprar de nou, la teva agència és la primera trucada: no un competidor que han trobat online."
         },
         "item5": {
           "value": "Centenars de nous contactes de propietaris cada mes",

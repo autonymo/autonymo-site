@@ -36,7 +36,7 @@ export const Hero = () => {
             <div className="relative inline-block max-w-full">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] sm:w-[140%] h-[140%] bg-cream/90 backdrop-blur-2xl rounded-full z-0" />
 
-              <h1 className="relative z-10 font-heading text-[1.75rem] leading-[1.15] font-bold tracking-tight text-charcoal sm:text-5xl sm:leading-tight md:text-6xl lg:text-7xl">
+              <h1 className="relative z-10 font-heading text-[1.75rem] leading-[1.15] font-bold tracking-tight text-charcoal sm:text-4xl sm:leading-tight md:text-5xl lg:text-6xl">
                 {t("hero.title")}
               </h1>
 

@@ -9,7 +9,7 @@
     "benefits": "Beneficios",
     "process": "Proceso",
     "about": "Nosotros",
-    "customSolutions": "Soluciones Personalizadas",
+    "customSolutions": "AI Partnership",
     "blog": "Blog",
     "bookCall": "Reservar Llamada",
     "more": "Más",
@@ -25,9 +25,19 @@
     "healthServicesOSDesc": "Programación inteligente, reactivación de pacientes y documentación clínica para consultas modernas.",
     "leadGenerationOS": "Lead Gen OS",
     "leadGenerationOSDesc": "Captación, cualificación, nurturing y llamadas salientes con IA para llenar tu pipeline de forma automática.",
-    "customSolutionsDesc": "Implementaciones de IA personalizadas adaptadas a los flujos de trabajo de tu negocio e industria.",
+    "customSolutionsDesc": "Un socio de IA dedicado integrado en tu negocio: estrategia, desarrollo y operación continua como un solo equipo.",
     "dentalClinicOS": "Dental Clinic OS",
     "dentalClinicOSDesc": "Programación con IA, reactivación de pacientes y documentación clínica para clínicas dentales modernas.",
+    "realEstateOSBullet1": "Respuesta a leads en menos de 30 segundos",
+    "realEstateOSBullet2": "Propietarios nuevos captados antes que la competencia",
+    "realEstateOSBullet3": "Contratos y coordinación, totalmente automatizados",
+    "dentalClinicOSBullet1": "Pacientes inactivos reactivados por WhatsApp",
+    "dentalClinicOSBullet2": "Reservas inteligentes con disponibilidad en tiempo real",
+    "dentalClinicOSBullet3": "Recordatorios automáticos que reducen las ausencias",
+    "customSolutionsBullet1": "Un socio de IA dedicado e integrado en tu equipo",
+    "customSolutionsBullet2": "De la estrategia a la construcción y operación continua",
+    "customSolutionsBullet3": "Adaptado a tu flujo de trabajo y stack exactos",
+    "readMore": "Leer más",
     "mobileMenu": "Menú",
     "subscribe": "Suscribirse",
     "social": "Redes Sociales",
@@ -38,7 +48,7 @@
     "techPartners": "Socios tecnológicos"
   },
   "hero": {
-    "title": "Construimos y operamos sistemas de IA que multiplican tu negocio.",
+    "title": "Construimos y operamos sistemas operativos nativos de IA que multiplican las industrias tradicionales.",
     "titleHighlight": "",
     "subtitle": "Tu equipo externo de IA. Entramos dentro de tu negocio, construimos lo que genera impacto real, lo operamos y nos aseguramos de que sigas por delante a medida que la tecnología evoluciona.",
     "cta": "Reservar Evaluación Gratuita",
@@ -59,8 +69,8 @@
         "intro": "Reactiva pacientes inactivos por WhatsApp, automatiza reservas y recordatorios, y llena sillones vacíos. Tu recepción deja de perseguir, los pacientes empiezan a volver."
       },
       "custom": {
-        "title": "Custom Solutions",
-        "intro": "Auditamos tus operaciones, encontramos dónde se fugan tiempo y dinero, y construimos sistemas de IA en torno a cómo realmente trabajas. Sin plantillas, sin migraciones forzadas."
+        "title": "AI Partnership",
+        "intro": "Nos integramos en tu negocio, auditamos las operaciones y construimos sistemas de IA en torno a cómo realmente trabajas. Sin plantillas, sin migraciones forzadas: un equipo dedicado."
       }
     },
     "groupHeadings": {
@@ -70,12 +80,12 @@
   },
   "explainer": {
     "text": "¿Qué es un Sistema Operativo de IA?",
-    "description": "Un conjunto conectado de herramientas impulsadas por IA diseñadas para tu industria: respuesta automática a leads, programación inteligente, generación de documentos, dashboards en tiempo real y más — todo funcionando en conjunto, sustituyendo procesos manuales en toda tu operación."
+    "description": "Un conjunto conectado de herramientas impulsadas por IA diseñadas para tu industria: respuesta automática a leads, programación inteligente, generación de documentos, dashboards en tiempo real y más: todo funcionando en conjunto, sustituyendo procesos manuales en toda tu operación."
   },
   "whatWeBuild": {
     "label": "Lo Que Construimos",
     "title": "Plataformas de IA específicas para tu industria, no herramientas genéricas.",
-    "subtitle": "Cada sistema está construido alrededor de los flujos de trabajo reales de tu industria — integrado con tus herramientas existentes, listo para desplegar en semanas.",
+    "subtitle": "Cada sistema está construido alrededor de los flujos de trabajo reales de tu industria: integrado con tus herramientas existentes, listo para desplegar en semanas.",
     "tabs": {
       "realEstate": {
         "label": "Real Estate OS",
@@ -84,7 +94,7 @@
         "modules": {
           "module1": {
             "title": "Motor de Respuesta a Leads",
-            "description": "Responde a leads de portales en segundos por WhatsApp — no en horas. Pre-cualificación automática, enriquecimiento y distribución inteligente a agentes."
+            "description": "Responde a leads de portales en segundos por WhatsApp: no en horas. Pre-cualificación automática, enriquecimiento y distribución inteligente a agentes."
           },
           "module2": {
             "title": "Gestión Activa de Propiedades",
@@ -130,7 +140,7 @@
         "modules": {
           "module1": {
             "title": "Captación Multicanal",
-            "description": "Captura leads de formularios web, anuncios en redes sociales, LinkedIn, landing pages y referidos en un único pipeline unificado — enriquecido y puntuado automáticamente."
+            "description": "Captura leads de formularios web, anuncios en redes sociales, LinkedIn, landing pages y referidos en un único pipeline unificado: enriquecido y puntuado automáticamente."
           },
           "module2": {
             "title": "Puntuación de Leads con IA",
@@ -153,11 +163,11 @@
         "modules": {
           "module1": {
             "title": "Automatización de Flujos de Trabajo",
-            "description": "Mapea y automatiza cualquier proceso de negocio de principio a fin — desde enrutamiento simple de tareas hasta orquestación compleja multi-sistema."
+            "description": "Mapea y automatiza cualquier proceso de negocio de principio a fin: desde enrutamiento simple de tareas hasta orquestación compleja multi-sistema."
           },
           "module2": {
             "title": "Agentes de IA Personalizados",
-            "description": "Agentes de IA diseñados a medida, entrenados con tus datos y lógica de negocio. No genéricos — diseñados alrededor de tus operaciones específicas."
+            "description": "Agentes de IA diseñados a medida, entrenados con tus datos y lógica de negocio. No genéricos: diseñados alrededor de tus operaciones específicas."
           },
           "module3": {
             "title": "Integración de Sistemas",
@@ -174,7 +184,7 @@
   "industryGrid": {
     "label": "Industrias",
     "title": "Sistemas operativos de IA para tu industria.",
-    "subtitle": "Construimos sistemas de IA completos adaptados a cómo funciona realmente tu industria — no automatización genérica que necesita meses de personalización.",
+    "subtitle": "Construimos sistemas de IA completos adaptados a cómo funciona realmente tu industria: no automatización genérica que necesita meses de personalización.",
     "industries": {
       "realEstate": {
         "title": "Inmobiliaria",
@@ -207,9 +217,9 @@
     "title": "Tus operaciones están a punto de cambiar.",
     "subtitle": "Deja de parchear flujos de trabajo con hojas de cálculo y seguimientos manuales. Empieza a funcionar con un sistema operativo inteligente.",
     "before": {
-      "title": "Antes — Operaciones Manuales",
+      "title": "Antes: Operaciones Manuales",
       "items": {
-        "item1": "Los leads esperan horas — los prospectos se van antes de que respondas",
+        "item1": "Los leads esperan horas: los prospectos se van antes de que respondas",
         "item2": "El equipo se ahoga en administración, entrada de datos y seguimientos manuales",
         "item3": "Escalar significa contratar más personas por cada nueva cuenta",
         "item4": "Información dispersa entre herramientas, bandejas de entrada y hojas de cálculo",
@@ -218,9 +228,9 @@
       }
     },
     "after": {
-      "title": "Después — Autonymo OS",
+      "title": "Después: Autonymo OS",
       "items": {
-        "item1": "La IA responde a consultas en segundos, 24/7 — ningún lead se queda sin atender",
+        "item1": "La IA responde a consultas en segundos, 24/7: ningún lead se queda sin atender",
         "item2": "Flujos automatizados gestionan el trabajo repetitivo para que tu equipo se enfoque en el valor",
         "item3": "El mismo equipo gestiona 3-5x más con la IA haciendo el trabajo pesado",
         "item4": "Un sistema unificado con dashboards en tiempo real y datos conectados",
@@ -271,7 +281,7 @@
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
     "leadGenerationOS": "Lead Gen OS",
-    "customSolutions": "Soluciones Personalizadas"
+    "customSolutions": "AI Partnership"
   },
   "languages": {
     "en": "English",
@@ -430,12 +440,12 @@
         "item1": {
           "title": "Reactivación Inteligente de Pacientes",
           "promise": "Los pacientes inactivos vuelven por la atención que necesitan.",
-          "description": "Los pacientes inactivos reciben mensajes personalizados de WhatsApp basados en su historial de tratamientos. No un recordatorio genérico — una conversación relevante sobre la atención que necesitan. Reservan directamente desde el chat."
+          "description": "Los pacientes inactivos reciben mensajes personalizados de WhatsApp basados en su historial de tratamientos. No un recordatorio genérico: una conversación relevante sobre la atención que necesitan. Reservan directamente desde el chat."
         },
         "item2": {
           "title": "Reserva Inteligente de Citas",
           "promise": "Los pacientes reservan por WhatsApp, sin idas y venidas.",
-          "description": "Los pacientes reservan por WhatsApp, integrado con tu software de clínica. Comprobación de disponibilidad en tiempo real — sin dobles reservas, sin idas y venidas."
+          "description": "Los pacientes reservan por WhatsApp, integrado con tu software de clínica. Comprobación de disponibilidad en tiempo real: sin dobles reservas, sin idas y venidas."
         },
         "item3": {
           "title": "Agenda Multi-Profesional",
@@ -509,7 +519,7 @@
         },
         "item3": {
           "question": "¿Mi recepción tendrá que aprender algo nuevo?",
-          "answer": "No. Esto está completamente hecho por nosotros. Su carga de trabajo disminuye — los pacientes llegan ya con cita."
+          "answer": "No. Esto está completamente hecho por nosotros. Su carga de trabajo disminuye: los pacientes llegan ya con cita."
         },
         "item4": {
           "question": "¿Y todos los nuevos mensajes entrantes?",
@@ -521,7 +531,7 @@
         },
         "item6": {
           "question": "¿Qué reciben realmente los pacientes?",
-          "answer": "Mensajes naturales por WhatsApp personalizados según su historial de tratamientos. No campañas de marketing masivas — conversaciones reales."
+          "answer": "Mensajes naturales por WhatsApp personalizados según su historial de tratamientos. No campañas de marketing masivas: conversaciones reales."
         },
         "item7": {
           "question": "¿Cómo de rápido veremos resultados?",
@@ -591,22 +601,22 @@
         "item1": {
           "title": "CRM Inteligente",
           "promise": "Todas las consultas en un solo lugar, en tiempo real.",
-          "description": "Un CRM construido específicamente para tu agencia — no una plataforma genérica a la que tengas que adaptarte. Conectado con todos los portales inmobiliarios principales de tu mercado, para que todas las consultas lleguen a un solo lugar en tiempo real. Gestión de leads, coordinación de visitas, seguimientos automatizados, seguimiento de operaciones y actividad de los agentes — todo en un sistema diseñado en torno a cómo trabaja realmente tu equipo."
+          "description": "Un CRM construido específicamente para tu agencia: no una plataforma genérica a la que tengas que adaptarte. Conectado con todos los portales inmobiliarios principales de tu mercado, para que todas las consultas lleguen a un solo lugar en tiempo real. Gestión de leads, coordinación de visitas, seguimientos automatizados, seguimiento de operaciones y actividad de los agentes: todo en un sistema diseñado en torno a cómo trabaja realmente tu equipo."
         },
         "item2": {
           "title": "Captación de Propietarios",
           "promise": "Contacta nuevos propietarios antes que tus competidores.",
-          "description": "Los nuevos propietarios que entran al mercado en tu zona son identificados y señalados automáticamente. Tu equipo los contacta primero — antes de que la competencia siquiera sepa que el listado existe. Contacto automatizado, flujos de revisión antes de enviar y un pipeline para seguir cada oportunidad."
+          "description": "Los nuevos propietarios que entran al mercado en tu zona son identificados y señalados automáticamente. Tu equipo los contacta primero: antes de que la competencia siquiera sepa que el listado existe. Contacto automatizado, flujos de revisión antes de enviar y un pipeline para seguir cada oportunidad."
         },
         "item3": {
           "title": "Gestión de Operaciones",
           "promise": "Contratos en minutos, no en horas.",
-          "description": "Contratos generados en minutos, no en horas. Documentos bilingües, agenda, coordinación de tareas e informes — todo automatizado. Tus agentes dejan de hacer administración y empiezan a hacer aquello para lo que fueron contratados."
+          "description": "Contratos generados en minutos, no en horas. Documentos bilingües, agenda, coordinación de tareas e informes: todo automatizado. Tus agentes dejan de hacer administración y empiezan a hacer aquello para lo que fueron contratados."
         },
         "item4": {
           "title": "Reactivación de Cartera",
           "promise": "Mantente presente con cada cliente anterior.",
-          "description": "Clientes anteriores y propietarios inactivos reciben contactos personalizados — informes de mercado, análisis de valoración, oportunidades relevantes. Cuando estén listos para comprar, vender o listar de nuevo, tu agencia ya está en su mente."
+          "description": "Clientes anteriores y propietarios inactivos reciben contactos personalizados: informes de mercado, análisis de valoración, oportunidades relevantes. Cuando estén listos para comprar, vender o listar de nuevo, tu agencia ya está en su mente."
         }
       }
     },
@@ -617,7 +627,7 @@
       "metrics": {
         "item1": {
           "value": "Respuesta a leads: de más de una hora a menos de 30 segundos",
-          "label": "Cada lead que entra recibe una respuesta instantánea y personalizada y es cualificado automáticamente. Tus agentes solo dedican tiempo a leads genuinamente interesados — se acabó perseguir callejones sin salida."
+          "label": "Cada lead que entra recibe una respuesta instantánea y personalizada y es cualificado automáticamente. Tus agentes solo dedican tiempo a leads genuinamente interesados: se acabó perseguir callejones sin salida."
         },
         "item2": {
           "value": "Visitas que se agendan solas",
@@ -629,7 +639,7 @@
         },
         "item4": {
           "value": "Toda tu cartera se mantiene activa",
-          "label": "Seguimientos estratégicos y automatizados mantienen a cada propietario y cliente anterior presente. Cuando estén listos para vender, listar o comprar de nuevo, tu agencia es la primera llamada — no un competidor que encontraron online."
+          "label": "Seguimientos estratégicos y automatizados mantienen a cada propietario y cliente anterior presente. Cuando estén listos para vender, listar o comprar de nuevo, tu agencia es la primera llamada: no un competidor que encontraron online."
         },
         "item5": {
           "value": "Cientos de nuevos contactos de propietarios cada mes",

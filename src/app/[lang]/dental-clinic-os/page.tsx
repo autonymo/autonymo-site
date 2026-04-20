@@ -184,36 +184,6 @@ export default function HealthServicesOS() {
         </div>
       </section>
 
-      {/*  T6: CASE STUDY  */}
-      <section className="py-24 px-6 bg-white border-y border-sand">
-        <div className="max-w-[80rem] mx-auto">
-          <div className="max-w-3xl mb-12">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">{t("caseStudy.label")}</h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-6">{t("caseStudy.heading")}</h3>
-            <p className="text-text-muted text-lg leading-relaxed">
-              {t("caseStudy.description")}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
-            {[
-              { value: t("caseStudy.metrics.item1.value"), label: t("caseStudy.metrics.item1.label") },
-              { value: t("caseStudy.metrics.item2.value"), label: t("caseStudy.metrics.item2.label") },
-              { value: t("caseStudy.metrics.item3.value"), label: t("caseStudy.metrics.item3.label") },
-            ].map((metric, i) => (
-              <ScrollReveal key={i} delay={i * 0.08} className="p-6 rounded-xl bg-cream border border-sand text-center">
-                <div className="font-display text-3xl font-bold text-charcoal mb-1">{metric.value}</div>
-                <div className="text-text-muted text-sm">{metric.label}</div>
-              </ScrollReveal>
-            ))}
-          </div>
-          <ScrollReveal className="max-w-3xl p-6 rounded-xl bg-cream border border-accent-blue/20">
-            <p className="text-charcoal text-sm leading-relaxed">
-              {t("caseStudy.insight")}
-            </p>
-          </ScrollReveal>
-        </div>
-      </section>
-
       {/*  T7: HOW WE WORK  */}
       <section className="py-24 px-6 bg-cream">
         <div className="max-w-[80rem] mx-auto">

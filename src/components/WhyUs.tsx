@@ -93,18 +93,6 @@ export const WhyUs = () => {
             </ul>
           </motion.div>
 
-          {/* Stat badge — centered between cards */}
-          <motion.div
-            className="relative md:absolute md:bottom-4 md:left-1/2 md:-translate-x-1/2 z-30 mt-8 md:mt-0"
-            initial={{ opacity: 0, y: 16 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.7, ease }}
-          >
-            <p className="text-sm sm:text-base text-text-muted leading-relaxed text-center md:text-left max-w-md">
-              {t("bottomNote")}{" "}
-              <span className="text-charcoal font-semibold">{t("bottomNoteHighlight")}</span>
-            </p>
-          </motion.div>
         </div>
       </div>
     </section>

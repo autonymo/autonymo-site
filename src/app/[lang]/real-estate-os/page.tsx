@@ -7,7 +7,6 @@ import {
   ArrowDown,
   Clock,
   Target,
-  CheckCircle2,
   FileText,
   ChevronDown,
 } from "lucide-react";
@@ -226,45 +225,6 @@ export default function RealEstateOS() {
               </ScrollReveal>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/*  T6: CASE STUDY  */}
-      <section className="py-24 px-6 bg-white border-y border-sand">
-        <div className="max-w-[80rem] mx-auto">
-          <div className="max-w-3xl mb-16">
-            <h2 className="font-display text-caption text-accent-blue font-bold tracking-[0.08em] uppercase mb-4">
-              {t("caseStudy.label")}
-            </h2>
-            <h3 className="font-display text-3xl sm:text-4xl font-bold text-charcoal leading-tight mb-4">
-              {t("caseStudy.heading")}
-            </h3>
-            <p className="text-text-muted text-lg leading-relaxed">
-              {t("caseStudy.description")}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {[
-              { title: t("caseStudy.metrics.item1.value"), desc: t("caseStudy.metrics.item1.label") },
-              { title: t("caseStudy.metrics.item2.value"), desc: t("caseStudy.metrics.item2.label") },
-              { title: t("caseStudy.metrics.item3.value"), desc: t("caseStudy.metrics.item3.label") },
-              { title: t("caseStudy.metrics.item4.value"), desc: t("caseStudy.metrics.item4.label") },
-              { title: t("caseStudy.metrics.item5.value"), desc: t("caseStudy.metrics.item5.label") },
-            ].map((item, i) => (
-              <ScrollReveal
-                key={i}
-                delay={i * 0.08}
-                className="p-6 rounded-xl bg-cream border border-sand flex flex-col"
-              >
-                <CheckCircle2 className="w-5 h-5 text-accent-blue mb-4" />
-                <h4 className="font-display text-lg font-bold text-charcoal mb-2">{item.title}</h4>
-                <p className="text-text-muted text-sm leading-relaxed">{item.desc}</p>
-              </ScrollReveal>
-            ))}
-          </div>
-          <p className="text-text-muted text-sm leading-relaxed max-w-3xl italic">
-            {t("caseStudy.insight")}
-          </p>
         </div>
       </section>
 
