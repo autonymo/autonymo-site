@@ -62,7 +62,7 @@ export const Navbar = () => {
   const moreItems = [
     {
       title: t("about"),
-      description: "Learn who we are, what we stand for, and how we work.",
+      description: t("aboutDesc"),
       href: "/about" as const,
     },
     {
@@ -327,7 +327,7 @@ export const Navbar = () => {
           >
             {/* Col 1: About + Blog in one card */}
             <div className="flex flex-col bg-white border border-sand/80 rounded-2xl shadow-lg p-6 min-h-[340px]">
-              <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest mb-4">Company</p>
+              <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest mb-4">{t("company")}</p>
               <div className="flex flex-col gap-1">
                 {moreItems.map((item, index) => (
                   <Link
@@ -367,7 +367,7 @@ export const Navbar = () => {
               >
                 <input
                   type="email"
-                  placeholder="you@company.com"
+                  placeholder={t("emailPlaceholder")}
                   className="w-full px-3 py-2.5 text-sm rounded-lg border border-white/10 bg-white/10 text-white placeholder:text-white/30 focus:outline-none focus:border-white/30 transition-colors"
                 />
                 <button
@@ -385,7 +385,7 @@ export const Navbar = () => {
                 {t("social")}
               </h4>
               <p className="text-text-muted text-xs leading-relaxed mb-6">
-                Follow us for AI insights and updates.
+                {t("socialDesc")}
               </p>
               <div className="flex flex-col gap-2 mt-auto">
                 <a

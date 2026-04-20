@@ -45,7 +45,11 @@
     "purposeBuilt": "Dissenyat per al teu sector",
     "tailored": "A mida",
     "builtOn": "Construït sobre",
-    "techPartners": "Socis tecnològics"
+    "techPartners": "Socis tecnològics",
+    "company": "Empresa",
+    "aboutDesc": "Coneix qui som, què defensem i com treballem.",
+    "emailPlaceholder": "tu@empresa.com",
+    "socialDesc": "Segueix-nos per a novetats i perspectives sobre IA."
   },
   "hero": {
     "title": "Construïm i operem sistemes operatius natius d'IA que fan créixer de forma composta les indústries tradicionals.",

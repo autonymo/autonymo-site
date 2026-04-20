@@ -45,7 +45,11 @@
     "purposeBuilt": "Purpose-built for your field",
     "tailored": "Tailored",
     "builtOn": "Built on",
-    "techPartners": "Technology partners"
+    "techPartners": "Technology partners",
+    "company": "Company",
+    "aboutDesc": "Learn who we are, what we stand for, and how we work.",
+    "emailPlaceholder": "you@company.com",
+    "socialDesc": "Follow us for AI insights and updates."
   },
   "hero": {
     "title": "We build and operate AI-native operating systems that compound traditional industries.",

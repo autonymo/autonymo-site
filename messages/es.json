@@ -45,7 +45,11 @@
     "purposeBuilt": "Diseñado para tu sector",
     "tailored": "A medida",
     "builtOn": "Construido sobre",
-    "techPartners": "Socios tecnológicos"
+    "techPartners": "Socios tecnológicos",
+    "company": "Empresa",
+    "aboutDesc": "Conoce quiénes somos, qué defendemos y cómo trabajamos.",
+    "emailPlaceholder": "tu@empresa.com",
+    "socialDesc": "Síguenos para novedades y perspectivas sobre IA."
   },
   "hero": {
     "title": "Construimos y operamos sistemas operativos nativos de IA que multiplican las industrias tradicionales.",
