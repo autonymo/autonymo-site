@@ -62,20 +62,24 @@
     "cards": {
       "realEstate": {
         "title": "Real Estate OS",
+        "brand": "Taolatt",
+        "industry": "Para Agencias Inmobiliarias",
         "intro": "Capta nuevos propietarios antes que tu competencia, responde a leads de compradores en segundos y automatiza contratos y coordinación. Tus agentes se centran en vender."
       },
       "dental": {
         "title": "Dental Clinic OS",
+        "brand": "Keishal",
+        "industry": "Para Clínicas Dentales",
         "intro": "Reactiva pacientes inactivos por WhatsApp, automatiza reservas y recordatorios, y llena sillones vacíos. Tu recepción deja de perseguir, los pacientes empiezan a volver."
       },
       "custom": {
         "title": "AI Partnership",
-        "intro": "Nos integramos en tu negocio, auditamos las operaciones y construimos sistemas de IA en torno a cómo realmente trabajas. Sin plantillas, sin migraciones forzadas: un equipo dedicado."
+        "intro": "Tu partner de transformación en IA, integrado en tu negocio para construir sistemas nativos de IA que multiplican tus operaciones."
       }
     },
     "groupHeadings": {
-      "purposeBuilt": "Diseñado para tu sector",
-      "tailored": "A medida"
+      "productized": "Nuestros sistemas operativos nativos de IA por industria",
+      "partnership": "Para tu industria específica"
     }
   },
   "explainer": {
@@ -261,7 +265,7 @@
   "cta": {
     "title": "¿Listo para ver qué puede hacer la IA",
     "titleLine2": "por tu negocio?",
-    "subtitle": "Reserva una evaluación gratuita de 15 minutos. Te mostraremos dónde la IA puede tener el mayor impacto en tus operaciones.",
+    "subtitle": "Reserva una llamada. Te mostraremos dónde la IA puede tener el mayor impacto en tus operaciones.",
     "button": "Reservar Evaluación Gratuita",
     "buttonShort": "Reservar Llamada"
   },
@@ -352,7 +356,7 @@
   },
   "finalCta": {
     "defaultHeading": "Hablemos de {verticalPhrase}.",
-    "defaultSubtitle": "Reserva una evaluación gratuita de 30 minutos. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio.",
+    "defaultSubtitle": "Reserva una llamada. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio.",
     "button": "Reservar Evaluación Gratuita",
     "buttonShort": "Reservar Llamada",
     "checks": {
@@ -546,7 +550,7 @@
     "finalCta": {
       "verticalPhrase": "tu clínica",
       "heading": "Vamos a llenar tus sillones.",
-      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Te mostraremos cuántos pacientes inactivos tiene tu clínica y lo que reactivarlos podría suponer para tus ingresos."
+      "subtitle": "Reserva una llamada. Te mostraremos cuántos pacientes inactivos tiene tu clínica y lo que reactivarlos podría suponer para tus ingresos."
     }
   },
   "realEstateOS": {
@@ -709,7 +713,7 @@
     },
     "finalCta": {
       "heading": "Hablemos de tu agencia.",
-      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Mapearemos tus operaciones y te mostraremos exactamente dónde la IA tiene el mayor impacto."
+      "subtitle": "Reserva una llamada. Mapearemos tus operaciones y te mostraremos exactamente dónde la IA tiene el mayor impacto."
     }
   },
   "customSolutionsPage": {
@@ -873,7 +877,7 @@
     "finalCta": {
       "verticalPhrase": "tus operaciones",
       "heading": "Hablemos de tus operaciones.",
-      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio."
+      "subtitle": "Reserva una llamada. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio."
     }
   },
   "bookCall": {
@@ -972,7 +976,7 @@
     "cta": {
       "heading1": "Si estás listo para empezar,",
       "heading2": "nosotros también.",
-      "description": "Reserva una evaluación gratuita de 30 minutos. Te diremos exactamente dónde la IA puede tener el mayor impacto en tu negocio y qué haría falta para llegar hasta ahí.",
+      "description": "Reserva una llamada. Te diremos exactamente dónde la IA puede tener el mayor impacto en tu negocio y qué haría falta para llegar hasta ahí.",
       "button": "Reservar Evaluación Gratuita",
       "buttonShort": "Reservar Llamada",
       "noCommitment": "Sin compromiso"

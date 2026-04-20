@@ -13,14 +13,16 @@ export const Hero = () => {
 
   const osCards = [
     {
-      title: t("hero.cards.realEstate.title"),
+      brand: t("hero.cards.realEstate.brand"),
+      industry: t("hero.cards.realEstate.industry"),
       intro: t("hero.cards.realEstate.intro"),
       color: "bg-[#E8F0FE]",
       href: "/real-estate-os" as const,
       illustration: <RealEstateIllustration alt={t("hero.cards.realEstate.title")} />,
     },
     {
-      title: t("hero.cards.dental.title"),
+      brand: t("hero.cards.dental.brand"),
+      industry: t("hero.cards.dental.industry"),
       intro: t("hero.cards.dental.intro"),
       color: "bg-[#F5F5F7]",
       href: "/dental-clinic-os" as const,
@@ -91,49 +93,90 @@ export const Hero = () => {
       <section id="solutions" className="pb-12 px-5 sm:pb-16 sm:px-6 bg-transparent relative z-10 will-change-transform">
         <div className="max-w-[80rem] mx-auto">
           <LogoBar />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 mt-12 sm:mt-16">
-            {osCards.map((card, index) => (
+
+          <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 lg:gap-8 mt-12 sm:mt-16">
+            {/* Left group — industry-specific OSes */}
+            <div className="flex flex-col">
+              <div className="flex items-center gap-3 mb-4 sm:mb-5">
+                <h2 className="font-heading text-[11px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-text-muted whitespace-nowrap">
+                  {t("hero.groupHeadings.productized")}
+                </h2>
+                <div className="flex-1 h-px bg-sand" />
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1">
+                {osCards.map((card, index) => (
+                  <Link
+                    key={index}
+                    href={card.href}
+                    className="flex bg-white rounded-xl border border-sand p-4 sm:p-6 relative flex-col h-full overflow-hidden group hover:border-warm-gray transition-colors duration-300 cursor-pointer"
+                  >
+                    <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
+                      <div className="min-w-0">
+                        <h3 className="font-heading text-2xl sm:text-3xl font-bold text-charcoal leading-tight">
+                          {card.brand}
+                        </h3>
+                        <p className="font-heading text-sm text-text-muted mt-0.5">
+                          {card.industry}
+                        </p>
+                      </div>
+                      <ArrowUpRight className="w-5 h-5 text-warm-gray shrink-0 mt-1 group-hover:text-charcoal/70 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
+                    </div>
+
+                    <p className="text-text-muted text-sm leading-relaxed mb-4 sm:mb-6 min-h-0 sm:min-h-[3rem] line-clamp-3">
+                      {card.intro}
+                    </p>
+
+                    <div className={`mt-auto rounded-2xl ${card.color} border border-sand/50 overflow-hidden`}>
+                      {card.illustration}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Right group — AI Partnership */}
+            <div className="flex flex-col">
+              <div className="flex items-center gap-3 mb-4 sm:mb-5">
+                <h2 className="font-heading text-[11px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-text-muted whitespace-nowrap">
+                  {t("hero.groupHeadings.partnership")}
+                </h2>
+                <div className="flex-1 h-px bg-sand" />
+              </div>
+
               <Link
-                key={index}
-                href={card.href}
-                className="flex bg-white rounded-xl border border-sand p-4 sm:p-6 relative flex-col h-full overflow-hidden group hover:border-warm-gray transition-colors duration-300 cursor-pointer"
+                href="/custom-solutions"
+                className="flex flex-col bg-charcoal rounded-xl p-4 sm:p-6 relative overflow-hidden group hover:bg-black transition-colors duration-300 cursor-pointer flex-1 min-h-[22rem]"
               >
-                <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
-                  <h3 className="font-heading text-xl sm:text-2xl font-bold text-charcoal">
-                    {card.title}
-                  </h3>
-                  <ArrowUpRight className="w-5 h-5 text-warm-gray shrink-0 mt-1 group-hover:text-charcoal/70 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
+                {/* radial accent overlay */}
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-0 opacity-80 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_top_right,rgba(45,127,249,0.22),transparent_60%)]"
+                />
+                {/* faint grid */}
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-0 opacity-[0.06] bg-[linear-gradient(to_right,white_1px,transparent_1px),linear-gradient(to_bottom,white_1px,transparent_1px)] bg-[size:24px_24px]"
+                />
+
+                <div className="relative flex items-start justify-between gap-3 mb-3 sm:mb-4">
+                  <div className="min-w-0">
+                    <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white leading-tight">
+                      {t("hero.cards.custom.title")}
+                    </h3>
+                  </div>
+                  <ArrowUpRight className="w-5 h-5 text-white/30 shrink-0 mt-1 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
                 </div>
 
-                <p className="text-text-muted text-sm leading-relaxed mb-4 sm:mb-8 min-h-0 sm:min-h-[3rem] line-clamp-2 sm:line-clamp-3">
-                  {card.intro}
+                <p className="relative text-white/70 text-[15px] leading-relaxed mb-4 sm:mb-6">
+                  {t("hero.cards.custom.intro")}
                 </p>
 
-                <div className={`mt-auto rounded-2xl ${card.color} border border-sand/50 overflow-hidden`}>
-                  {card.illustration}
+                <div className="relative mt-auto rounded-2xl bg-white/5 border border-white/10 overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+                  <CustomIllustration alt={t("hero.cards.custom.title")} />
                 </div>
               </Link>
-            ))}
-
-            <Link
-              href="/custom-solutions"
-              className="flex flex-col bg-charcoal rounded-xl p-4 sm:p-6 relative overflow-hidden group hover:bg-black transition-colors duration-300 cursor-pointer sm:col-span-2 lg:col-span-1"
-            >
-              <div className="flex items-start justify-between gap-3 mb-3 sm:mb-4">
-                <h3 className="font-heading text-xl sm:text-2xl font-bold text-white">
-                  {t("hero.cards.custom.title")}
-                </h3>
-                <ArrowUpRight className="w-5 h-5 text-white/30 shrink-0 mt-1 group-hover:text-white/60 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-[color,transform] duration-300" />
-              </div>
-
-              <p className="text-white/60 text-sm leading-relaxed mb-4 sm:mb-8 min-h-0 sm:min-h-[3rem] line-clamp-2 sm:line-clamp-3">
-                {t("hero.cards.custom.intro")}
-              </p>
-
-              <div className="mt-auto rounded-2xl bg-white/5 border border-white/10 overflow-hidden">
-                <CustomIllustration alt={t("hero.cards.custom.title")} />
-              </div>
-            </Link>
+            </div>
           </div>
         </div>
       </section>

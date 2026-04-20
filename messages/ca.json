@@ -62,20 +62,24 @@
     "cards": {
       "realEstate": {
         "title": "Real Estate OS",
+        "brand": "Taolatt",
+        "industry": "Per a Agències Immobiliàries",
         "intro": "Capta nous propietaris abans que els teus competidors, respon a leads de compradors en segons i automatitza contractes i coordinació. Els teus agents es concentren en vendre."
       },
       "dental": {
         "title": "Dental Clinic OS",
+        "brand": "Keishal",
+        "industry": "Per a Clíniques Dentals",
         "intro": "Reactiva pacients inactius per WhatsApp, automatitza reserves i recordatoris, i omple cadires buides. La teva recepció deixa de perseguir, els pacients comencen a tornar."
       },
       "custom": {
         "title": "AI Partnership",
-        "intro": "Ens integrem al teu negoci, auditem les operacions i construïm sistemes d'IA al voltant de com treballes realment. Sense plantilles, sense migracions forçades: un equip dedicat."
+        "intro": "El teu partner de transformació en IA, integrat dins el teu negoci per construir sistemes natius d'IA que multipliquen les teves operacions."
       }
     },
     "groupHeadings": {
-      "purposeBuilt": "Dissenyat per al teu sector",
-      "tailored": "A mida"
+      "productized": "Els nostres sistemes operatius natius d'IA per indústria",
+      "partnership": "Per a la teva indústria específica"
     }
   },
   "explainer": {
@@ -261,7 +265,7 @@
   "cta": {
     "title": "Preparat per veure què pot fer la IA",
     "titleLine2": "pel teu negoci?",
-    "subtitle": "Reserva una avaluació gratuïta de 15 minuts. Et mostrarem on la IA pot tenir el major impacte en les teves operacions.",
+    "subtitle": "Reserva una trucada. Et mostrarem on la IA pot tenir el major impacte en les teves operacions.",
     "button": "Reservar Avaluació Gratuïta",
     "buttonShort": "Reservar Trucada"
   },
@@ -352,7 +356,7 @@
   },
   "finalCta": {
     "defaultHeading": "Parlem de {verticalPhrase}.",
-    "defaultSubtitle": "Reserva una avaluació gratuïta de 30 minuts. Identificarem on la IA pot tenir el major impacte en el teu negoci.",
+    "defaultSubtitle": "Reserva una trucada. Identificarem on la IA pot tenir el major impacte en el teu negoci.",
     "button": "Reservar Avaluació Gratuïta",
     "buttonShort": "Reservar Trucada",
     "checks": {
@@ -546,7 +550,7 @@
     "finalCta": {
       "verticalPhrase": "la teva clínica",
       "heading": "Omplim les teves cadires.",
-      "subtitle": "Reserva una avaluació gratuïta de 30 minuts. Et mostrarem quants pacients inactius té la teva clínica i què podria significar reactivar-los per als teus ingressos."
+      "subtitle": "Reserva una trucada. Et mostrarem quants pacients inactius té la teva clínica i què podria significar reactivar-los per als teus ingressos."
     }
   },
   "realEstateOS": {
@@ -709,7 +713,7 @@
     },
     "finalCta": {
       "heading": "Parlem de la teva agència.",
-      "subtitle": "Reserva una avaluació gratuïta de 30 minuts. Mapejarem les teves operacions i et mostrarem exactament on la IA té el major impacte."
+      "subtitle": "Reserva una trucada. Mapejarem les teves operacions i et mostrarem exactament on la IA té el major impacte."
     }
   },
   "customSolutionsPage": {
@@ -873,7 +877,7 @@
     "finalCta": {
       "verticalPhrase": "les teves operacions",
       "heading": "Parlem de les teves operacions.",
-      "subtitle": "Reserva una avaluació gratuïta de 30 minuts. Identificarem on la IA pot tenir el major impacte en el teu negoci."
+      "subtitle": "Reserva una trucada. Identificarem on la IA pot tenir el major impacte en el teu negoci."
     }
   },
   "bookCall": {
@@ -972,7 +976,7 @@
     "cta": {
       "heading1": "Si tu estàs preparat per començar,",
       "heading2": "nosaltres també.",
-      "description": "Reserva una avaluació gratuïta de 30 minuts. Et direm exactament on la IA pot tenir el major impacte en el teu negoci, i què caldria per aconseguir-ho.",
+      "description": "Reserva una trucada. Et direm exactament on la IA pot tenir el major impacte en el teu negoci, i què caldria per aconseguir-ho.",
       "button": "Reservar Avaluació Gratuïta",
       "buttonShort": "Reservar Trucada",
       "noCommitment": "Sense compromís"
