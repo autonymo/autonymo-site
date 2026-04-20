@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { LogoLoop } from "@/components/LogoLoop";
 import type { LogoItem } from "@/components/LogoLoop";
 
@@ -14,10 +15,11 @@ const logos: LogoItem[] = [
 ];
 
 export const LogoBar = () => {
+  const t = useTranslations("nav");
   return (
     <div className="pt-10 pb-6 sm:pt-14 sm:pb-8">
       <p className="text-center text-sm font-medium text-warm-gray tracking-wide uppercase mb-5">
-        Built on
+        {t("builtOn")}
       </p>
       {/* Mobile: smaller logos + tighter gap; Desktop: original sizing */}
       <div className="sm:hidden">
@@ -29,7 +31,7 @@ export const LogoBar = () => {
           pauseOnHover
           fadeOut
           fadeOutColor="#F5F0EB"
-          ariaLabel="Technology partners"
+          ariaLabel={t("techPartners")}
         />
       </div>
       <div className="hidden sm:block">
@@ -41,7 +43,7 @@ export const LogoBar = () => {
           pauseOnHover
           fadeOut
           fadeOutColor="#F5F0EB"
-          ariaLabel="Technology partners"
+          ariaLabel={t("techPartners")}
         />
       </div>
     </div>

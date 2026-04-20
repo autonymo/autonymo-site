@@ -33,7 +33,9 @@
     "social": "Social",
     "language": "Language",
     "purposeBuilt": "Purpose-built for your field",
-    "tailored": "Tailored"
+    "tailored": "Tailored",
+    "builtOn": "Built on",
+    "techPartners": "Technology partners"
   },
   "hero": {
     "title": "We build and operate AI systems that compound your business.",
@@ -274,7 +276,6 @@
   "languages": {
     "en": "English",
     "es": "Español",
-    "de": "Deutsch",
     "ca": "Català"
   },
   "manifesto": {
@@ -533,6 +534,7 @@
       }
     },
     "finalCta": {
+      "verticalPhrase": "your clinic",
       "heading": "Let’s fill your chairs.",
       "subtitle": "Book a free 30-minute assessment. We’ll show you how many dormant patients your clinic has and what reactivating them could mean for your revenue."
     }

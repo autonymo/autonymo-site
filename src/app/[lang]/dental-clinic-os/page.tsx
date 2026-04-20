@@ -252,7 +252,7 @@ export default function HealthServicesOS() {
 
       {/*  T10: FINAL CTA  */}
       <FinalCTA
-        verticalPhrase="your clinic"
+        verticalPhrase={t("finalCta.verticalPhrase")}
         heading={t("finalCta.heading")}
         subtitle={t("finalCta.subtitle")}
         calLink="https://cal.com/arnau-fabrega-nscdht/autonymo-dental-clinic-os"

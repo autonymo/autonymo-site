@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autonymo — Sistemas Operativos de IA para Tu Industria",
+    "title": "Autonymo | Sistemas Operativos de IA para tu Industria",
     "description": "Diseñamos, construimos y desplegamos sistemas operativos de IA completos para Inmobiliaria, Salud y soluciones empresariales personalizadas. Listos en semanas, no meses."
   },
   "nav": {
@@ -16,54 +16,56 @@
     "newsletter": "Newsletter",
     "newsletterDesc": "Recibe las últimas novedades sobre IA y actualizaciones de producto.",
     "blogs": "Blogs",
-    "blogsDesc": "Insights on AI automation, industry trends, and strategies.",
-    "caseStudies": "Case Studies",
-    "caseStudiesDesc": "See how businesses are running on Autonymo OS.",
+    "blogsDesc": "Análisis sobre automatización con IA, tendencias del sector y estrategias.",
+    "caseStudies": "Casos de Éxito",
+    "caseStudiesDesc": "Descubre cómo distintas empresas funcionan con Autonymo OS.",
     "realEstateOS": "Real Estate OS",
     "realEstateOSDesc": "Respuesta automática a leads, gestión de propiedades y automatización de contratos para agencias inmobiliarias.",
     "healthServicesOS": "Health Services OS",
     "healthServicesOSDesc": "Programación inteligente, reactivación de pacientes y documentación clínica para consultas modernas.",
-    "customSolutionsDesc": "Implementaciones de IA personalizadas adaptadas a los flujos de trabajo de tu negocio e industria.",
     "leadGenerationOS": "Lead Gen OS",
-    "leadGenerationOSDesc": "AI-powered lead capture, scoring, nurturing, and outbound calling to fill your pipeline automatically.",
+    "leadGenerationOSDesc": "Captación, cualificación, nurturing y llamadas salientes con IA para llenar tu pipeline de forma automática.",
+    "customSolutionsDesc": "Implementaciones de IA personalizadas adaptadas a los flujos de trabajo de tu negocio e industria.",
     "dentalClinicOS": "Dental Clinic OS",
-    "dentalClinicOSDesc": "AI-powered scheduling, patient reactivation, and clinical documentation for modern dental practices.",
+    "dentalClinicOSDesc": "Programación con IA, reactivación de pacientes y documentación clínica para clínicas dentales modernas.",
     "mobileMenu": "Menú",
-    "subscribe": "Subscribe",
-    "social": "Social",
-    "language": "Language",
-    "purposeBuilt": "Purpose-built for your field",
-    "tailored": "Tailored"
+    "subscribe": "Suscribirse",
+    "social": "Redes Sociales",
+    "language": "Idioma",
+    "purposeBuilt": "Diseñado para tu sector",
+    "tailored": "A medida",
+    "builtOn": "Construido sobre",
+    "techPartners": "Socios tecnológicos"
   },
   "hero": {
-    "title": "Construimos y operamos los sistemas de IA",
-    "titleHighlight": "que impulsan tu negocio.",
-    "subtitle": "Desplegamos soluciones probadas, formamos a tu equipo y mejoramos continuamente para que tu negocio se mantenga a la vanguardia mientras la IA evoluciona.",
+    "title": "Construimos y operamos sistemas de IA que multiplican tu negocio.",
+    "titleHighlight": "",
+    "subtitle": "Tu equipo externo de IA. Entramos dentro de tu negocio, construimos lo que genera impacto real, lo operamos y nos aseguramos de que sigas por delante a medida que la tecnología evoluciona.",
     "cta": "Reservar Evaluación Gratuita",
     "ctaShort": "Reservar Llamada",
     "ctaSecondary": "Ver Nuestras Soluciones",
+    "seeHowItWorks": "Ver Cómo Funciona",
     "trustedBy": "Trabajando con empresas a nivel global.",
     "valueProp1": "Listo en semanas, no meses",
     "valueProp2": "Compatible con tus herramientas actuales",
     "valueProp3": "Soporte continuo incluido",
-    "seeHowItWorks": "See How It Works",
     "cards": {
       "realEstate": {
         "title": "Real Estate OS",
-        "intro": "Capture new owners before your competitors, respond to buyer leads in seconds, and automate contracts and coordination. Your agents focus on selling."
+        "intro": "Capta nuevos propietarios antes que tu competencia, responde a leads de compradores en segundos y automatiza contratos y coordinación. Tus agentes se centran en vender."
       },
       "dental": {
         "title": "Dental Clinic OS",
-        "intro": "Reactivate dormant patients via WhatsApp, automate booking and reminders, and fill empty chairs. Your front desk stops chasing, patients start coming back."
+        "intro": "Reactiva pacientes inactivos por WhatsApp, automatiza reservas y recordatorios, y llena sillones vacíos. Tu recepción deja de perseguir, los pacientes empiezan a volver."
       },
       "custom": {
         "title": "Custom Solutions",
-        "intro": "We audit your operations, find where time and money are leaking, and build AI systems around how you actually work. No templates, no forced migrations."
+        "intro": "Auditamos tus operaciones, encontramos dónde se fugan tiempo y dinero, y construimos sistemas de IA en torno a cómo realmente trabajas. Sin plantillas, sin migraciones forzadas."
       }
     },
     "groupHeadings": {
-      "purposeBuilt": "Purpose-built for your field",
-      "tailored": "Tailored"
+      "purposeBuilt": "Diseñado para tu sector",
+      "tailored": "A medida"
     }
   },
   "explainer": {
@@ -100,7 +102,7 @@
       },
       "healthServices": {
         "label": "Health Services OS",
-        "tagline": "Reactiva pacientes, llena sillas, automatiza la comunicación.",
+        "tagline": "Reactiva pacientes, llena sillones, automatiza la comunicación.",
         "cta": "Explorar Health Services OS",
         "modules": {
           "module1": {
@@ -123,24 +125,24 @@
       },
       "leadGeneration": {
         "label": "Lead Gen OS",
-        "tagline": "Fill your calendar with qualified leads on autopilot.",
-        "cta": "Explore Lead Generation OS",
+        "tagline": "Llena tu calendario con leads cualificados en piloto automático.",
+        "cta": "Explorar Lead Generation OS",
         "modules": {
           "module1": {
-            "title": "Multi-Channel Capture",
-            "description": "Capture leads from web forms, social ads, LinkedIn, landing pages, and referrals into one unified pipeline — enriched and scored automatically."
+            "title": "Captación Multicanal",
+            "description": "Captura leads de formularios web, anuncios en redes sociales, LinkedIn, landing pages y referidos en un único pipeline unificado — enriquecido y puntuado automáticamente."
           },
           "module2": {
-            "title": "AI Lead Scoring",
-            "description": "Score every lead in real time based on behavioral signals, firmographic data, and intent indicators. Prioritize the hottest opportunities."
+            "title": "Puntuación de Leads con IA",
+            "description": "Puntúa cada lead en tiempo real en función de señales de comportamiento, datos firmográficos e indicadores de intención. Prioriza las oportunidades más calientes."
           },
           "module3": {
-            "title": "Smart Nurture Sequences",
-            "description": "Deploy personalized email, LinkedIn, and SMS campaigns that adapt content and timing based on each prospect's engagement."
+            "title": "Secuencias de Nurturing Inteligentes",
+            "description": "Despliega campañas personalizadas por email, LinkedIn y SMS que adaptan el contenido y los tiempos según el engagement de cada prospecto."
           },
           "module4": {
-            "title": "AI Outbound Calling",
-            "description": "Automated cold outreach and follow-up calls with AI voice agents that qualify prospects and book meetings on your behalf."
+            "title": "Llamadas Salientes con IA",
+            "description": "Prospección en frío automatizada y llamadas de seguimiento con agentes de voz de IA que cualifican prospectos y agendan reuniones por ti."
           }
         }
       },
@@ -256,7 +258,7 @@
   "footer": {
     "solutions": "Soluciones",
     "company": "Empresa",
-    "social": "Social",
+    "social": "Redes Sociales",
     "legal": "Legal",
     "aboutUs": "Nosotros",
     "blog": "Blog",
@@ -274,724 +276,740 @@
   "languages": {
     "en": "English",
     "es": "Español",
-    "de": "Deutsch",
     "ca": "Català"
   },
   "manifesto": {
-    "heading1": "You know AI will change your business.",
-    "heading2": "You just haven’t started.",
-    "paragraph1": "Not because you don’t want to. Not because you don’t see it coming. But because you’re busy running a business today. Hiring takes too long. Tools don’t fit. And nobody on your team has the bandwidth to figure out what actually works.",
-    "weDo": "We do.",
-    "paragraph2": "Autonymo embeds into your operations, builds on the tools you already use, and improves your systems every month as the technology evolves. No disruption. No learning curve. Just results that compound.",
-    "closing": "We don’t care about hype. We care about what ships."
+    "heading1": "La IA no es una herramienta que compras.",
+    "heading2": "Es un <hi>sistema</hi> que <hi>operas</hi>.",
+    "paragraph1": "Cada semana trae un nuevo modelo, un nuevo framework, un nuevo avance que podría cambiar cómo funciona tu negocio. Nada de eso importa a menos que alguien lo integre en tus herramientas y lo mantenga afilado mientras el resto del mercado aún lo está leyendo.",
+    "weDo": "Ese alguien somos nosotros.",
+    "paragraph2": "Diseñamos, construimos y operamos los sistemas de IA que multiplican tu negocio, para que dejes de comprar dashboards y empieces a construir una ventaja real.",
+    "closing": "",
+    "othersLabel": "Lo que otros te venden",
+    "others1": "Una suscripción SaaS",
+    "others2": "Un dashboard que nadie abre",
+    "others3": "Una presentación estratégica de 6 meses",
+    "others4": "Un piloto que muere al tercer mes",
+    "others5": "El traspaso de un consultor",
+    "usLabel": "Lo que nosotros construimos y operamos",
+    "usTitle": "Un sistema de IA en funcionamiento",
+    "usDescription": "Que se multiplica cada mes que opera."
   },
   "whyUs": {
-    "label": "Why Us",
-    "heading": "We don’t sell software. We do the work.",
-    "vendorTitle": "What Most Vendors Do",
+    "label": "Por Qué Nosotros",
+    "heading": "No vendemos software. Hacemos el trabajo.",
+    "vendorTitle": "Lo Que Hacen la Mayoría de Proveedores",
     "vendorItems": {
-      "item1": "Sell you a platform and disappear",
-      "item2": "Force you into their workflow",
-      "item3": "Same product for every company",
-      "item4": "Measure success by licenses sold"
+      "item1": "Te venden una plataforma y desaparecen",
+      "item2": "Te obligan a adaptarte a su flujo de trabajo",
+      "item3": "El mismo producto para cada empresa",
+      "item4": "Miden el éxito por las licencias vendidas"
     },
-    "ourTitle": "What We Do",
+    "ourTitle": "Lo Que Hacemos Nosotros",
     "ourItems": {
-      "item1": "Audit your operations before proposing anything",
-      "item2": "Build on top of your existing tools. No rip-and-replace",
-      "item3": "Deploy solutions tailored to how your business actually works",
-      "item4": "Measure success by the impact we generate for you"
+      "item1": "Auditamos tus operaciones antes de proponer nada",
+      "item2": "Construimos sobre tus herramientas existentes. Sin reemplazos forzados",
+      "item3": "Desplegamos soluciones adaptadas a cómo funciona realmente tu negocio",
+      "item4": "Medimos el éxito por el impacto que generamos para ti"
     },
-    "bottomNote": "For every €1 spent on software, €6 are spent on the work that software is supposed to do.",
-    "bottomNoteHighlight": "We’re here for the €6."
+    "bottomNote": "Por cada 1 € gastado en software, se gastan 6 € en el trabajo que ese software se supone que debe hacer.",
+    "bottomNoteHighlight": "Nosotros estamos aquí por esos 6 €."
   },
   "howItWorksSteps": {
-    "label": "How We Work",
-    "heading": "From first call to live system in 4 weeks.",
+    "label": "Cómo Trabajamos",
+    "heading": "El camino de ser AI\u2011curious a ser AI\u2011native.",
+    "subtitle": "Tres pasos. Un equipo. Progreso compuesto continuo.",
     "steps": {
       "step1": {
-        "title": "We audit your operations",
-        "description": "We map your processes, find where time and money are leaking, and identify the highest-impact opportunities. You get a clear picture of what’s worth building before we build anything."
+        "phase": "Auditoría \u00b7 Semana 1\u20132",
+        "title": "Encontrar qué construir.",
+        "description": "Dos semanas. Tres oportunidades de IA con mayor ROI, puntuadas, priorizadas y presupuestadas.",
+        "tags": ["Sin diagnósticos de 6 meses", "Sin presentaciones de 80 diapositivas"]
       },
       "step2": {
-        "title": "We build and deploy",
-        "description": "We take the highest-impact opportunity and build it. Live, working, integrated with your existing tools. First solution running in 4 weeks."
+        "phase": "Construcción \u00b7 Semana 3\u20134",
+        "title": "Desplegar lo que importa.",
+        "description": "Construido y desplegado sobre tus herramientas existentes. En producción en 30 a 60 días.",
+        "tags": ["Sin reemplazos forzados", "Sin pilotos muertos"]
       },
       "step3": {
-        "title": "We train, manage, and expand",
-        "description": "We train your team on the new system, monitor performance, and keep improving it. When you’re ready, we move to the next opportunity."
+        "phase": "Operación \u00b7 Semana 4+",
+        "title": "Opéralo como a un miembro más del equipo.",
+        "description": "Monitorizamos, iteramos, reentrenamos y desplegamos lo nuevo. Cada mes, más afilado.",
+        "tags": ["Sin traspasos, jamás", "El efecto compuesto despega"]
       }
     }
   },
   "finalCta": {
-    "defaultHeading": "Let’s look at {verticalPhrase}.",
-    "defaultSubtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business.",
-    "button": "Book a Free Assessment",
+    "defaultHeading": "Hablemos de {verticalPhrase}.",
+    "defaultSubtitle": "Reserva una evaluación gratuita de 30 minutos. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio.",
+    "button": "Reservar Evaluación Gratuita",
     "buttonShort": "Reservar Llamada",
     "checks": {
-      "noCommitment": "No commitment required",
-      "keepEverything": "You keep everything we build",
-      "limitedSpots": "Limited spots per quarter"
+      "noCommitment": "Sin compromiso",
+      "keepEverything": "Te quedas con todo lo que construimos",
+      "limitedSpots": "Plazas limitadas por trimestre"
     }
   },
   "whyWeDifferent": {
-    "label": "Why We’re Different",
-    "heading": "We don’t sell software. We understand your business first, then build exactly what you need.",
-    "vendorTitle": "What Most Vendors Do",
-    "ourTitle": "What We Do",
+    "label": "Por Qué Somos Diferentes",
+    "heading": "No vendemos software. Primero entendemos tu negocio y luego construimos exactamente lo que necesitas.",
+    "vendorTitle": "Lo Que Hacen la Mayoría de Proveedores",
+    "ourTitle": "Lo Que Hacemos Nosotros",
     "defaultVendor": {
-      "item1": "Sell a platform, disappear",
-      "item2": "Force you into their workflow",
-      "item3": "Same product for every company",
-      "item4": "No ongoing support"
+      "item1": "Venden una plataforma y desaparecen",
+      "item2": "Te obligan a adaptarte a su flujo de trabajo",
+      "item3": "El mismo producto para cada empresa",
+      "item4": "Sin soporte continuo"
     },
     "defaultOur": {
-      "item1": "Start with an operational audit",
-      "item2": "Build around your existing tools and processes",
-      "item3": "Train your team",
-      "item4": "Manage and optimize monthly"
+      "item1": "Empezamos con una auditoría operativa",
+      "item2": "Construimos en torno a tus herramientas y procesos existentes",
+      "item3": "Formamos a tu equipo",
+      "item4": "Gestionamos y optimizamos mensualmente"
     }
   },
   "founder": {
-    "label": "The Founder",
-    "heading": "A team built to deliver.",
-    "photoPlaceholder": "Photo",
+    "label": "El Fundador",
+    "heading": "Un equipo construido para entregar.",
+    "photoPlaceholder": "Foto",
     "name": "Arnau Fabrega",
     "role": "Founder & CEO",
-    "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
-    "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-    "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
+    "bio1": "Pasé años en Deloitte ayudando a grandes corporaciones del sector financiero. Fue una formación excelente, pero no dejaba de notar lo mismo: la IA lo estaba cambiando todo y la mayoría de las empresas, especialmente las pequeñas y medianas, no tenían ni idea de lo que realmente podía hacer por ellas.",
+    "bio2": "No sabían por dónde empezar, y aunque lo supieran, la tecnología avanza tan rápido que lo que funcionaba hace seis meses ya está obsoleto.",
+    "bio3": "Empecé Autonymo porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
   },
   "dentalClinicOS": {
     "hero": {
       "label": "Dental Clinic OS",
-      "heading1": "Your dentists treat.",
-      "heading2": "Our AI fills the chairs.",
-      "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
-      "ctaPrimary": "Book a Free Assessment",
+      "heading1": "Tus dentistas tratan.",
+      "heading2": "Nuestra IA llena los sillones.",
+      "description": "Reactivamos pacientes inactivos vía WhatsApp, automatizamos las reservas y gestionamos la comunicación con los pacientes. Desplegado sobre tu software de clínica actual y gestionado por nuestro equipo.",
+      "ctaPrimary": "Reservar Evaluación Gratuita",
       "ctaPrimaryShort": "Reservar Llamada",
-      "ctaSecondary": "See how it works",
+      "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Dental Clinic OS"
     },
     "problem": {
-      "label": "The Problem",
-      "heading": "The real cost of an empty chair.",
+      "label": "El Problema",
+      "heading": "El coste real de un sillón vacío.",
       "items": {
         "item1": {
-          "title": "Patients who should be coming back",
-          "description": "Your database has hundreds of patients overdue for treatment. Nobody has time to reach out to all of them."
+          "title": "Pacientes que deberían estar volviendo",
+          "description": "Tu base de datos tiene cientos de pacientes pendientes de tratamiento. Nadie tiene tiempo de contactar con todos ellos."
         },
         "item2": {
-          "title": "Your front desk is the bottleneck",
-          "description": "Receptionists handle calls, scheduling, and billing all at once. Patient reactivation is always the first thing dropped."
+          "title": "Tu recepción es el cuello de botella",
+          "description": "Los recepcionistas atienden llamadas, agendan citas y facturan a la vez. La reactivación de pacientes siempre es lo primero que se abandona."
         },
         "item3": {
-          "title": "Revenue you can’t see",
-          "description": "A patient who comes for a hygiene generates far more than the cleaning fee. Every patient who doesn’t come back is a cascade of treatments that never happens."
+          "title": "Ingresos que no ves",
+          "description": "Un paciente que viene a una higiene genera mucho más que la tarifa de la limpieza. Cada paciente que no vuelve es una cascada de tratamientos que nunca ocurren."
         }
       }
     },
     "whyDifferent": {
-      "industryExample": "We don’t send mass messages. We analyze each patient’s history and reactivate them for the specific treatment they need.",
+      "industryExample": "No enviamos mensajes masivos. Analizamos el historial de cada paciente y lo reactivamos para el tratamiento específico que necesita.",
       "vendorItems": {
-        "item1": "Sell software, disappear",
-        "item2": "Blast generic SMS to your database",
-        "item3": "One-size-fits-all messages",
-        "item4": "No ongoing support"
+        "item1": "Venden software y desaparecen",
+        "item2": "Lanzan SMS genéricos a tu base de datos",
+        "item3": "Mensajes de talla única",
+        "item4": "Sin soporte continuo"
       },
       "ourItems": {
-        "item1": "Connect to your clinic management system",
-        "item2": "Personalized reactivation based on each patient’s treatment history",
-        "item3": "Conversations via WhatsApp, not spam",
-        "item4": "Manage & optimize monthly"
+        "item1": "Nos conectamos a tu sistema de gestión de clínica",
+        "item2": "Reactivación personalizada basada en el historial de tratamientos de cada paciente",
+        "item3": "Conversaciones por WhatsApp, no spam",
+        "item4": "Gestionamos y optimizamos mensualmente"
       }
     },
     "solutions": {
-      "label": "What We Deploy",
-      "heading": "Your clinic, fully equipped.",
+      "label": "Lo Que Desplegamos",
+      "heading": "Tu clínica, totalmente equipada.",
       "items": {
         "item1": {
-          "title": "Intelligent Patient Reactivation",
-          "promise": "Dormant patients come back for the care they need.",
-          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder — a relevant conversation about the care they need. They book directly from the chat."
+          "title": "Reactivación Inteligente de Pacientes",
+          "promise": "Los pacientes inactivos vuelven por la atención que necesitan.",
+          "description": "Los pacientes inactivos reciben mensajes personalizados de WhatsApp basados en su historial de tratamientos. No un recordatorio genérico — una conversación relevante sobre la atención que necesitan. Reservan directamente desde el chat."
         },
         "item2": {
-          "title": "Smart Appointment Booking",
-          "promise": "Patients book through WhatsApp, no back-and-forth.",
-          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks — no double bookings, no back-and-forth."
+          "title": "Reserva Inteligente de Citas",
+          "promise": "Los pacientes reservan por WhatsApp, sin idas y venidas.",
+          "description": "Los pacientes reservan por WhatsApp, integrado con tu software de clínica. Comprobación de disponibilidad en tiempo real — sin dobles reservas, sin idas y venidas."
         },
         "item3": {
-          "title": "Multi-Practitioner Scheduling",
-          "promise": "Every practitioner’s schedule stays full, automatically.",
-          "description": "Appointments coordinated across doctors, hygienists, and rooms automatically."
+          "title": "Agenda Multi-Profesional",
+          "promise": "La agenda de cada profesional se mantiene llena, automáticamente.",
+          "description": "Citas coordinadas entre doctores, higienistas y salas de forma automática."
         },
         "item4": {
-          "title": "Automated Reminders & Follow-up",
-          "promise": "No-shows drop. Your team stays off the phone.",
-          "description": "Confirmations, reminders, and post-visit follow-ups via WhatsApp. No-shows drop. Your team stays off the phone."
+          "title": "Recordatorios y Seguimiento Automatizados",
+          "promise": "Las ausencias se reducen. Tu equipo deja de estar al teléfono.",
+          "description": "Confirmaciones, recordatorios y seguimientos post-visita por WhatsApp. Las ausencias bajan. Tu equipo deja de estar al teléfono."
         },
         "item5": {
-          "title": "Post-Visit Review Collection",
-          "promise": "Your reputation grows without anyone asking at the front desk.",
-          "description": "After each visit, patients get a simple prompt to leave a Google review. Your reputation grows without anyone asking at the front desk."
+          "title": "Recogida de Reseñas Post-Visita",
+          "promise": "Tu reputación crece sin que nadie la pida en recepción.",
+          "description": "Tras cada visita, los pacientes reciben una invitación sencilla para dejar una reseña en Google. Tu reputación crece sin que nadie la pida en recepción."
         }
       }
     },
     "caseStudy": {
-      "label": "Case Study",
-      "heading": "90 days. One clinic. Real results.",
-      "description": "A dental clinic in Spain with 3+ dentists and over 9,000 patient records.",
+      "label": "Caso de Éxito",
+      "heading": "90 días. Una clínica. Resultados reales.",
+      "description": "Una clínica dental en España con más de 3 dentistas y más de 9.000 registros de pacientes.",
       "metrics": {
         "item1": {
           "value": "759",
-          "label": "Patients contacted"
+          "label": "Pacientes contactados"
         },
         "item2": {
           "value": "153",
-          "label": "Visits confirmed"
+          "label": "Visitas confirmadas"
         },
         "item3": {
-          "value": "€16,000+",
-          "label": "Estimated revenue generated"
+          "value": "€16.000+",
+          "label": "Ingresos estimados generados"
         }
       },
-      "insight": "Reactivated patients don’t just come back for a cleaning. They come back into your ecosystem, and your doctors find treatments that would never have started otherwise. On average, every reactivated visit generated 4x more revenue than expected."
+      "insight": "Los pacientes reactivados no vuelven solo para una limpieza. Vuelven a tu ecosistema, y tus doctores encuentran tratamientos que de otro modo nunca habrían empezado. En promedio, cada visita reactivada generó 4x más ingresos de lo esperado."
     },
     "howWeWork": {
-      "label": "How We Work",
-      "heading": "From first call to patients coming back in 3 weeks.",
+      "label": "Cómo Trabajamos",
+      "heading": "De la primera llamada a pacientes volviendo en 3 semanas.",
       "steps": {
         "step1": {
-          "label": "Step 1",
-          "title": "We connect to your clinic software",
-          "description": "We integrate with your existing system. No migration, no new tools."
+          "label": "Paso 1",
+          "title": "Nos conectamos a tu software de clínica",
+          "description": "Nos integramos con tu sistema actual. Sin migración, sin herramientas nuevas."
         },
         "step2": {
-          "label": "Step 2",
-          "title": "The system starts reactivating your patient database",
-          "description": "We analyze who’s overdue and for what, and launch personalized WhatsApp conversations for each patient’s specific situation."
+          "label": "Paso 2",
+          "title": "El sistema empieza a reactivar tu base de datos de pacientes",
+          "description": "Analizamos quién está pendiente y para qué, y lanzamos conversaciones personalizadas por WhatsApp para la situación específica de cada paciente."
         },
         "step3": {
-          "label": "Step 3",
-          "title": "We manage, optimize, and scale",
-          "description": "We monitor weekly, refine messaging, and expand to new campaign types. The system gets smarter. You get more patients back."
+          "label": "Paso 3",
+          "title": "Gestionamos, optimizamos y escalamos",
+          "description": "Monitorizamos semanalmente, refinamos los mensajes y ampliamos a nuevos tipos de campaña. El sistema se vuelve más inteligente. Tú recuperas más pacientes."
         }
       }
     },
     "faq": {
       "label": "FAQ",
-      "heading": "Common questions",
+      "heading": "Preguntas frecuentes",
       "items": {
         "item1": {
-          "question": "Do we need to change our clinic software?",
-          "answer": "No. We connect to Gesden, Odontonet, Klini Kare, CliniWin, and others. Nothing changes for your team."
+          "question": "¿Tenemos que cambiar nuestro software de clínica?",
+          "answer": "No. Nos conectamos con Gesden, Odontonet, Klini Kare, CliniWin y otros. Nada cambia para tu equipo."
         },
         "item2": {
-          "question": "Do we need to change our WhatsApp number?",
-          "answer": "No. Messages come from your clinic’s number. Patients see your clinic, not a third party."
+          "question": "¿Tenemos que cambiar nuestro número de WhatsApp?",
+          "answer": "No. Los mensajes salen desde el número de tu clínica. Los pacientes ven tu clínica, no a un tercero."
         },
         "item3": {
-          "question": "Will my front desk need to learn anything new?",
-          "answer": "No. This is completely done for you. Their workload decreases — patients arrive pre-booked."
+          "question": "¿Mi recepción tendrá que aprender algo nuevo?",
+          "answer": "No. Esto está completamente hecho por nosotros. Su carga de trabajo disminuye — los pacientes llegan ya con cita."
         },
         "item4": {
-          "question": "What about all the new incoming messages?",
-          "answer": "We help manage them. The system handles conversations and booking automatically. For messages that need a human, we make sure nothing falls through."
+          "question": "¿Y todos los nuevos mensajes entrantes?",
+          "answer": "Ayudamos a gestionarlos. El sistema gestiona conversaciones y reservas de forma automática. Para los mensajes que necesitan a una persona, nos aseguramos de que nada se pierda."
         },
         "item5": {
-          "question": "Is this GDPR compliant?",
-          "answer": "Yes. We only contact patients who have given consent. We help you manage consent records and ensure full compliance."
+          "question": "¿Esto cumple con el GDPR?",
+          "answer": "Sí. Solo contactamos con pacientes que han dado su consentimiento. Te ayudamos a gestionar los registros de consentimiento y a asegurar el cumplimiento total."
         },
         "item6": {
-          "question": "What do patients actually receive?",
-          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts — real conversations."
+          "question": "¿Qué reciben realmente los pacientes?",
+          "answer": "Mensajes naturales por WhatsApp personalizados según su historial de tratamientos. No campañas de marketing masivas — conversaciones reales."
         },
         "item7": {
-          "question": "How quickly will we see results?",
-          "answer": "Most clinics see confirmed appointments within the first 2 weeks."
+          "question": "¿Cómo de rápido veremos resultados?",
+          "answer": "La mayoría de las clínicas ven citas confirmadas dentro de las primeras 2 semanas."
         },
         "item8": {
-          "question": "What if our schedule is already full?",
-          "answer": "The system checks real-time availability. If you fill up, we pause or focus on low-occupancy periods."
+          "question": "¿Y si nuestra agenda ya está llena?",
+          "answer": "El sistema consulta la disponibilidad en tiempo real. Si te llenas, pausamos o nos centramos en periodos de baja ocupación."
         }
       }
     },
     "finalCta": {
-      "heading": "Let’s fill your chairs.",
-      "subtitle": "Book a free 30-minute assessment. We’ll show you how many dormant patients your clinic has and what reactivating them could mean for your revenue."
+      "verticalPhrase": "tu clínica",
+      "heading": "Vamos a llenar tus sillones.",
+      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Te mostraremos cuántos pacientes inactivos tiene tu clínica y lo que reactivarlos podría suponer para tus ingresos."
     }
   },
   "realEstateOS": {
     "hero": {
       "label": "Real Estate OS",
-      "heading1": "Your agents sell.",
-      "heading2": "Our AI runs the agency.",
-      "description": "A complete AI-powered operating system for your real estate agency. Built around your processes, deployed on your tools, fine-tuned for you. We guide you through onboarding and stay on to optimize it every month.",
-      "ctaPrimary": "Book a Free Assessment",
+      "heading1": "Tus agentes venden.",
+      "heading2": "Nuestra IA gestiona la agencia.",
+      "description": "Un sistema operativo completo impulsado por IA para tu agencia inmobiliaria. Construido en torno a tus procesos, desplegado en tus herramientas, afinado para ti. Te guiamos durante el onboarding y nos quedamos para optimizarlo cada mes.",
+      "ctaPrimary": "Reservar Evaluación Gratuita",
       "ctaPrimaryShort": "Reservar Llamada",
-      "ctaSecondary": "See how it works",
+      "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Real Estate OS"
     },
     "problem": {
-      "label": "The Problem",
-      "heading": "Your agency runs on manual work. It doesn’t have to.",
+      "label": "El Problema",
+      "heading": "Tu agencia funciona con trabajo manual. No tiene por qué ser así.",
       "items": {
         "item1": {
-          "title": "Owners you’re not capturing",
-          "description": "Private owners list in your zone every week. By the time your team spots them, three agencies have already called."
+          "title": "Propietarios que no estás captando",
+          "description": "Cada semana aparecen propietarios particulares en tu zona. Cuando tu equipo los detecta, ya les han llamado tres agencias."
         },
         "item2": {
-          "title": "Leads going cold",
-          "description": "A buyer enquiry comes in at 8pm. By the time your agent sees it the next morning, they’ve already moved on."
+          "title": "Leads que se enfrían",
+          "description": "Una consulta de un comprador entra a las 20:00. Cuando tu agente la ve a la mañana siguiente, ya ha pasado página."
         },
         "item3": {
-          "title": "Agents doing ops instead of selling",
-          "description": "Your best salespeople spend half their day on admin, coordination, and data entry instead of closing deals."
+          "title": "Agentes haciendo operaciones en lugar de vender",
+          "description": "Tus mejores vendedores pasan la mitad del día en administración, coordinación y entrada de datos en lugar de cerrar operaciones."
         }
       }
     },
     "whyDifferent": {
-      "industryExample": "This isn’t off-the-shelf software. It’s an operating system built around your agency. Your team operates it, we make sure it keeps getting better.",
+      "industryExample": "Esto no es software de estantería. Es un sistema operativo construido en torno a tu agencia. Tu equipo lo opera y nosotros nos aseguramos de que siga mejorando.",
       "vendorItems": {
-        "item1": "Sell you a generic CRM",
-        "item2": "Assume your team will figure it out",
-        "item3": "Same platform for every agency",
-        "item4": "No ongoing support"
+        "item1": "Te venden un CRM genérico",
+        "item2": "Asumen que tu equipo ya se apañará",
+        "item3": "La misma plataforma para cada agencia",
+        "item4": "Sin soporte continuo"
       },
       "ourItems": {
-        "item1": "Build a system tailored to how your agency actually works",
-        "item2": "Deploy on your existing tools and portals",
-        "item3": "Guide your team through onboarding",
-        "item4": "Monitor & optimize monthly"
+        "item1": "Construimos un sistema adaptado a cómo funciona realmente tu agencia",
+        "item2": "Desplegamos sobre tus herramientas y portales existentes",
+        "item3": "Guiamos a tu equipo durante el onboarding",
+        "item4": "Monitorizamos y optimizamos mensualmente"
       }
     },
     "solutions": {
-      "label": "What We Deploy",
-      "heading": "Four modules. One operating system.",
-      "subtitle": "Every agency is different. We deploy the same core modules but fine-tune each one to your market, your team, and your processes.",
+      "label": "Lo Que Desplegamos",
+      "heading": "Cuatro módulos. Un sistema operativo.",
+      "subtitle": "Cada agencia es diferente. Desplegamos los mismos módulos principales pero afinamos cada uno a tu mercado, tu equipo y tus procesos.",
       "items": {
         "item1": {
-          "title": "Intelligent CRM",
-          "promise": "All enquiries in one place, in real time.",
-          "description": "A CRM built specifically for your agency — not a generic platform you have to adapt to. Connected to every major property portal in your market, so all enquiries flow into one place in real time. Lead management, viewing coordination, automated follow-ups, deal tracking, and agent activity — all in one system designed around how your team actually works."
+          "title": "CRM Inteligente",
+          "promise": "Todas las consultas en un solo lugar, en tiempo real.",
+          "description": "Un CRM construido específicamente para tu agencia — no una plataforma genérica a la que tengas que adaptarte. Conectado con todos los portales inmobiliarios principales de tu mercado, para que todas las consultas lleguen a un solo lugar en tiempo real. Gestión de leads, coordinación de visitas, seguimientos automatizados, seguimiento de operaciones y actividad de los agentes — todo en un sistema diseñado en torno a cómo trabaja realmente tu equipo."
         },
         "item2": {
-          "title": "Owner Capture",
-          "promise": "Contact new owners before your competitors.",
-          "description": "New owners entering the market in your zone are identified and flagged automatically. Your team contacts them first — before competitors even know the listing exists. Automated outreach, review-then-send workflows, and a pipeline to track every opportunity."
+          "title": "Captación de Propietarios",
+          "promise": "Contacta nuevos propietarios antes que tus competidores.",
+          "description": "Los nuevos propietarios que entran al mercado en tu zona son identificados y señalados automáticamente. Tu equipo los contacta primero — antes de que la competencia siquiera sepa que el listado existe. Contacto automatizado, flujos de revisión antes de enviar y un pipeline para seguir cada oportunidad."
         },
         "item3": {
-          "title": "Operations Management",
-          "promise": "Contracts in minutes, not hours.",
-          "description": "Contracts generated in minutes, not hours. Bilingual documents, scheduling, task coordination, and reporting — all automated. Your agents stop doing admin and start doing what they were hired for."
+          "title": "Gestión de Operaciones",
+          "promise": "Contratos en minutos, no en horas.",
+          "description": "Contratos generados en minutos, no en horas. Documentos bilingües, agenda, coordinación de tareas e informes — todo automatizado. Tus agentes dejan de hacer administración y empiezan a hacer aquello para lo que fueron contratados."
         },
         "item4": {
-          "title": "Portfolio Reactivation",
-          "promise": "Stay top of mind with every past client.",
-          "description": "Past clients and inactive owners receive personalized outreach — market updates, valuation insights, relevant opportunities. When they’re ready to buy, sell, or list again, your agency is already top of mind."
+          "title": "Reactivación de Cartera",
+          "promise": "Mantente presente con cada cliente anterior.",
+          "description": "Clientes anteriores y propietarios inactivos reciben contactos personalizados — informes de mercado, análisis de valoración, oportunidades relevantes. Cuando estén listos para comprar, vender o listar de nuevo, tu agencia ya está en su mente."
         }
       }
     },
     "caseStudy": {
-      "label": "Case Study",
-      "heading": "Already running. Already delivering.",
-      "description": "The Real Estate OS is live for agencies across Spain. Here’s what changes once it’s deployed.",
+      "label": "Caso de Éxito",
+      "heading": "Ya en marcha. Ya entregando resultados.",
+      "description": "El Real Estate OS está operativo en agencias de toda España. Esto es lo que cambia una vez desplegado.",
       "metrics": {
         "item1": {
-          "value": "Lead response: from over an hour to under 30 seconds",
-          "label": "Every lead that comes in gets an instant, personalized response and is qualified automatically. Your agents only spend time on leads that are genuinely interested — no more chasing dead ends."
+          "value": "Respuesta a leads: de más de una hora a menos de 30 segundos",
+          "label": "Cada lead que entra recibe una respuesta instantánea y personalizada y es cualificado automáticamente. Tus agentes solo dedican tiempo a leads genuinamente interesados — se acabó perseguir callejones sin salida."
         },
         "item2": {
-          "value": "Viewings that book themselves",
-          "label": "Once a lead is qualified and the broker confirms interest, viewings are scheduled automatically. No back-and-forth, no missed opportunities."
+          "value": "Visitas que se agendan solas",
+          "label": "Una vez que el lead está cualificado y el agente confirma el interés, las visitas se agendan automáticamente. Sin idas y venidas, sin oportunidades perdidas."
         },
         "item3": {
-          "value": "Owners always in the loop",
-          "label": "Your owners receive automatic updates on every enquiry, viewing, and market change. They feel attended to without your agents sending a single manual message. Better service, zero extra work."
+          "value": "Propietarios siempre al día",
+          "label": "Tus propietarios reciben actualizaciones automáticas de cada consulta, visita y cambio de mercado. Se sienten atendidos sin que tus agentes envíen un solo mensaje manual. Mejor servicio, cero trabajo extra."
         },
         "item4": {
-          "value": "Your entire portfolio stays warm",
-          "label": "Strategic, automated follow-ups keep every past owner and client top of mind. When they’re ready to sell, list, or buy again, your agency is the first call — not a competitor they found online."
+          "value": "Toda tu cartera se mantiene activa",
+          "label": "Seguimientos estratégicos y automatizados mantienen a cada propietario y cliente anterior presente. Cuando estén listos para vender, listar o comprar de nuevo, tu agencia es la primera llamada — no un competidor que encontraron online."
         },
         "item5": {
-          "value": "Hundreds of new owner contacts every month",
-          "label": "The capture engine connects you with off-market owners in your zone before they list publicly. Your pipeline of exclusive listings grows on autopilot."
+          "value": "Cientos de nuevos contactos de propietarios cada mes",
+          "label": "El motor de captación te conecta con propietarios off-market en tu zona antes de que listen públicamente. Tu pipeline de listados exclusivos crece en piloto automático."
         }
       },
-      "insight": "Every deployment is different because every agency is different. We fine-tune the system to your market, your team, and your workflows, then we stay on to manage and improve it month after month."
+      "insight": "Cada despliegue es diferente porque cada agencia es diferente. Afinamos el sistema a tu mercado, tu equipo y tus flujos de trabajo, y luego nos quedamos para gestionarlo y mejorarlo mes a mes."
     },
     "howWeWork": {
-      "label": "How We Work",
-      "heading": "From first call to live system in 4 weeks.",
+      "label": "Cómo Trabajamos",
+      "heading": "De la primera llamada a sistema en producción en 4 semanas.",
       "steps": {
         "step1": {
-          "label": "Step 1",
-          "title": "We audit your operations",
-          "description": "We map your processes, identify where time and money are leaking, and define which modules to deploy first."
+          "label": "Paso 1",
+          "title": "Auditamos tus operaciones",
+          "description": "Mapeamos tus procesos, identificamos dónde se fugan tiempo y dinero, y definimos qué módulos desplegar primero."
         },
         "step2": {
-          "label": "Step 2",
-          "title": "We deploy and fine-tune your OS",
-          "description": "We build the system around your specific workflows, connect it to your existing tools, and go live with the highest-impact module first."
+          "label": "Paso 2",
+          "title": "Desplegamos y afinamos tu OS",
+          "description": "Construimos el sistema alrededor de tus flujos de trabajo específicos, lo conectamos a tus herramientas existentes y arrancamos con el módulo de mayor impacto primero."
         },
         "step3": {
-          "label": "Step 3",
-          "title": "We monitor, optimize, and expand",
-          "description": "Your team runs the system day-to-day. We check in monthly to review performance, fine-tune what’s working, and roll out new modules when you’re ready."
+          "label": "Paso 3",
+          "title": "Monitorizamos, optimizamos y ampliamos",
+          "description": "Tu equipo opera el sistema día a día. Revisamos cada mes el rendimiento, afinamos lo que funciona y desplegamos nuevos módulos cuando estés listo."
         }
       }
     },
     "faq": {
       "label": "FAQ",
-      "heading": "Common questions",
+      "heading": "Preguntas frecuentes",
       "items": {
         "item1": {
-          "question": "Do we need to change our CRM?",
-          "answer": "No, we can integrate with your current one. But our CRM is built specifically for real estate agencies and is more powerful than anything else on the market. Most agencies that see it choose to upgrade. Worth a conversation."
+          "question": "¿Tenemos que cambiar nuestro CRM?",
+          "answer": "No, podemos integrarnos con el que tengas. Pero nuestro CRM está construido específicamente para agencias inmobiliarias y es más potente que cualquier otra cosa en el mercado. La mayoría de agencias que lo ven eligen migrar. Vale la pena una conversación."
         },
         "item2": {
-          "question": "Do our agents need to learn new software?",
-          "answer": "We guide your team through the full onboarding. The system is designed to fit into your existing workflow, and we make sure everyone is comfortable before going live."
+          "question": "¿Nuestros agentes tienen que aprender software nuevo?",
+          "answer": "Guiamos a tu equipo durante todo el onboarding. El sistema está diseñado para encajar en tu flujo de trabajo actual, y nos aseguramos de que todo el mundo esté cómodo antes del arranque."
         },
         "item3": {
-          "question": "What if my agency is small?",
-          "answer": "The OS is designed for agencies with at least 3–5 people. That said, we can adapt to smaller teams if needed."
+          "question": "¿Y si mi agencia es pequeña?",
+          "answer": "El OS está diseñado para agencias con al menos 3–5 personas. Dicho esto, podemos adaptarnos a equipos más pequeños si es necesario."
         },
         "item4": {
-          "question": "How is this different from buying a CRM?",
-          "answer": "A CRM is a tool you configure yourself. This is an operating system we build and fine-tune for your agency. We handle onboarding, and we stay involved monthly to make sure it evolves with your business."
+          "question": "¿En qué se diferencia esto de comprar un CRM?",
+          "answer": "Un CRM es una herramienta que configuras tú. Esto es un sistema operativo que construimos y afinamos para tu agencia. Nos encargamos del onboarding y nos quedamos involucrados cada mes para asegurarnos de que evoluciona con tu negocio."
         },
         "item5": {
-          "question": "What portals do you integrate with?",
-          "answer": "All major ones. Idealista, Fotocasa, Habitaclia, Pisos.com, and others. Every enquiry flows into your system in real time."
+          "question": "¿Con qué portales os integráis?",
+          "answer": "Con todos los principales. Idealista, Fotocasa, Habitaclia, Pisos.com y otros. Cada consulta llega a tu sistema en tiempo real."
         },
         "item6": {
-          "question": "How quickly will we see results?",
-          "answer": "First module live within 2–4 weeks. Most agencies see measurable impact within the first month."
+          "question": "¿Cómo de rápido veremos resultados?",
+          "answer": "Primer módulo en producción en 2–4 semanas. La mayoría de agencias ven impacto medible dentro del primer mes."
         },
         "item7": {
-          "question": "What happens if we stop?",
-          "answer": "You keep everything we built. No lock-in."
+          "question": "¿Qué pasa si dejamos de trabajar con vosotros?",
+          "answer": "Te quedas con todo lo que hemos construido. Sin lock-in."
         },
         "item8": {
-          "question": "Do you work outside Spain?",
-          "answer": "Yes. Our team works in English, Spanish, and Catalan."
+          "question": "¿Trabajáis fuera de España?",
+          "answer": "Sí. Nuestro equipo trabaja en inglés, español y catalán."
         }
       }
     },
     "finalCta": {
-      "heading": "Let’s talk about your agency.",
-      "subtitle": "Book a free 30-minute assessment. We’ll map your operations and show you exactly where AI makes the biggest impact."
+      "heading": "Hablemos de tu agencia.",
+      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Mapearemos tus operaciones y te mostraremos exactamente dónde la IA tiene el mayor impacto."
     }
   },
   "customSolutionsPage": {
     "hero": {
-      "label": "Custom Solutions",
-      "heading": "AI operations built for your business. Not from a template.",
-      "description": "For companies with processes that don’t fit a standard product. We audit your operations, build AI systems around how you actually work, and stay on to manage and improve them.",
-      "ctaPrimary": "Book a Free Assessment",
+      "label": "Soluciones Personalizadas",
+      "heading": "Operaciones de IA construidas para tu negocio. No a partir de una plantilla.",
+      "description": "Para empresas con procesos que no encajan en un producto estándar. Auditamos tus operaciones, construimos sistemas de IA en torno a cómo trabajas realmente y nos quedamos para gestionarlos y mejorarlos.",
+      "ctaPrimary": "Reservar Evaluación Gratuita",
       "ctaPrimaryShort": "Reservar Llamada",
-      "ctaSecondary": "See how it works",
+      "ctaSecondary": "Ver cómo funciona",
       "imageAlt": "Custom Solutions"
     },
     "problem": {
-      "label": "The Problem",
-      "heading": "You know AI could help. You just don’t know where to start.",
+      "label": "El Problema",
+      "heading": "Sabes que la IA podría ayudar. Simplemente no sabes por dónde empezar.",
       "items": {
         "item1": {
-          "title": "Manual processes eating your margin",
-          "description": "Your team spends hours on repetitive work that adds no value. Data entry, report generation, coordination, follow-ups. It all adds up."
+          "title": "Procesos manuales que se comen tu margen",
+          "description": "Tu equipo pasa horas en trabajo repetitivo que no aporta valor. Entrada de datos, generación de informes, coordinación, seguimientos. Todo suma."
         },
         "item2": {
-          "title": "Tools that solved 60% of the problem",
-          "description": "You’ve tried off-the-shelf software. It never quite fits. The other 40% is still manual."
+          "title": "Herramientas que resolvieron el 60 % del problema",
+          "description": "Has probado software de estantería. Nunca termina de encajar. El otro 40 % sigue siendo manual."
         },
         "item3": {
-          "title": "No internal AI expertise",
-          "description": "You don’t have the team to evaluate what’s possible, build the right solution, or maintain it over time."
+          "title": "Sin experiencia interna en IA",
+          "description": "No tienes el equipo para evaluar qué es posible, construir la solución adecuada ni mantenerla en el tiempo."
         }
       }
     },
     "solutions": {
-      "label": "What We Deploy",
-      "heading": "Every business is different. Here’s what we typically deploy.",
-      "promise": "We don’t sell software. We understand your business first, then build exactly what you need.",
+      "label": "Lo Que Desplegamos",
+      "heading": "Cada negocio es diferente. Esto es lo que normalmente desplegamos.",
+      "promise": "No vendemos software. Primero entendemos tu negocio y luego construimos exactamente lo que necesitas.",
       "items": {
         "item1": {
-          "title": "Process Automation",
-          "promise": "Eliminate repetitive manual work across your operations.",
-          "description": "Turn manual, repetitive workflows into systems that run without human intervention."
+          "title": "Automatización de Procesos",
+          "promise": "Elimina el trabajo manual repetitivo en tus operaciones.",
+          "description": "Convierte flujos de trabajo manuales y repetitivos en sistemas que funcionan sin intervención humana."
         },
         "item2": {
-          "title": "Intelligent Document Processing",
-          "promise": "Extract and route information from documents automatically.",
-          "description": "Extract, classify, and route information from documents, emails, and forms automatically."
+          "title": "Procesamiento Inteligente de Documentos",
+          "promise": "Extrae y enruta información de documentos automáticamente.",
+          "description": "Extrae, clasifica y enruta información de documentos, emails y formularios de forma automática."
         },
         "item3": {
-          "title": "AI-Powered Communication",
-          "promise": "Handle routine client conversations at scale.",
-          "description": "WhatsApp bots, voice agents, and automated outreach that handle routine conversations with your clients."
+          "title": "Comunicación Impulsada por IA",
+          "promise": "Gestiona conversaciones rutinarias con clientes a escala.",
+          "description": "Bots de WhatsApp, agentes de voz y contacto automatizado que gestionan conversaciones rutinarias con tus clientes."
         },
         "item4": {
-          "title": "Client and Lead Management",
-          "promise": "Automate your sales pipeline from capture to close.",
-          "description": "Custom CRM workflows, lead qualification, and follow-up automation tailored to your sales process."
+          "title": "Gestión de Clientes y Leads",
+          "promise": "Automatiza tu pipeline de ventas desde la captación hasta el cierre.",
+          "description": "Flujos CRM personalizados, cualificación de leads y automatización de seguimientos adaptados a tu proceso de ventas."
         },
         "item5": {
-          "title": "Dashboards and Reporting",
-          "promise": "See what matters in real time.",
-          "description": "Live dashboards that show what matters. No more compiling spreadsheets."
+          "title": "Dashboards e Informes",
+          "promise": "Ve lo que importa en tiempo real.",
+          "description": "Dashboards en vivo que muestran lo que importa. Se acabó compilar hojas de cálculo."
         }
       }
     },
     "howToStart": {
-      "label": "How to Get Started",
-      "heading": "From first call to live system in 4 weeks.",
+      "label": "Cómo Empezar",
+      "heading": "De la primera llamada a sistema en producción en 4 semanas.",
       "steps": {
         "step1": {
-          "label": "Audit",
-          "title": "We map your operations",
-          "description": "We map your operations"
+          "label": "Auditoría",
+          "title": "Mapeamos tus operaciones",
+          "description": "Mapeamos tus operaciones"
         },
         "step2": {
-          "label": "Build",
-          "title": "First system goes live",
-          "description": "First system goes live"
+          "label": "Construcción",
+          "title": "El primer sistema entra en producción",
+          "description": "El primer sistema entra en producción"
         },
         "step3": {
-          "label": "Expand",
-          "title": "We train, manage, and grow",
-          "description": "We train, manage, and grow"
+          "label": "Ampliación",
+          "title": "Formamos, gestionamos y hacemos crecer",
+          "description": "Formamos, gestionamos y hacemos crecer"
         }
       }
     },
     "howItWorks": {
-      "label": "How It Works",
-      "heading": "From first call to live system in 4 weeks.",
+      "label": "Cómo Funciona",
+      "heading": "De la primera llamada a sistema en producción en 4 semanas.",
       "steps": {
         "step1": {
-          "label": "Step 1",
-          "title": "We audit your operations",
-          "description": "We map your processes, identify where time and money are leaking, and put a number on each opportunity. You get a clear picture of what’s worth automating and what isn’t."
+          "label": "Paso 1",
+          "title": "Auditamos tus operaciones",
+          "description": "Mapeamos tus procesos, identificamos dónde se fugan tiempo y dinero y ponemos un número a cada oportunidad. Obtienes una imagen clara de qué merece la pena automatizar y qué no."
         },
         "step2": {
-          "label": "Step 2",
-          "title": "We build and deploy",
-          "description": "We take the highest-impact opportunity and build it. Live, working, integrated with your existing tools. No pilots that go nowhere."
+          "label": "Paso 2",
+          "title": "Construimos y desplegamos",
+          "description": "Tomamos la oportunidad de mayor impacto y la construimos. En producción, funcionando, integrada con tus herramientas existentes. Sin pilotos que se quedan en nada."
         },
         "step3": {
-          "label": "Step 3",
-          "title": "We train, manage, and expand",
-          "description": "We train your team on the new system, monitor performance, and keep improving it. When you’re ready, we expand to the next opportunity."
+          "label": "Paso 3",
+          "title": "Formamos, gestionamos y ampliamos",
+          "description": "Formamos a tu equipo en el nuevo sistema, monitorizamos el rendimiento y seguimos mejorándolo. Cuando estés listo, ampliamos a la siguiente oportunidad."
         }
       }
     },
     "benchmarks": {
-      "label": "What to Expect",
-      "heading": "Benchmarks from custom engagements.",
+      "label": "Qué Esperar",
+      "heading": "Benchmarks de proyectos personalizados.",
       "items": {
         "item1": {
           "value": "8–12",
-          "label": "Automation opportunities identified",
-          "description": "Average audit identifies 8–12 automation opportunities"
+          "label": "Oportunidades de automatización identificadas",
+          "description": "Una auditoría media identifica de 8 a 12 oportunidades de automatización"
         },
         "item2": {
-          "value": "4 weeks",
-          "label": "First automation live",
-          "description": "First automation live within 4 weeks"
+          "value": "4 semanas",
+          "label": "Primera automatización en producción",
+          "description": "Primera automatización en producción en 4 semanas"
         },
         "item3": {
-          "value": "60%",
-          "label": "Reduction in manual work",
-          "description": "60% reduction in manual work from the first solution"
+          "value": "60 %",
+          "label": "Reducción del trabajo manual",
+          "description": "60 % de reducción del trabajo manual desde la primera solución"
         },
         "item4": {
-          "value": "100%",
-          "label": "You own everything",
-          "description": "You own everything we build, no vendor lock-in"
+          "value": "100 %",
+          "label": "Todo es tuyo",
+          "description": "Te quedas con todo lo que construimos, sin vendor lock-in"
         }
       }
     },
     "faq": {
       "label": "FAQ",
-      "heading": "Common questions",
+      "heading": "Preguntas frecuentes",
       "items": {
         "item1": {
-          "question": "What industries do you work with?",
-          "answer": "Any. We’ve worked with real estate, healthcare, and professional services. The approach is the same: audit, build, manage."
+          "question": "¿Con qué industrias trabajáis?",
+          "answer": "Con cualquiera. Hemos trabajado con inmobiliaria, salud y servicios profesionales. El enfoque es el mismo: auditar, construir, gestionar."
         },
         "item2": {
-          "question": "How much does it cost?",
-          "answer": "It depends on the project. We work best as your AI internal team over an extended period, typically several months. That said, we’re flexible at the start so you can see our work and build trust before committing long-term."
+          "question": "¿Cuánto cuesta?",
+          "answer": "Depende del proyecto. Funcionamos mejor como tu equipo interno de IA durante un periodo prolongado, normalmente varios meses. Dicho esto, somos flexibles al principio para que puedas ver nuestro trabajo y generar confianza antes de comprometerte a largo plazo."
         },
         "item3": {
-          "question": "Do we need technical skills?",
-          "answer": "No. We handle everything from design to deployment. Your team needs zero technical knowledge."
+          "question": "¿Necesitamos conocimientos técnicos?",
+          "answer": "No. Nos encargamos de todo, del diseño al despliegue. Tu equipo no necesita ningún conocimiento técnico."
         },
         "item4": {
-          "question": "How long before we see results?",
-          "answer": "First solution live within 4 weeks. Most clients see measurable impact within the first month."
+          "question": "¿Cuánto tardaremos en ver resultados?",
+          "answer": "Primera solución en producción en 4 semanas. La mayoría de clientes ven impacto medible dentro del primer mes."
         },
         "item5": {
-          "question": "What happens if we stop?",
-          "answer": "You keep everything we built. No lock-in, no proprietary platforms."
+          "question": "¿Qué pasa si dejamos de trabajar con vosotros?",
+          "answer": "Te quedas con todo lo que hemos construido. Sin lock-in, sin plataformas propietarias."
         },
         "item6": {
-          "question": "Can you work with our existing systems?",
-          "answer": "Yes. We build on top of what you already use. No rip-and-replace."
+          "question": "¿Podéis trabajar con nuestros sistemas actuales?",
+          "answer": "Sí. Construimos sobre lo que ya usas. Sin reemplazos forzados."
         }
       }
     },
     "finalCta": {
-      "verticalPhrase": "your operations",
-      "heading": "Let’s look at your operations.",
-      "subtitle": "Book a free 30-minute assessment. We’ll identify where AI can make the biggest impact on your business."
+      "verticalPhrase": "tus operaciones",
+      "heading": "Hablemos de tus operaciones.",
+      "subtitle": "Reserva una evaluación gratuita de 30 minutos. Identificaremos dónde la IA puede tener el mayor impacto en tu negocio."
     }
   },
   "bookCall": {
     "hero": {
-      "label": "Book a Free Assessment",
-      "heading": "Let’s find where AI can make the biggest impact.",
-      "description": "A free 15-minute call to understand your situation, identify opportunities, and see if we can help. No commitment, no pitch.",
+      "label": "Reservar Evaluación Gratuita",
+      "heading": "Encontremos dónde la IA puede tener el mayor impacto.",
+      "description": "Una llamada gratuita de 15 minutos para entender tu situación, identificar oportunidades y ver si podemos ayudar. Sin compromiso, sin venta.",
       "badges": {
-        "item1": "15 minutes",
-        "item2": "No obligation",
-        "item3": "Actionable insights"
+        "item1": "15 minutos",
+        "item2": "Sin obligación",
+        "item3": "Insights accionables"
       }
     },
     "whatHappensNext": {
-      "label": "What Happens Next",
-      "heading": "From first call to live system in 4 weeks.",
+      "label": "Qué Pasa Después",
+      "heading": "De la primera llamada a sistema en producción en 4 semanas.",
       "steps": {
         "step1": {
           "number": "01",
-          "title": "We talk",
-          "description": "A 15-minute call to understand your business, your challenges, and whether we can help."
+          "title": "Hablamos",
+          "description": "Una llamada de 15 minutos para entender tu negocio, tus retos y si podemos ayudar."
         },
         "step2": {
           "number": "02",
-          "title": "We audit",
-          "description": "We map your operations, find where time and money are leaking, and identify the biggest opportunities."
+          "title": "Auditamos",
+          "description": "Mapeamos tus operaciones, encontramos dónde se fugan tiempo y dinero e identificamos las mayores oportunidades."
         },
         "step3": {
           "number": "03",
-          "title": "First automation goes live",
-          "description": "We build the highest-impact solution first. Live, working, and saving you time within 4 weeks."
+          "title": "La primera automatización entra en producción",
+          "description": "Construimos primero la solución de mayor impacto. En producción, funcionando y ahorrándote tiempo en 4 semanas."
         }
       }
     }
   },
   "about": {
     "hero": {
-      "label": "About Autonymo",
-      "heading1": "The AI transition is happening.",
-      "heading2": "We make sure you’re on the right side of it.",
-      "description": "Not as a consultant. Not as a software vendor. As your external AI team."
+      "label": "Sobre Autonymo",
+      "heading1": "La transición a la IA está ocurriendo.",
+      "heading2": "Nos aseguramos de que estés en el lado correcto.",
+      "description": "No como consultor. No como proveedor de software. Como tu equipo externo de IA."
     },
     "theShift": {
-      "label": "The Shift",
-      "heading": "Something permanent is happening.",
-      "paragraph1": "For decades, the gap between large corporations and small businesses was defined by access. Access to talent, to technology, to the infrastructure that compounds over time.",
-      "paragraph2": "AI is collapsing that gap. For the first time, a 30-person manufacturing company can operate with the same intelligence infrastructure as a Fortune 500. The tools exist. The models exist. What most businesses lack is the team to put it together and keep it running.",
-      "closing": "That’s the opening Autonymo was built for."
+      "label": "El Cambio",
+      "heading": "Está ocurriendo algo permanente.",
+      "paragraph1": "Durante décadas, la brecha entre grandes corporaciones y pequeñas empresas se definió por el acceso. Acceso al talento, a la tecnología, a la infraestructura que se multiplica con el tiempo.",
+      "paragraph2": "La IA está cerrando esa brecha. Por primera vez, una empresa manufacturera de 30 personas puede operar con la misma infraestructura de inteligencia que una Fortune 500. Las herramientas existen. Los modelos existen. Lo que a la mayoría de empresas les falta es el equipo que lo integre todo y lo mantenga en marcha.",
+      "closing": "Esa es la oportunidad para la que se construyó Autonymo."
     },
     "whoWeAre": {
-      "label": "Who We Are",
-      "heading": "We don’t consult. We build.",
-      "paragraph1": "Autonymo is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don’t know where to start, or have tried and been disappointed.",
-      "paragraph2": "We go inside the business. We spend time understanding how it actually works: the processes, the bottlenecks, the workarounds that have existed for years. Then we build AI systems that fit into that reality. Not templates. Not off-the-shelf platforms. Systems designed for how this specific business operates.",
-      "paragraph3": "We deploy fast. First solution live in 4 weeks. Then we stay on, monitoring, improving, and expanding as the business grows and as AI evolves.",
-      "paragraph4": "Every improvement in AI makes our service faster, cheaper, and more powerful. We pass that directly to our clients.",
+      "label": "Quiénes Somos",
+      "heading": "No consultamos. Construimos.",
+      "paragraph1": "Autonymo es un equipo de ingeniería de IA con base en Barcelona. Trabajamos con pequeñas y medianas empresas que saben que la IA importa pero no saben por dónde empezar, o han intentado algo y se han decepcionado.",
+      "paragraph2": "Nos metemos dentro del negocio. Dedicamos tiempo a entender cómo funciona realmente: los procesos, los cuellos de botella, los apaños que existen desde hace años. Entonces construimos sistemas de IA que encajan en esa realidad. Sin plantillas. Sin plataformas de estantería. Sistemas diseñados para cómo opera este negocio en concreto.",
+      "paragraph3": "Desplegamos rápido. Primera solución en producción en 4 semanas. Después nos quedamos, monitorizando, mejorando y ampliando a medida que el negocio crece y la IA evoluciona.",
+      "paragraph4": "Cada mejora en IA hace que nuestro servicio sea más rápido, más barato y más potente. Eso lo trasladamos directamente a nuestros clientes.",
       "highlights": {
         "item1": {
           "number": "01",
-          "title": "Based in Barcelona",
-          "description": "Working with businesses across Spain and Europe in English, Spanish, and Catalan."
+          "title": "Con base en Barcelona",
+          "description": "Trabajando con empresas en España y Europa en inglés, español y catalán."
         },
         "item2": {
           "number": "02",
-          "title": "Live in 4 weeks",
-          "description": "First automation deployed fast. Then we stay on to manage, optimize, and expand."
+          "title": "En producción en 4 semanas",
+          "description": "Primera automatización desplegada rápido. Después nos quedamos para gestionar, optimizar y ampliar."
         },
         "item3": {
           "number": "03",
-          "title": "No lock-in",
-          "description": "You keep everything we build. No proprietary platforms, no forced migrations."
+          "title": "Sin lock-in",
+          "description": "Te quedas con todo lo que construimos. Sin plataformas propietarias, sin migraciones forzadas."
         }
       }
     },
     "whyWeExist": {
-      "label": "Why We Exist",
-      "heading": "For every €1 spent on software, €6 are spent on the work.",
-      "paragraph1": "The AI industry has spent years building tools for the people doing the work. Copilots. Assistants. Productivity layers.",
-      "paragraph2": "We think the bigger opportunity is different. Most businesses don’t need another tool. They need someone to do the work, and do it better than any human team could.",
-      "closing": "That’s what autopilots do. And that’s what we build."
+      "label": "Por Qué Existimos",
+      "heading": "Por cada 1 € gastado en software, se gastan 6 € en el trabajo.",
+      "paragraph1": "La industria de la IA ha pasado años construyendo herramientas para las personas que hacen el trabajo. Copilotos. Asistentes. Capas de productividad.",
+      "paragraph2": "Creemos que la mayor oportunidad es otra. La mayoría de empresas no necesita otra herramienta. Necesita a alguien que haga el trabajo, y lo haga mejor que cualquier equipo humano.",
+      "closing": "Eso es lo que hacen los pilotos automáticos. Y eso es lo que construimos."
     },
     "theTeam": {
-      "label": "The Team",
-      "heading": "Based in Barcelona. Built to move fast.",
-      "description1": "We’re a small team of engineers, operators, and builders. We move fast, we care about every client as if it were our own business, and we measure ourselves by the impact we generate, not by the hours we bill or the licenses we sell.",
-      "description2": "We’re early. We’re hungry. And we believe the companies that adopt AI now will define their industries for the next decade.",
+      "label": "El Equipo",
+      "heading": "Con base en Barcelona. Construido para moverse rápido.",
+      "description1": "Somos un equipo pequeño de ingenieros, operadores y constructores. Nos movemos rápido, nos importa cada cliente como si fuera nuestro propio negocio y nos medimos por el impacto que generamos, no por las horas que facturamos o las licencias que vendemos.",
+      "description2": "Estamos en una fase temprana. Tenemos hambre. Y creemos que las empresas que adopten la IA ahora definirán sus industrias durante la próxima década.",
       "founder": {
         "name": "Arnau Fabrega",
         "role": "Founder & CEO",
         "imageAlt": "Arnau Fabrega",
-        "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
-        "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-        "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
+        "bio1": "Pasé años en Deloitte ayudando a grandes corporaciones del sector financiero. Fue una formación excelente, pero no dejaba de notar lo mismo: la IA lo estaba cambiando todo y la mayoría de las empresas, especialmente las pequeñas y medianas, no tenían ni idea de lo que realmente podía hacer por ellas.",
+        "bio2": "No sabían por dónde empezar, y aunque lo supieran, la tecnología avanza tan rápido que lo que funcionaba hace seis meses ya está obsoleto.",
+        "bio3": "Empecé Autonymo porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
       }
     },
     "cta": {
-      "heading1": "If you’re ready to start,",
-      "heading2": "so are we.",
-      "description": "Book a free 30-minute assessment. We’ll tell you exactly where AI can make the biggest impact on your business, and what it would take to get there.",
-      "button": "Book a Free Assessment",
+      "heading1": "Si estás listo para empezar,",
+      "heading2": "nosotros también.",
+      "description": "Reserva una evaluación gratuita de 30 minutos. Te diremos exactamente dónde la IA puede tener el mayor impacto en tu negocio y qué haría falta para llegar hasta ahí.",
+      "button": "Reservar Evaluación Gratuita",
       "buttonShort": "Reservar Llamada",
-      "noCommitment": "No commitment required"
+      "noCommitment": "Sin compromiso"
     }
   },
   "blog": {
     "hero": {
       "label": "Blog",
-      "heading": "Insights on AI, automation, and growth.",
-      "description": "Deep dives into the strategies, technology, and case studies behind modern AI automation."
+      "heading": "Análisis sobre IA, automatización y crecimiento.",
+      "description": "Análisis en profundidad de las estrategias, la tecnología y los casos de éxito detrás de la automatización moderna con IA."
     },
     "featured": {
-      "badge": "Featured",
-      "title": "Why AI Agents Are the Future of Business Operations",
-      "excerpt": "The shift from static automation to intelligent agents is transforming how companies operate. Here’s what business leaders need to know about the agent revolution, and how to prepare for it.",
-      "category": "AI Strategy",
-      "date": "Coming Soon",
-      "readTime": "8 min read"
+      "badge": "Destacado",
+      "title": "Por Qué los Agentes de IA Son el Futuro de las Operaciones Empresariales",
+      "excerpt": "El cambio de la automatización estática a los agentes inteligentes está transformando cómo operan las empresas. Esto es lo que los líderes empresariales deben saber sobre la revolución de los agentes y cómo prepararse.",
+      "category": "Estrategia de IA",
+      "date": "Próximamente",
+      "readTime": "8 min de lectura"
     },
     "posts": {
       "post1": {
-        "title": "How We Reduced Insurance Processing Time by 35% with AI",
-        "excerpt": "A deep dive into how Health Services OS automates eligibility checks, pre-authorizations, and claims for healthcare practices.",
-        "category": "Case Study",
-        "date": "Coming Soon",
-        "readTime": "6 min read"
+        "title": "Cómo Redujimos el Tiempo de Procesamiento de Seguros un 35 % con IA",
+        "excerpt": "Un análisis en profundidad de cómo Health Services OS automatiza verificaciones de elegibilidad, autorizaciones previas y reclamaciones para consultas sanitarias.",
+        "category": "Caso de Éxito",
+        "date": "Próximamente",
+        "readTime": "6 min de lectura"
       },
       "post2": {
-        "title": "The Real Estate Agent’s Guide to AI Lead Nurturing",
-        "excerpt": "From cold leads to warm prospects: how AI-powered follow-up sequences are changing the game for real estate teams.",
-        "category": "Real Estate",
-        "date": "Coming Soon",
-        "readTime": "5 min read"
+        "title": "La Guía del Agente Inmobiliario para el Nurturing de Leads con IA",
+        "excerpt": "De leads fríos a prospectos calientes: cómo las secuencias de seguimiento impulsadas por IA están cambiando el juego para los equipos inmobiliarios.",
+        "category": "Inmobiliaria",
+        "date": "Próximamente",
+        "readTime": "5 min de lectura"
       },
       "post3": {
-        "title": "Building Custom AI Agents: Our Technical Approach",
-        "excerpt": "A look behind the scenes at how we design, train, and deploy purpose-built AI agents for enterprise clients.",
-        "category": "Engineering",
-        "date": "Coming Soon",
-        "readTime": "10 min read"
+        "title": "Construyendo Agentes de IA Personalizados: Nuestro Enfoque Técnico",
+        "excerpt": "Un vistazo entre bambalinas a cómo diseñamos, entrenamos y desplegamos agentes de IA a medida para clientes empresariales.",
+        "category": "Ingeniería",
+        "date": "Próximamente",
+        "readTime": "10 min de lectura"
       }
     },
     "newsletter": {
-      "heading": "Stay ahead of the curve.",
-      "description": "Get our latest insights on AI automation, delivered straight to your inbox. No spam, just value.",
-      "placeholder": "your@email.com",
-      "button": "Subscribe"
+      "heading": "Mantente a la vanguardia.",
+      "description": "Recibe nuestros últimos análisis sobre automatización con IA directamente en tu bandeja de entrada. Sin spam, solo valor.",
+      "placeholder": "tu@email.com",
+      "button": "Suscribirse"
     }
   }
 }

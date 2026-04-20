@@ -9,29 +9,13 @@ export const HowItWorks = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
-  const steps = [
-    {
-      key: "step1",
-      phase: t("steps.step1.phase"),
-      title: t("steps.step1.title"),
-      description: t("steps.step1.description"),
-      tags: ["No 6-month diagnostics", "No 80-slide decks"],
-    },
-    {
-      key: "step2",
-      phase: t("steps.step2.phase"),
-      title: t("steps.step2.title"),
-      description: t("steps.step2.description"),
-      tags: ["No rip-and-replace", "No dead pilots"],
-    },
-    {
-      key: "step3",
-      phase: t("steps.step3.phase"),
-      title: t("steps.step3.title"),
-      description: t("steps.step3.description"),
-      tags: ["No handoffs, ever", "Compound kicks in"],
-    },
-  ];
+  const steps = (["step1", "step2", "step3"] as const).map((key) => ({
+    key,
+    phase: t(`steps.${key}.phase`),
+    title: t(`steps.${key}.title`),
+    description: t(`steps.${key}.description`),
+    tags: t.raw(`steps.${key}.tags`) as string[],
+  }));
 
   return (
     <section
