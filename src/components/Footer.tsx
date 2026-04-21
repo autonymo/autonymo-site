@@ -39,16 +39,17 @@ const Footer = () => {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-12 mb-10">
             {/* Brand Column */}
             <div className="col-span-2">
-              <Link href="/" className="flex items-center gap-1.5 mb-4 group">
+              <Link href="/" className="flex items-center gap-0.5 mb-4 group">
                 <Image
                   src="/logo.png"
                   alt="Autonymo"
-                  width={36}
-                  height={36}
-                  className="w-9 h-9"
+                  width={44}
+                  height={44}
+                  className="shrink-0 w-auto"
+                  style={{ height: "54px", marginTop: "-13px", marginBottom: "-13px" }}
                   loading="lazy"
                 />
-                <span className="font-heading text-2xl font-bold tracking-tight text-charcoal">
+                <span className="font-heading text-xl font-bold tracking-tight text-charcoal">
                   Autonymo
                 </span>
               </Link>

@@ -106,8 +106,8 @@ export const Navbar = () => {
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-0 group">
-            <Image src="/logo.png" alt="Autonymo" width={44} height={44} className="shrink-0 w-auto" style={{ height: "54px", marginTop: "-13px", marginBottom: "-13px", marginRight: "-6px" }} />
+          <Link href="/" className="flex items-center gap-0.5 group">
+            <Image src="/logo.png" alt="Autonymo" width={44} height={44} className="shrink-0 w-auto" style={{ height: "54px", marginTop: "-13px", marginBottom: "-13px" }} />
             <span className="font-heading text-xl font-bold tracking-tight text-charcoal">
               Autonymo
             </span>
