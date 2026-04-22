@@ -110,7 +110,7 @@ export default function RealEstateOS() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="https://cal.com/arnau-fabrega-nscdht/autonymo-real-estate-os"
+                  href="https://cal.com/arnau-fabrega-nscdht/artifexone-real-estate-os"
                   className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95"
                 >
                   <span className="sm:hidden">{t("hero.ctaPrimaryShort")}</span>
@@ -283,7 +283,7 @@ export default function RealEstateOS() {
         verticalPhrase={t("finalCta.heading")}
         heading={t("finalCta.heading")}
         subtitle={t("finalCta.subtitle")}
-        calLink="https://cal.com/arnau-fabrega-nscdht/autonymo-real-estate-os"
+        calLink="https://cal.com/arnau-fabrega-nscdht/artifexone-real-estate-os"
       />
     </div>
   );

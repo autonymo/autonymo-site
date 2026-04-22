@@ -19,7 +19,7 @@ export default function About() {
             className="font-display font-extrabold tracking-tighter leading-none whitespace-nowrap"
             style={{ fontSize: "clamp(6rem, 14vw, 16rem)", color: "rgba(26, 26, 26, 0.03)" }}
           >
-            AUTONYMO
+            ARTIFEXONE
           </span>
         </div>
 
@@ -220,7 +220,7 @@ export default function About() {
             </div>
             <div className="flex flex-col items-start md:items-end gap-4 shrink-0">
               <Link
-                href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
+                href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
                 className="inline-flex items-center justify-center font-medium tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-8 py-4 hover:bg-white/90 transition-colors active:scale-95 cursor-pointer"
               >
                 <span className="sm:hidden">{t("cta.buttonShort")}</span>

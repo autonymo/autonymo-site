@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autonymo | Sistemas Operativos de IA para tu Industria",
+    "title": "ArtifexOne | Sistemas Operativos de IA para tu Industria",
     "description": "Diseñamos, construimos y desplegamos sistemas operativos de IA completos para Inmobiliaria, Salud y soluciones empresariales personalizadas. Listos en semanas, no meses."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "blogs": "Blogs",
     "blogsDesc": "Análisis sobre automatización con IA, tendencias del sector y estrategias.",
     "caseStudies": "Casos de Éxito",
-    "caseStudiesDesc": "Descubre cómo distintas empresas funcionan con Autonymo OS.",
+    "caseStudiesDesc": "Descubre cómo distintas empresas funcionan con ArtifexOne OS.",
     "realEstateOS": "Real Estate OS",
     "realEstateOSDesc": "Respuesta automática a leads, gestión de propiedades y automatización de contratos para agencias inmobiliarias.",
     "healthServicesOS": "Health Services OS",
@@ -221,7 +221,7 @@
     }
   },
   "beforeAfter": {
-    "label": "Por Qué Autonymo",
+    "label": "Por Qué ArtifexOne",
     "title": "Tus operaciones están a punto de cambiar.",
     "subtitle": "Deja de parchear flujos de trabajo con hojas de cálculo y seguimientos manuales. Empieza a funcionar con un sistema operativo inteligente.",
     "before": {
@@ -236,7 +236,7 @@
       }
     },
     "after": {
-      "title": "Después: Autonymo OS",
+      "title": "Después: ArtifexOne OS",
       "items": {
         "item1": "La IA responde a consultas en segundos, 24/7: ningún lead se queda sin atender",
         "item2": "Flujos automatizados gestionan el trabajo repetitivo para que tu equipo se enfoque en el valor",
@@ -246,7 +246,7 @@
         "item6": "Nuevas capacidades desplegadas en días, no meses"
       }
     },
-    "bottomNote": "Los equipos que ya usan Autonymo operan a una velocidad diferente"
+    "bottomNote": "Los equipos que ya usan ArtifexOne operan a una velocidad diferente"
   },
   "howItWorks": {
     "label": "Cómo Trabajamos",
@@ -284,8 +284,8 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "cookies": "Cookies",
-    "copyright": "© {year} Autonymo. Todos los derechos reservados.",
-    "tagline": "Autonymo es la empresa matriz de Keishal y Taolatt.",
+    "copyright": "© {year} ArtifexOne. Todos los derechos reservados.",
+    "tagline": "ArtifexOne es la empresa matriz de Keishal y Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -402,7 +402,7 @@
     "role": "Founder & CEO",
     "bio1": "Pasé años en Deloitte ayudando a grandes corporaciones del sector financiero. Fue una formación excelente, pero no dejaba de notar lo mismo: la IA lo estaba cambiando todo y la mayoría de las empresas, especialmente las pequeñas y medianas, no tenían ni idea de lo que realmente podía hacer por ellas.",
     "bio2": "No sabían por dónde empezar, y aunque lo supieran, la tecnología avanza tan rápido que lo que funcionaba hace seis meses ya está obsoleto.",
-    "bio3": "Empecé Autonymo porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
+    "bio3": "Empecé ArtifexOne porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
   },
   "dentalClinicOS": {
     "hero": {
@@ -926,7 +926,7 @@
   },
   "about": {
     "hero": {
-      "label": "Sobre Autonymo",
+      "label": "Sobre ArtifexOne",
       "heading1": "La transición a la IA está ocurriendo.",
       "heading2": "Nos aseguramos de que estés en el lado correcto.",
       "description": "No como consultor. No como proveedor de software. Como tu equipo externo de IA."
@@ -936,12 +936,12 @@
       "heading": "Está ocurriendo algo permanente.",
       "paragraph1": "Durante décadas, la brecha entre grandes corporaciones y pequeñas empresas se definió por el acceso. Acceso al talento, a la tecnología, a la infraestructura que se multiplica con el tiempo.",
       "paragraph2": "La IA está cerrando esa brecha. Por primera vez, una empresa manufacturera de 30 personas puede operar con la misma infraestructura de inteligencia que una Fortune 500. Las herramientas existen. Los modelos existen. Lo que a la mayoría de empresas les falta es el equipo que lo integre todo y lo mantenga en marcha.",
-      "closing": "Esa es la oportunidad para la que se construyó Autonymo."
+      "closing": "Esa es la oportunidad para la que se construyó ArtifexOne."
     },
     "whoWeAre": {
       "label": "Quiénes Somos",
       "heading": "No consultamos. Construimos.",
-      "paragraph1": "Autonymo es un equipo de ingeniería de IA con base en Barcelona. Trabajamos con pequeñas y medianas empresas que saben que la IA importa pero no saben por dónde empezar, o han intentado algo y se han decepcionado.",
+      "paragraph1": "ArtifexOne es un equipo de ingeniería de IA con base en Barcelona. Trabajamos con pequeñas y medianas empresas que saben que la IA importa pero no saben por dónde empezar, o han intentado algo y se han decepcionado.",
       "paragraph2": "Nos metemos dentro del negocio. Dedicamos tiempo a entender cómo funciona realmente: los procesos, los cuellos de botella, los apaños que existen desde hace años. Entonces construimos sistemas de IA que encajan en esa realidad. Sin plantillas. Sin plataformas de estantería. Sistemas diseñados para cómo opera este negocio en concreto.",
       "paragraph3": "Desplegamos rápido. Primera solución en producción en 4 semanas. Después nos quedamos, monitorizando, mejorando y ampliando a medida que el negocio crece y la IA evoluciona.",
       "paragraph4": "Cada mejora en IA hace que nuestro servicio sea más rápido, más barato y más potente. Eso lo trasladamos directamente a nuestros clientes.",
@@ -981,7 +981,7 @@
         "imageAlt": "Arnau Fabrega",
         "bio1": "Pasé años en Deloitte ayudando a grandes corporaciones del sector financiero. Fue una formación excelente, pero no dejaba de notar lo mismo: la IA lo estaba cambiando todo y la mayoría de las empresas, especialmente las pequeñas y medianas, no tenían ni idea de lo que realmente podía hacer por ellas.",
         "bio2": "No sabían por dónde empezar, y aunque lo supieran, la tecnología avanza tan rápido que lo que funcionaba hace seis meses ya está obsoleto.",
-        "bio3": "Empecé Autonymo porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
+        "bio3": "Empecé ArtifexOne porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
       }
     },
     "cta": {

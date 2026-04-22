@@ -19,10 +19,10 @@ const Footer = () => {
     [t("company")]: [
       { name: t("aboutUs"), href: "/about" as const },
       { name: t("blog"), href: "/blog" as const },
-      { name: t("bookCall"), href: "https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership" as const },
+      { name: t("bookCall"), href: "https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership" as const },
     ],
     [t("social")]: [
-      { name: "LinkedIn", href: "https://www.linkedin.com/company/autonymo/" as const },
+      { name: "LinkedIn", href: "https://www.linkedin.com/company/artifexone/" as const },
     ],
     [t("legal")]: [
       { name: t("privacy"), href: "#" as const },
@@ -39,19 +39,16 @@ const Footer = () => {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-12 mb-10">
             {/* Brand Column */}
             <div className="col-span-2">
-              <Link href="/" className="flex items-center gap-0.5 mb-4 group">
+              <Link href="/" className="flex items-center mb-4 group">
                 <Image
-                  src="/logo.png"
-                  alt="Autonymo"
-                  width={44}
-                  height={44}
+                  src="/wordmark-charcoal-transparent.png"
+                  alt="ArtifexOne"
+                  width={900}
+                  height={160}
                   className="shrink-0 w-auto"
-                  style={{ height: "54px", marginTop: "-13px", marginBottom: "-13px" }}
+                  style={{ height: "32px" }}
                   loading="lazy"
                 />
-                <span className="font-heading text-xl font-bold tracking-tight text-charcoal">
-                  Autonymo
-                </span>
               </Link>
               <p className="text-text-muted text-sm leading-relaxed max-w-xs">
                 {t("tagline")}

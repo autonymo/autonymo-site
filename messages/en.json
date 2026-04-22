@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autonymo | AI Operating Systems for Your Industry",
+    "title": "ArtifexOne | AI Operating Systems for Your Industry",
     "description": "We design, build, and deploy complete AI operating systems for Real Estate, Healthcare, and custom business solutions. Live in weeks, not months."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "blogs": "Blogs",
     "blogsDesc": "Insights on AI automation, industry trends, and strategies.",
     "caseStudies": "Case Studies",
-    "caseStudiesDesc": "See how businesses are running on Autonymo OS.",
+    "caseStudiesDesc": "See how businesses are running on ArtifexOne OS.",
     "realEstateOS": "Real Estate OS",
     "realEstateOSDesc": "AI-powered lead response, listing management, and contract automation for real estate agencies.",
     "healthServicesOS": "Health Services OS",
@@ -221,7 +221,7 @@
     }
   },
   "beforeAfter": {
-    "label": "Why Autonymo",
+    "label": "Why ArtifexOne",
     "title": "Your operations are about to change.",
     "subtitle": "Stop patching workflows with spreadsheets and manual follow-ups. Start running on an intelligent operating system.",
     "before": {
@@ -236,7 +236,7 @@
       }
     },
     "after": {
-      "title": "After: Autonymo OS",
+      "title": "After: ArtifexOne OS",
       "items": {
         "item1": "AI responds to inquiries in seconds, 24/7: no lead left behind",
         "item2": "Automated workflows handle the repetitive work so your team focuses on value",
@@ -246,7 +246,7 @@
         "item6": "New capabilities deployed in days, not months"
       }
     },
-    "bottomNote": "The teams already using Autonymo are operating at a different speed"
+    "bottomNote": "The teams already using ArtifexOne are operating at a different speed"
   },
   "howItWorks": {
     "label": "How We Work",
@@ -284,8 +284,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookies",
-    "copyright": "© {year} Autonymo. All rights reserved.",
-    "tagline": "Autonymo is the parent company of Keishal and Taolatt.",
+    "copyright": "© {year} ArtifexOne. All rights reserved.",
+    "tagline": "ArtifexOne is the parent company of Keishal and Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -402,7 +402,7 @@
     "role": "Founder & CEO",
     "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
     "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-    "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
+    "bio3": "I started ArtifexOne because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
   },
   "dentalClinicOS": {
     "hero": {
@@ -926,7 +926,7 @@
   },
   "about": {
     "hero": {
-      "label": "About Autonymo",
+      "label": "About ArtifexOne",
       "heading1": "The AI transition is happening.",
       "heading2": "We make sure you’re on the right side of it.",
       "description": "Not as a consultant. Not as a software vendor. As your external AI team."
@@ -936,12 +936,12 @@
       "heading": "Something permanent is happening.",
       "paragraph1": "For decades, the gap between large corporations and small businesses was defined by access. Access to talent, to technology, to the infrastructure that compounds over time.",
       "paragraph2": "AI is collapsing that gap. For the first time, a 30-person manufacturing company can operate with the same intelligence infrastructure as a Fortune 500. The tools exist. The models exist. What most businesses lack is the team to put it together and keep it running.",
-      "closing": "That’s the opening Autonymo was built for."
+      "closing": "That’s the opening ArtifexOne was built for."
     },
     "whoWeAre": {
       "label": "Who We Are",
       "heading": "We don’t consult. We build.",
-      "paragraph1": "Autonymo is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don’t know where to start, or have tried and been disappointed.",
+      "paragraph1": "ArtifexOne is an AI engineering team based in Barcelona. We work with small and mid-sized businesses that know AI matters but don’t know where to start, or have tried and been disappointed.",
       "paragraph2": "We go inside the business. We spend time understanding how it actually works: the processes, the bottlenecks, the workarounds that have existed for years. Then we build AI systems that fit into that reality. Not templates. Not off-the-shelf platforms. Systems designed for how this specific business operates.",
       "paragraph3": "We deploy fast. First solution live in 4 weeks. Then we stay on, monitoring, improving, and expanding as the business grows and as AI evolves.",
       "paragraph4": "Every improvement in AI makes our service faster, cheaper, and more powerful. We pass that directly to our clients.",
@@ -981,7 +981,7 @@
         "imageAlt": "Arnau Fabrega",
         "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
         "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
-        "bio3": "I started Autonymo because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
+        "bio3": "I started ArtifexOne because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
       }
     },
     "cta": {

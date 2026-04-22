@@ -101,7 +101,7 @@ export default function HealthServicesOS() {
                 {t("hero.description")}
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Link href="https://cal.com/arnau-fabrega-nscdht/autonymo-dental-clinic-os" className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95">
+                <Link href="https://cal.com/arnau-fabrega-nscdht/artifexone-dental-clinic-os" className="inline-flex items-center justify-center px-8 py-3.5 font-medium tracking-tight text-white rounded-xl bg-charcoal text-base shadow-xl shadow-charcoal/10 hover:bg-black transition-colors active:scale-95">
                   <span className="sm:hidden">{t("hero.ctaPrimaryShort")}</span>
                   <span className="hidden sm:inline">{t("hero.ctaPrimary")}</span>
                   <ArrowUpRight className="ml-2 w-4 h-4" />
@@ -225,7 +225,7 @@ export default function HealthServicesOS() {
         verticalPhrase={t("finalCta.verticalPhrase")}
         heading={t("finalCta.heading")}
         subtitle={t("finalCta.subtitle")}
-        calLink="https://cal.com/arnau-fabrega-nscdht/autonymo-dental-clinic-os"
+        calLink="https://cal.com/arnau-fabrega-nscdht/artifexone-dental-clinic-os"
       />
     </div>
   );

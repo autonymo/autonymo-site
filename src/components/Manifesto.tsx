@@ -91,7 +91,7 @@ export const Manifesto = () => {
             maxWidth: "min(calc(80rem + var(--p) * (100vw - 80rem)), 100vw)",
           }}
         >
-          {/* Faded AUTONYMO text watermark */}
+          {/* Faded ARTIFEXONE text watermark */}
           <div
             className="absolute inset-0 flex items-center justify-center select-none pointer-events-none z-0"
             aria-hidden="true"
@@ -100,7 +100,7 @@ export const Manifesto = () => {
               className="font-display font-extrabold tracking-tighter leading-none whitespace-nowrap"
               style={{ fontSize: "clamp(6rem, 14vw, 16rem)", color: "rgba(255, 255, 255, 0.04)" }}
             >
-              AUTONYMO
+              ARTIFEXONE
             </span>
           </div>
 

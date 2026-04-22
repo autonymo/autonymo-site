@@ -106,11 +106,16 @@ export const Navbar = () => {
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-0.5 group">
-            <Image src="/logo.png" alt="Autonymo" width={44} height={44} className="shrink-0 w-auto" style={{ height: "54px", marginTop: "-13px", marginBottom: "-13px" }} />
-            <span className="font-heading text-xl font-bold tracking-tight text-charcoal">
-              Autonymo
-            </span>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/wordmark-charcoal-transparent.png"
+              alt="ArtifexOne"
+              width={900}
+              height={160}
+              priority
+              className="shrink-0 w-auto"
+              style={{ height: "28px" }}
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -194,7 +199,7 @@ export const Navbar = () => {
 
             {/* Book a Call CTA */}
             <Link
-              href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
+              href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
               className="hidden sm:flex items-center gap-1.5 px-5 py-2 text-sm font-semibold text-white bg-charcoal rounded-lg hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >
               <ArrowUpRight className="w-4 h-4" />
@@ -366,9 +371,9 @@ export const Navbar = () => {
                   const email = input?.value.trim() ?? "";
                   const subject = encodeURIComponent("Newsletter subscription");
                   const body = encodeURIComponent(
-                    email ? `Please subscribe me to the Autonymo newsletter: ${email}` : "Please subscribe me to the Autonymo newsletter.",
+                    email ? `Please subscribe me to the ArtifexOne newsletter: ${email}` : "Please subscribe me to the ArtifexOne newsletter.",
                   );
-                  window.location.href = `mailto:news@autonymo.com?subject=${subject}&body=${body}`;
+                  window.location.href = `mailto:news@artifexone.com?subject=${subject}&body=${body}`;
                 }}
                 className="flex flex-col gap-2 mt-auto"
               >
@@ -398,7 +403,7 @@ export const Navbar = () => {
               </p>
               <div className="flex flex-col gap-2 mt-auto">
                 <a
-                  href="https://www.linkedin.com/company/autonymo/"
+                  href="https://www.linkedin.com/company/artifexone/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-4 py-3 rounded-xl border border-sand/80 hover:border-warm-gray hover:bg-cream transition-all group"
@@ -486,7 +491,7 @@ export const Navbar = () => {
             <div className="border-t border-sand/50 my-2" />
 
             <Link
-              href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
+              href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
               onClick={closeAll}
               className="flex items-center justify-center gap-1.5 w-full px-5 py-3 text-sm font-semibold text-white bg-charcoal rounded-xl hover:bg-opacity-90 transition-[background-color,transform] active:scale-95"
             >

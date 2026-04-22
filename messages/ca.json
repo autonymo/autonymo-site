@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Autonymo | Sistemes Operatius d’IA per a la Teva Indústria",
+    "title": "ArtifexOne | Sistemes Operatius d’IA per a la Teva Indústria",
     "description": "Dissenyem, construïm i despleguem sistemes operatius d’IA complets per a Immobiliària, Salut i solucions empresarials personalitzades. Llest en setmanes, no mesos."
   },
   "nav": {
@@ -18,7 +18,7 @@
     "blogs": "Blogs",
     "blogsDesc": "Perspectives sobre automatització amb IA, tendències del sector i estratègies.",
     "caseStudies": "Casos d’Èxit",
-    "caseStudiesDesc": "Descobreix com les empreses funcionen amb Autonymo OS.",
+    "caseStudiesDesc": "Descobreix com les empreses funcionen amb ArtifexOne OS.",
     "realEstateOS": "Real Estate OS",
     "realEstateOSDesc": "Resposta automàtica a leads, gestió d’immobles i automatització de contractes per a agències immobiliàries.",
     "healthServicesOS": "Health Services OS",
@@ -221,7 +221,7 @@
     }
   },
   "beforeAfter": {
-    "label": "Per Què Autonymo",
+    "label": "Per Què ArtifexOne",
     "title": "Les teves operacions estan a punt de canviar.",
     "subtitle": "Deixa de pedaçar fluxos de treball amb fulls de càlcul i seguiments manuals. Comença a funcionar amb un sistema operatiu intel·ligent.",
     "before": {
@@ -236,7 +236,7 @@
       }
     },
     "after": {
-      "title": "Després: Autonymo OS",
+      "title": "Després: ArtifexOne OS",
       "items": {
         "item1": "La IA respon a consultes en segons, 24/7: cap lead es queda sense atendre",
         "item2": "Fluxos automatitzats gestionen el treball repetitiu perquè el teu equip s’enfoqui en el valor",
@@ -246,7 +246,7 @@
         "item6": "Noves capacitats desplegades en dies, no mesos"
       }
     },
-    "bottomNote": "Els equips que ja utilitzen Autonymo operen a una velocitat diferent"
+    "bottomNote": "Els equips que ja utilitzen ArtifexOne operen a una velocitat diferent"
   },
   "howItWorks": {
     "label": "Com Treballem",
@@ -284,8 +284,8 @@
     "privacy": "Política de Privacitat",
     "terms": "Termes de Servei",
     "cookies": "Cookies",
-    "copyright": "© {year} Autonymo. Tots els drets reservats.",
-    "tagline": "Autonymo és l’empresa matriu de Keishal i Taolatt.",
+    "copyright": "© {year} ArtifexOne. Tots els drets reservats.",
+    "tagline": "ArtifexOne és l’empresa matriu de Keishal i Taolatt.",
     "realEstateOS": "Real Estate OS",
     "healthServicesOS": "Health Services OS",
     "dentalClinicOS": "Dental Clinic OS",
@@ -402,7 +402,7 @@
     "role": "Founder & CEO",
     "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d’empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
     "bio2": "No sabien per on començar, i encara que ho sabessin, la tecnologia avança tan de pressa que el que funcionava fa sis mesos ja està desfasat.",
-    "bio3": "Vaig fundar Autonymo perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
+    "bio3": "Vaig fundar ArtifexOne perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
   },
   "dentalClinicOS": {
     "hero": {
@@ -926,7 +926,7 @@
   },
   "about": {
     "hero": {
-      "label": "Sobre Autonymo",
+      "label": "Sobre ArtifexOne",
       "heading1": "La transició cap a la IA està passant.",
       "heading2": "Ens assegurem que hi siguis al costat correcte.",
       "description": "No com a consultor. No com a proveïdor de programari. Com el teu equip d’IA extern."
@@ -936,12 +936,12 @@
       "heading": "Està passant una cosa permanent.",
       "paragraph1": "Durant dècades, la distància entre les grans corporacions i les petites empreses es definia per l’accés. Accés al talent, a la tecnologia, a la infraestructura que creix de forma composta amb el temps.",
       "paragraph2": "La IA està tancant aquesta distància. Per primera vegada, una empresa industrial de 30 persones pot operar amb la mateixa infraestructura d’intel·ligència que una Fortune 500. Les eines existeixen. Els models existeixen. El que falta a la majoria d’empreses és l’equip que ho munti i ho mantingui en marxa.",
-      "closing": "Aquesta és l’oportunitat per a la qual es va crear Autonymo."
+      "closing": "Aquesta és l’oportunitat per a la qual es va crear ArtifexOne."
     },
     "whoWeAre": {
       "label": "Qui Som",
       "heading": "No consultem. Construïm.",
-      "paragraph1": "Autonymo és un equip d’enginyeria d’IA amb seu a Barcelona. Treballem amb petites i mitjanes empreses que saben que la IA importa però no saben per on començar, o que ja ho han provat i n’han quedat decebudes.",
+      "paragraph1": "ArtifexOne és un equip d’enginyeria d’IA amb seu a Barcelona. Treballem amb petites i mitjanes empreses que saben que la IA importa però no saben per on començar, o que ja ho han provat i n’han quedat decebudes.",
       "paragraph2": "Entrem dins el negoci. Dediquem temps a entendre com funciona realment: els processos, els colls d’ampolla, les solucions provisionals que fa anys que hi són. Després construïm sistemes d’IA que encaixen en aquesta realitat. Ni plantilles. Ni plataformes de prestatgeria. Sistemes dissenyats per a com opera aquesta empresa en concret.",
       "paragraph3": "Despleguem ràpid. Primera solució en marxa en 4 setmanes. Després ens quedem, monitoritzant, millorant i expandint a mesura que el negoci creix i la IA evoluciona.",
       "paragraph4": "Cada millora de la IA fa que el nostre servei sigui més ràpid, més barat i més potent. Ho traslladem directament als nostres clients.",
@@ -981,7 +981,7 @@
         "imageAlt": "Arnau Fabrega",
         "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d’empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
         "bio2": "No sabien per on començar, i encara que ho sabessin, la tecnologia avança tan de pressa que el que funcionava fa sis mesos ja està desfasat.",
-        "bio3": "Vaig fundar Autonymo perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
+        "bio3": "Vaig fundar ArtifexOne perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
       }
     },
     "cta": {

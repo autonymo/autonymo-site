@@ -19,7 +19,7 @@ export const HomeCTA = () => {
             {t("subtitle")}
           </p>
           <Link
-            href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
+            href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
             className="inline-flex items-center justify-center font-medium tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-8 py-4 hover:bg-white/90 transition-colors active:scale-95"
           >
             <span className="sm:hidden">{t("buttonShort")}</span>

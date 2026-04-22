@@ -51,7 +51,7 @@ export const Hero = () => {
                   className="w-full sm:w-auto"
                 >
                   <Link
-                    href="https://cal.com/arnau-fabrega-nscdht/autonymo-ai-partnership"
+                    href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
                     className="inline-flex w-full sm:w-auto items-center justify-center font-medium tracking-tight text-white text-base sm:text-lg bg-charcoal rounded-xl px-8 py-3.5 sm:py-3 cursor-pointer"
                   >
                     <span className="sm:hidden">{t("hero.ctaShort")}</span>
