@@ -204,7 +204,7 @@ export default function About() {
           <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-accent-blue/10 to-transparent pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-1/4 h-1/2 bg-gradient-to-tr from-accent-blue/5 to-transparent pointer-events-none" />
           <div className="absolute -bottom-16 -right-16 pointer-events-none select-none opacity-[0.06] blur-sm" aria-hidden="true">
-            <Image src="/logo.png" alt="" width={400} height={400} />
+            <Image src="/wordmark-cream-transparent.png" alt="" width={900} height={160} />
           </div>
 
           <div className="relative z-10 p-12 md:p-20 flex flex-col md:flex-row md:items-center md:justify-between gap-10">
