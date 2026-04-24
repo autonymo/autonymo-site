@@ -25,7 +25,7 @@ const Footer = () => {
       {
         name: "LinkedIn",
         href: "https://www.linkedin.com/company/artifexone/" as const,
-        icon: "/icons/linkedin.svg",
+        icon: "/icons/linkedin.png",
       },
     ],
     [t("legal")]: [
@@ -76,13 +76,15 @@ const Footer = () => {
                           className="text-text-muted hover:text-charcoal transition-colors text-sm font-medium flex items-center gap-1 group whitespace-nowrap"
                         >
                           {icon ? (
-                            <Image
-                              src={icon}
-                              alt={link.name}
-                              width={20}
-                              height={20}
-                              className="shrink-0"
-                            />
+                            <span className="inline-flex items-center justify-center w-8 h-8 rounded-md bg-charcoal group-hover:bg-black transition-colors">
+                              <Image
+                                src={icon}
+                                alt={link.name}
+                                width={18}
+                                height={18}
+                                className="shrink-0"
+                              />
+                            </span>
                           ) : (
                             <>
                               {link.name}
