@@ -22,7 +22,11 @@ const Footer = () => {
       { name: t("bookCall"), href: "https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership" as const },
     ],
     [t("social")]: [
-      { name: "LinkedIn", href: "https://www.linkedin.com/company/artifexone/" as const },
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/company/artifexone/" as const,
+        icon: "/icons/linkedin.svg",
+      },
     ],
     [t("legal")]: [
       { name: t("privacy"), href: "#" as const },
@@ -62,17 +66,33 @@ const Footer = () => {
                   {title}
                 </h5>
                 <ul className="space-y-2.5">
-                  {links.map((link) => (
-                    <li key={link.name}>
-                      <Link
-                        href={link.href}
-                        className="text-text-muted hover:text-charcoal transition-colors text-sm font-medium flex items-center gap-1 group whitespace-nowrap"
-                      >
-                        {link.name}
-                        <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all -translate-x-1 group-hover:translate-x-0 group-hover:text-blue-primary" />
-                      </Link>
-                    </li>
-                  ))}
+                  {links.map((link) => {
+                    const icon = "icon" in link ? link.icon : undefined;
+                    return (
+                      <li key={link.name}>
+                        <Link
+                          href={link.href}
+                          aria-label={link.name}
+                          className="text-text-muted hover:text-charcoal transition-colors text-sm font-medium flex items-center gap-1 group whitespace-nowrap"
+                        >
+                          {icon ? (
+                            <Image
+                              src={icon}
+                              alt={link.name}
+                              width={20}
+                              height={20}
+                              className="shrink-0"
+                            />
+                          ) : (
+                            <>
+                              {link.name}
+                              <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all -translate-x-1 group-hover:translate-x-0 group-hover:text-blue-primary" />
+                            </>
+                          )}
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             ))}
