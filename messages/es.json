@@ -342,26 +342,35 @@
   },
   "howItWorksSteps": {
     "label": "Cómo Trabajamos",
-    "heading": "El camino de ser AI\u2011curious a ser AI\u2011native.",
+    "heading": "El camino de ser AI‑curious a ser AI‑native.",
     "subtitle": "Tres pasos. Un equipo. Progreso compuesto continuo.",
     "steps": {
       "step1": {
-        "phase": "Auditoría \u00b7 Semana 1-2",
+        "phase": "Auditoría · Semana 1-2",
         "title": "Encontrar qué construir.",
         "description": "Dos semanas. Tres oportunidades de IA con mayor ROI, puntuadas, priorizadas y presupuestadas.",
-        "tags": ["Sin diagnósticos de 6 meses", "Sin presentaciones de 80 diapositivas"]
+        "tags": [
+          "Sin diagnósticos de 6 meses",
+          "Sin presentaciones de 80 diapositivas"
+        ]
       },
       "step2": {
-        "phase": "Construcción \u00b7 Semana 3-4",
+        "phase": "Construcción · Semana 3-4",
         "title": "Desplegar lo que importa.",
         "description": "Construido y desplegado sobre tus herramientas existentes. En producción en 30 a 60 días.",
-        "tags": ["Sin reemplazos forzados", "Sin pilotos muertos"]
+        "tags": [
+          "Sin reemplazos forzados",
+          "Sin pilotos muertos"
+        ]
       },
       "step3": {
-        "phase": "Operación \u00b7 Semana 4+",
+        "phase": "Operación · Semana 4+",
         "title": "Opéralo como a un miembro más del equipo.",
         "description": "Monitorizamos, iteramos, reentrenamos y desplegamos lo nuevo. Cada mes, más afilado.",
-        "tags": ["Sin traspasos, jamás", "El efecto compuesto despega"]
+        "tags": [
+          "Sin traspasos, jamás",
+          "El efecto compuesto despega"
+        ]
       }
     }
   },
@@ -403,166 +412,6 @@
     "bio1": "Pasé años en Deloitte ayudando a grandes corporaciones del sector financiero. Fue una formación excelente, pero no dejaba de notar lo mismo: la IA lo estaba cambiando todo y la mayoría de las empresas, especialmente las pequeñas y medianas, no tenían ni idea de lo que realmente podía hacer por ellas.",
     "bio2": "No sabían por dónde empezar, y aunque lo supieran, la tecnología avanza tan rápido que lo que funcionaba hace seis meses ya está obsoleto.",
     "bio3": "Empecé ArtifexOne porque quería estar en el otro lado, no asesorando desde una presentación, sino construyendo y operando de verdad los sistemas que marcan la diferencia. Eso es lo que hacemos cada día."
-  },
-  "dentalClinicOS": {
-    "hero": {
-      "label": "Dental Clinic OS",
-      "heading1": "Tus dentistas tratan.",
-      "heading2": "Nuestra IA llena los sillones.",
-      "description": "Reactivamos pacientes inactivos vía WhatsApp, automatizamos las reservas y gestionamos la comunicación con los pacientes. Desplegado sobre tu software de clínica actual y gestionado por nuestro equipo.",
-      "ctaPrimary": "Reservar Llamada",
-      "ctaPrimaryShort": "Reservar Llamada",
-      "ctaSecondary": "Ver cómo funciona",
-      "imageAlt": "Dental Clinic OS"
-    },
-    "problem": {
-      "label": "El Problema",
-      "heading": "El coste real de un sillón vacío.",
-      "items": {
-        "item1": {
-          "title": "Pacientes que deberían estar volviendo",
-          "description": "Tu base de datos tiene cientos de pacientes pendientes de tratamiento. Nadie tiene tiempo de contactar con todos ellos."
-        },
-        "item2": {
-          "title": "Tu recepción es el cuello de botella",
-          "description": "Los recepcionistas atienden llamadas, agendan citas y facturan a la vez. La reactivación de pacientes siempre es lo primero que se abandona."
-        },
-        "item3": {
-          "title": "Ingresos que no ves",
-          "description": "Un paciente que viene a una higiene genera mucho más que la tarifa de la limpieza. Cada paciente que no vuelve es una cascada de tratamientos que nunca ocurren."
-        }
-      }
-    },
-    "whyDifferent": {
-      "industryExample": "No enviamos mensajes masivos. Analizamos el historial de cada paciente y lo reactivamos para el tratamiento específico que necesita.",
-      "vendorItems": {
-        "item1": "Venden software y desaparecen",
-        "item2": "Lanzan SMS genéricos a tu base de datos",
-        "item3": "Mensajes de talla única",
-        "item4": "Sin soporte continuo"
-      },
-      "ourItems": {
-        "item1": "Nos conectamos a tu sistema de gestión de clínica",
-        "item2": "Reactivación personalizada basada en el historial de tratamientos de cada paciente",
-        "item3": "Conversaciones por WhatsApp, no spam",
-        "item4": "Gestionamos y optimizamos mensualmente"
-      }
-    },
-    "solutions": {
-      "label": "Lo Que Desplegamos",
-      "heading": "Tu clínica, totalmente equipada.",
-      "items": {
-        "item1": {
-          "title": "Reactivación Inteligente de Pacientes",
-          "promise": "Los pacientes inactivos vuelven por la atención que necesitan.",
-          "description": "Los pacientes inactivos reciben mensajes personalizados de WhatsApp basados en su historial de tratamientos. No un recordatorio genérico: una conversación relevante sobre la atención que necesitan. Reservan directamente desde el chat."
-        },
-        "item2": {
-          "title": "Reserva Inteligente de Citas",
-          "promise": "Los pacientes reservan por WhatsApp, sin idas y venidas.",
-          "description": "Los pacientes reservan por WhatsApp, integrado con tu software de clínica. Comprobación de disponibilidad en tiempo real: sin dobles reservas, sin idas y venidas."
-        },
-        "item3": {
-          "title": "Agenda Multi-Profesional",
-          "promise": "La agenda de cada profesional se mantiene llena, automáticamente.",
-          "description": "Citas coordinadas entre doctores, higienistas y salas de forma automática."
-        },
-        "item4": {
-          "title": "Recordatorios y Seguimiento Automatizados",
-          "promise": "Las ausencias se reducen. Tu equipo deja de estar al teléfono.",
-          "description": "Confirmaciones, recordatorios y seguimientos post-visita por WhatsApp. Las ausencias bajan. Tu equipo deja de estar al teléfono."
-        },
-        "item5": {
-          "title": "Recogida de Reseñas Post-Visita",
-          "promise": "Tu reputación crece sin que nadie la pida en recepción.",
-          "description": "Tras cada visita, los pacientes reciben una invitación sencilla para dejar una reseña en Google. Tu reputación crece sin que nadie la pida en recepción."
-        }
-      }
-    },
-    "caseStudy": {
-      "label": "Caso de Éxito",
-      "heading": "90 días. Una clínica. Resultados reales.",
-      "description": "Una clínica dental en España con más de 3 dentistas y más de 9.000 registros de pacientes.",
-      "metrics": {
-        "item1": {
-          "value": "759",
-          "label": "Pacientes contactados"
-        },
-        "item2": {
-          "value": "153",
-          "label": "Visitas confirmadas"
-        },
-        "item3": {
-          "value": "€16.000+",
-          "label": "Ingresos estimados generados"
-        }
-      },
-      "insight": "Los pacientes reactivados no vuelven solo para una limpieza. Vuelven a tu ecosistema, y tus doctores encuentran tratamientos que de otro modo nunca habrían empezado. En promedio, cada visita reactivada generó 4x más ingresos de lo esperado."
-    },
-    "howWeWork": {
-      "label": "Cómo Trabajamos",
-      "heading": "De la primera llamada a pacientes volviendo en 3 semanas.",
-      "steps": {
-        "step1": {
-          "label": "Paso 1",
-          "title": "Nos conectamos a tu software de clínica",
-          "description": "Nos integramos con tu sistema actual. Sin migración, sin herramientas nuevas."
-        },
-        "step2": {
-          "label": "Paso 2",
-          "title": "El sistema empieza a reactivar tu base de datos de pacientes",
-          "description": "Analizamos quién está pendiente y para qué, y lanzamos conversaciones personalizadas por WhatsApp para la situación específica de cada paciente."
-        },
-        "step3": {
-          "label": "Paso 3",
-          "title": "Gestionamos, optimizamos y escalamos",
-          "description": "Monitorizamos semanalmente, refinamos los mensajes y ampliamos a nuevos tipos de campaña. El sistema se vuelve más inteligente. Tú recuperas más pacientes."
-        }
-      }
-    },
-    "faq": {
-      "label": "FAQ",
-      "heading": "Preguntas frecuentes",
-      "items": {
-        "item1": {
-          "question": "¿Tenemos que cambiar nuestro software de clínica?",
-          "answer": "No. Nos conectamos con Gesden, Odontonet, Klini Kare, CliniWin y otros. Nada cambia para tu equipo."
-        },
-        "item2": {
-          "question": "¿Tenemos que cambiar nuestro número de WhatsApp?",
-          "answer": "No. Los mensajes salen desde el número de tu clínica. Los pacientes ven tu clínica, no a un tercero."
-        },
-        "item3": {
-          "question": "¿Mi recepción tendrá que aprender algo nuevo?",
-          "answer": "No. Esto está completamente hecho por nosotros. Su carga de trabajo disminuye: los pacientes llegan ya con cita."
-        },
-        "item4": {
-          "question": "¿Y todos los nuevos mensajes entrantes?",
-          "answer": "Ayudamos a gestionarlos. El sistema gestiona conversaciones y reservas de forma automática. Para los mensajes que necesitan a una persona, nos aseguramos de que nada se pierda."
-        },
-        "item5": {
-          "question": "¿Esto cumple con el GDPR?",
-          "answer": "Sí. Solo contactamos con pacientes que han dado su consentimiento. Te ayudamos a gestionar los registros de consentimiento y a asegurar el cumplimiento total."
-        },
-        "item6": {
-          "question": "¿Qué reciben realmente los pacientes?",
-          "answer": "Mensajes naturales por WhatsApp personalizados según su historial de tratamientos. No campañas de marketing masivas: conversaciones reales."
-        },
-        "item7": {
-          "question": "¿Cómo de rápido veremos resultados?",
-          "answer": "La mayoría de las clínicas ven citas confirmadas dentro de las primeras 2 semanas."
-        },
-        "item8": {
-          "question": "¿Y si nuestra agenda ya está llena?",
-          "answer": "El sistema consulta la disponibilidad en tiempo real. Si te llenas, pausamos o nos centramos en periodos de baja ocupación."
-        }
-      }
-    },
-    "finalCta": {
-      "verticalPhrase": "tu clínica",
-      "heading": "Vamos a llenar tus sillones.",
-      "subtitle": "Reserva una llamada. Te mostraremos cuántos pacientes inactivos tiene tu clínica y lo que reactivarlos podría suponer para tus ingresos."
-    }
   },
   "realEstateOS": {
     "hero": {

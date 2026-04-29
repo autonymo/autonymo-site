@@ -342,26 +342,35 @@
   },
   "howItWorksSteps": {
     "label": "Com Treballem",
-    "heading": "El camí d’AI\u2011curiós a AI\u2011natiu.",
+    "heading": "El camí d’AI‑curiós a AI‑natiu.",
     "subtitle": "Tres passos. Un equip. Creixement compost continu.",
     "steps": {
       "step1": {
-        "phase": "Auditoria \u00b7 Setmana 1-2",
+        "phase": "Auditoria · Setmana 1-2",
         "title": "Trobar què construir.",
         "description": "Dues setmanes. Tres oportunitats d’IA amb el major ROI, puntuades, prioritzades, pressupostades.",
-        "tags": ["Sense diagnòstics de 6 mesos", "Sense presentacions de 80 diapositives"]
+        "tags": [
+          "Sense diagnòstics de 6 mesos",
+          "Sense presentacions de 80 diapositives"
+        ]
       },
       "step2": {
-        "phase": "Construcció \u00b7 Setmana 3-4",
+        "phase": "Construcció · Setmana 3-4",
         "title": "Desplegar el que importa.",
         "description": "Construït i desplegat sobre les teves eines existents. En producció en 30 a 60 dies.",
-        "tags": ["Sense reemplaçaments forçats", "Sense pilots morts"]
+        "tags": [
+          "Sense reemplaçaments forçats",
+          "Sense pilots morts"
+        ]
       },
       "step3": {
-        "phase": "Operació \u00b7 Setmana 4+",
+        "phase": "Operació · Setmana 4+",
         "title": "Fer-lo funcionar com un membre de l’equip.",
         "description": "Monitoritzem, iterem, reentrenem i desplegem el que és nou. Cada mes, més afinat.",
-        "tags": ["Sense traspassos, mai", "El creixement compost entra en acció"]
+        "tags": [
+          "Sense traspassos, mai",
+          "El creixement compost entra en acció"
+        ]
       }
     }
   },
@@ -403,166 +412,6 @@
     "bio1": "Vaig passar anys a Deloitte ajudant grans corporacions del sector financer. Va ser una gran formació, però no parava de veure el mateix: la IA estava canviant-ho tot, i la majoria d’empreses, sobretot les petites i mitjanes, no tenien ni idea del que realment podia fer per elles.",
     "bio2": "No sabien per on començar, i encara que ho sabessin, la tecnologia avança tan de pressa que el que funcionava fa sis mesos ja està desfasat.",
     "bio3": "Vaig fundar ArtifexOne perquè volia ser a l’altre costat, no assessorant des d’una presentació, sinó construint i operant de debò els sistemes que marquen la diferència. Això és el que fem cada dia."
-  },
-  "dentalClinicOS": {
-    "hero": {
-      "label": "Dental Clinic OS",
-      "heading1": "Els teus dentistes tracten.",
-      "heading2": "La nostra IA omple les cadires.",
-      "description": "Reactivem pacients inactius per WhatsApp, automatitzem les reserves i gestionem la comunicació amb els pacients. Desplegat sobre el programari de clínica que ja tens, gestionat pel nostre equip.",
-      "ctaPrimary": "Reservar Trucada",
-      "ctaPrimaryShort": "Reservar Trucada",
-      "ctaSecondary": "Veure com funciona",
-      "imageAlt": "Dental Clinic OS"
-    },
-    "problem": {
-      "label": "El Problema",
-      "heading": "El cost real d’una cadira buida.",
-      "items": {
-        "item1": {
-          "title": "Pacients que haurien de tornar",
-          "description": "La teva base de dades té centenars de pacients pendents de tractament. Ningú té temps de contactar-los a tots."
-        },
-        "item2": {
-          "title": "La teva recepció és el coll d’ampolla",
-          "description": "Les recepcionistes gestionen trucades, agenda i facturació alhora. La reactivació de pacients sempre és el primer que es deixa."
-        },
-        "item3": {
-          "title": "Ingressos que no veus",
-          "description": "Un pacient que ve per una higiene genera molt més que la tarifa de neteja. Cada pacient que no torna és una cascada de tractaments que no s’inicia mai."
-        }
-      }
-    },
-    "whyDifferent": {
-      "industryExample": "No enviem missatges massius. Analitzem l’historial de cada pacient i el reactivem pel tractament específic que necessita.",
-      "vendorItems": {
-        "item1": "Venen programari, desapareixen",
-        "item2": "Envien SMS genèrics a la teva base de dades",
-        "item3": "Missatges iguals per a tothom",
-        "item4": "Sense suport continu"
-      },
-      "ourItems": {
-        "item1": "Ens connectem al teu sistema de gestió de clínica",
-        "item2": "Reactivació personalitzada segons l’historial de tractaments de cada pacient",
-        "item3": "Converses per WhatsApp, no spam",
-        "item4": "Gestió i optimització mensual"
-      }
-    },
-    "solutions": {
-      "label": "Què Despleguem",
-      "heading": "La teva clínica, totalment equipada.",
-      "items": {
-        "item1": {
-          "title": "Reactivació Intel·ligent de Pacients",
-          "promise": "Els pacients inactius tornen per rebre l’atenció que necessiten.",
-          "description": "Els pacients inactius reben missatges de WhatsApp personalitzats segons el seu historial de tractaments. No un recordatori genèric: una conversa rellevant sobre l’atenció que necessiten. Reserven directament des del xat."
-        },
-        "item2": {
-          "title": "Reserva Intel·ligent de Cites",
-          "promise": "Els pacients reserven per WhatsApp, sense anades i vingudes.",
-          "description": "Els pacients reserven per WhatsApp, integrat amb el programari de la teva clínica. Comprovació de disponibilitat en temps real: sense dobles reserves ni intercanvis innecessaris."
-        },
-        "item3": {
-          "title": "Agenda Multi-Professional",
-          "promise": "L’agenda de cada professional es manté plena, automàticament.",
-          "description": "Cites coordinades automàticament entre dentistes, higienistes i sales."
-        },
-        "item4": {
-          "title": "Recordatoris i Seguiments Automatitzats",
-          "promise": "Les absències baixen. El teu equip no para al telèfon.",
-          "description": "Confirmacions, recordatoris i seguiments post-visita per WhatsApp. Les absències baixen. El teu equip no para al telèfon."
-        },
-        "item5": {
-          "title": "Recollida de Ressenyes Post-Visita",
-          "promise": "La teva reputació creix sense que ningú ho demani a recepció.",
-          "description": "Després de cada visita, els pacients reben una petició senzilla per deixar una ressenya a Google. La teva reputació creix sense que ningú ho demani a recepció."
-        }
-      }
-    },
-    "caseStudy": {
-      "label": "Cas d’Èxit",
-      "heading": "90 dies. Una clínica. Resultats reals.",
-      "description": "Una clínica dental a Espanya amb més de 3 dentistes i més de 9.000 fitxes de pacients.",
-      "metrics": {
-        "item1": {
-          "value": "759",
-          "label": "Pacients contactats"
-        },
-        "item2": {
-          "value": "153",
-          "label": "Visites confirmades"
-        },
-        "item3": {
-          "value": "€16.000+",
-          "label": "Ingressos estimats generats"
-        }
-      },
-      "insight": "Els pacients reactivats no només tornen per a una neteja. Tornen al teu ecosistema, i els teus dentistes descobreixen tractaments que mai s’haurien iniciat d’una altra manera. De mitjana, cada visita reactivada va generar 4x més ingressos dels esperats."
-    },
-    "howWeWork": {
-      "label": "Com Treballem",
-      "heading": "De la primera trucada a pacients tornant en 3 setmanes.",
-      "steps": {
-        "step1": {
-          "label": "Pas 1",
-          "title": "Ens connectem al teu programari de clínica",
-          "description": "Ens integrem amb el teu sistema actual. Sense migracions, sense eines noves."
-        },
-        "step2": {
-          "label": "Pas 2",
-          "title": "El sistema comença a reactivar la teva base de pacients",
-          "description": "Analitzem qui està pendent i de què, i llancem converses personalitzades per WhatsApp per a la situació específica de cada pacient."
-        },
-        "step3": {
-          "label": "Pas 3",
-          "title": "Gestionem, optimitzem i escalem",
-          "description": "Monitoritzem setmanalment, refinem els missatges i ampliem a nous tipus de campanya. El sistema es torna més intel·ligent. Tu recuperes més pacients."
-        }
-      }
-    },
-    "faq": {
-      "label": "FAQ",
-      "heading": "Preguntes freqüents",
-      "items": {
-        "item1": {
-          "question": "Hem de canviar el programari de la clínica?",
-          "answer": "No. Ens connectem amb Gesden, Odontonet, Klini Kare, CliniWin i altres. Res no canvia per al teu equip."
-        },
-        "item2": {
-          "question": "Hem de canviar el nostre número de WhatsApp?",
-          "answer": "No. Els missatges surten del número de la teva clínica. Els pacients veuen la teva clínica, no un tercer."
-        },
-        "item3": {
-          "question": "La meva recepció haurà d’aprendre alguna cosa nova?",
-          "answer": "No. Ho fem tot nosaltres. La seva càrrega de feina disminueix: els pacients arriben amb cita ja reservada."
-        },
-        "item4": {
-          "question": "I tots els missatges nous que entrin?",
-          "answer": "Ajudem a gestionar-los. El sistema gestiona converses i reserves automàticament. Per als missatges que necessiten una persona, ens assegurem que res no es perdi."
-        },
-        "item5": {
-          "question": "Compleix amb el GDPR?",
-          "answer": "Sí. Només contactem pacients que han donat el consentiment. T’ajudem a gestionar els registres de consentiment i a garantir el compliment total."
-        },
-        "item6": {
-          "question": "Què reben realment els pacients?",
-          "answer": "Missatges naturals de WhatsApp personalitzats segons el seu historial de tractaments. No enviaments massius: converses reals."
-        },
-        "item7": {
-          "question": "Amb quina rapidesa veurem resultats?",
-          "answer": "La majoria de clíniques veuen cites confirmades durant les 2 primeres setmanes."
-        },
-        "item8": {
-          "question": "I si la nostra agenda ja està plena?",
-          "answer": "El sistema comprova la disponibilitat en temps real. Si us ompliu, pausem o ens enfoquem en períodes de baixa ocupació."
-        }
-      }
-    },
-    "finalCta": {
-      "verticalPhrase": "la teva clínica",
-      "heading": "Omplim les teves cadires.",
-      "subtitle": "Reserva una trucada. Et mostrarem quants pacients inactius té la teva clínica i què podria significar reactivar-los per als teus ingressos."
-    }
   },
   "realEstateOS": {
     "hero": {

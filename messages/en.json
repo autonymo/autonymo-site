@@ -342,26 +342,35 @@
   },
   "howItWorksSteps": {
     "label": "How We Work",
-    "heading": "The path from AI\u2011curious to AI\u2011native.",
+    "heading": "The path from AI‑curious to AI‑native.",
     "subtitle": "Three steps. One team. Continuous compound.",
     "steps": {
       "step1": {
-        "phase": "Audit \u00b7 Week 1-2",
+        "phase": "Audit · Week 1-2",
         "title": "Find what to build.",
         "description": "Two weeks. Three highest-ROI AI opportunities, scored, prioritized, priced.",
-        "tags": ["No 6-month diagnostics", "No 80-slide decks"]
+        "tags": [
+          "No 6-month diagnostics",
+          "No 80-slide decks"
+        ]
       },
       "step2": {
-        "phase": "Build \u00b7 Week 3-4",
+        "phase": "Build · Week 3-4",
         "title": "Ship what matters.",
         "description": "Built and deployed on top of your existing tools. Live in production in 30 to 60 days.",
-        "tags": ["No rip-and-replace", "No dead pilots"]
+        "tags": [
+          "No rip-and-replace",
+          "No dead pilots"
+        ]
       },
       "step3": {
-        "phase": "Operate \u00b7 Week 4+",
+        "phase": "Operate · Week 4+",
         "title": "Run it like a team member.",
         "description": "We monitor, iterate, retrain, and deploy what’s new. Every month, sharper.",
-        "tags": ["No handoffs, ever", "Compound kicks in"]
+        "tags": [
+          "No handoffs, ever",
+          "Compound kicks in"
+        ]
       }
     }
   },
@@ -403,166 +412,6 @@
     "bio1": "I spent years at Deloitte helping large corporations in the financial industry. It was great training, but I kept noticing the same thing: AI was changing everything, and most businesses, especially small and mid-sized ones, had no idea what it could actually do for them.",
     "bio2": "They didn’t know where to start, and even if they did, the technology moves so fast that what worked six months ago is already outdated.",
     "bio3": "I started ArtifexOne because I wanted to be on the other side, not advising from a slide deck, but actually building and running the systems that make a difference. That’s what we do every day."
-  },
-  "dentalClinicOS": {
-    "hero": {
-      "label": "Dental Clinic OS",
-      "heading1": "Your dentists treat.",
-      "heading2": "Our AI fills the chairs.",
-      "description": "We reactivate dormant patients via WhatsApp, automate booking, and manage patient communication. Deployed on your existing clinic software, managed by our team.",
-      "ctaPrimary": "Book a Call",
-      "ctaPrimaryShort": "Book a Call",
-      "ctaSecondary": "See how it works",
-      "imageAlt": "Dental Clinic OS"
-    },
-    "problem": {
-      "label": "The Problem",
-      "heading": "The real cost of an empty chair.",
-      "items": {
-        "item1": {
-          "title": "Patients who should be coming back",
-          "description": "Your database has hundreds of patients overdue for treatment. Nobody has time to reach out to all of them."
-        },
-        "item2": {
-          "title": "Your front desk is the bottleneck",
-          "description": "Receptionists handle calls, scheduling, and billing all at once. Patient reactivation is always the first thing dropped."
-        },
-        "item3": {
-          "title": "Revenue you can’t see",
-          "description": "A patient who comes for a hygiene generates far more than the cleaning fee. Every patient who doesn’t come back is a cascade of treatments that never happens."
-        }
-      }
-    },
-    "whyDifferent": {
-      "industryExample": "We don’t send mass messages. We analyze each patient’s history and reactivate them for the specific treatment they need.",
-      "vendorItems": {
-        "item1": "Sell software, disappear",
-        "item2": "Blast generic SMS to your database",
-        "item3": "One-size-fits-all messages",
-        "item4": "No ongoing support"
-      },
-      "ourItems": {
-        "item1": "Connect to your clinic management system",
-        "item2": "Personalized reactivation based on each patient’s treatment history",
-        "item3": "Conversations via WhatsApp, not spam",
-        "item4": "Manage & optimize monthly"
-      }
-    },
-    "solutions": {
-      "label": "What We Deploy",
-      "heading": "Your clinic, fully equipped.",
-      "items": {
-        "item1": {
-          "title": "Intelligent Patient Reactivation",
-          "promise": "Dormant patients come back for the care they need.",
-          "description": "Dormant patients receive personalized WhatsApp messages based on their treatment history. Not a generic reminder: a relevant conversation about the care they need. They book directly from the chat."
-        },
-        "item2": {
-          "title": "Smart Appointment Booking",
-          "promise": "Patients book through WhatsApp, no back-and-forth.",
-          "description": "Patients book through WhatsApp, integrated with your clinic software. Real-time availability checks: no double bookings, no back-and-forth."
-        },
-        "item3": {
-          "title": "Multi-Practitioner Scheduling",
-          "promise": "Every practitioner’s schedule stays full, automatically.",
-          "description": "Appointments coordinated across doctors, hygienists, and rooms automatically."
-        },
-        "item4": {
-          "title": "Automated Reminders & Follow-up",
-          "promise": "No-shows drop. Your team stays off the phone.",
-          "description": "Confirmations, reminders, and post-visit follow-ups via WhatsApp. No-shows drop. Your team stays off the phone."
-        },
-        "item5": {
-          "title": "Post-Visit Review Collection",
-          "promise": "Your reputation grows without anyone asking at the front desk.",
-          "description": "After each visit, patients get a simple prompt to leave a Google review. Your reputation grows without anyone asking at the front desk."
-        }
-      }
-    },
-    "caseStudy": {
-      "label": "Case Study",
-      "heading": "90 days. One clinic. Real results.",
-      "description": "A dental clinic in Spain with 3+ dentists and over 9,000 patient records.",
-      "metrics": {
-        "item1": {
-          "value": "759",
-          "label": "Patients contacted"
-        },
-        "item2": {
-          "value": "153",
-          "label": "Visits confirmed"
-        },
-        "item3": {
-          "value": "€16,000+",
-          "label": "Estimated revenue generated"
-        }
-      },
-      "insight": "Reactivated patients don’t just come back for a cleaning. They come back into your ecosystem, and your doctors find treatments that would never have started otherwise. On average, every reactivated visit generated 4x more revenue than expected."
-    },
-    "howWeWork": {
-      "label": "How We Work",
-      "heading": "From first call to patients coming back in 3 weeks.",
-      "steps": {
-        "step1": {
-          "label": "Step 1",
-          "title": "We connect to your clinic software",
-          "description": "We integrate with your existing system. No migration, no new tools."
-        },
-        "step2": {
-          "label": "Step 2",
-          "title": "The system starts reactivating your patient database",
-          "description": "We analyze who’s overdue and for what, and launch personalized WhatsApp conversations for each patient’s specific situation."
-        },
-        "step3": {
-          "label": "Step 3",
-          "title": "We manage, optimize, and scale",
-          "description": "We monitor weekly, refine messaging, and expand to new campaign types. The system gets smarter. You get more patients back."
-        }
-      }
-    },
-    "faq": {
-      "label": "FAQ",
-      "heading": "Common questions",
-      "items": {
-        "item1": {
-          "question": "Do we need to change our clinic software?",
-          "answer": "No. We connect to Gesden, Odontonet, Klini Kare, CliniWin, and others. Nothing changes for your team."
-        },
-        "item2": {
-          "question": "Do we need to change our WhatsApp number?",
-          "answer": "No. Messages come from your clinic’s number. Patients see your clinic, not a third party."
-        },
-        "item3": {
-          "question": "Will my front desk need to learn anything new?",
-          "answer": "No. This is completely done for you. Their workload decreases: patients arrive pre-booked."
-        },
-        "item4": {
-          "question": "What about all the new incoming messages?",
-          "answer": "We help manage them. The system handles conversations and booking automatically. For messages that need a human, we make sure nothing falls through."
-        },
-        "item5": {
-          "question": "Is this GDPR compliant?",
-          "answer": "Yes. We only contact patients who have given consent. We help you manage consent records and ensure full compliance."
-        },
-        "item6": {
-          "question": "What do patients actually receive?",
-          "answer": "Natural WhatsApp messages personalized to their treatment history. Not marketing blasts: real conversations."
-        },
-        "item7": {
-          "question": "How quickly will we see results?",
-          "answer": "Most clinics see confirmed appointments within the first 2 weeks."
-        },
-        "item8": {
-          "question": "What if our schedule is already full?",
-          "answer": "The system checks real-time availability. If you fill up, we pause or focus on low-occupancy periods."
-        }
-      }
-    },
-    "finalCta": {
-      "verticalPhrase": "your clinic",
-      "heading": "Let’s fill your chairs.",
-      "subtitle": "Book a call. We’ll show you how many dormant patients your clinic has and what reactivating them could mean for your revenue."
-    }
   },
   "realEstateOS": {
     "hero": {

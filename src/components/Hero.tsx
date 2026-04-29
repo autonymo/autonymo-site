@@ -25,7 +25,7 @@ export const Hero = () => {
       industry: t("hero.cards.dental.industry"),
       intro: t("hero.cards.dental.intro"),
       color: "bg-[#F5F5F7]",
-      href: "/dental-clinic-os" as const,
+      href: "https://keishal.com",
       illustration: <DentalIllustration alt={t("hero.cards.dental.title")} />,
     },
   ];

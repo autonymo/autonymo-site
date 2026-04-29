@@ -44,7 +44,7 @@ export const Navbar = () => {
     {
       title: t("dentalClinicOS"),
       description: t("dentalClinicOSDesc"),
-      href: "/dental-clinic-os" as const,
+      href: "https://keishal.com",
       icon: ToothIcon,
       color: "bg-[#E8F7F1]",
       iconColor: "text-emerald-600",
