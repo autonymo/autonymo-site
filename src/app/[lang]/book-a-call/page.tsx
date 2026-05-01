@@ -35,7 +35,7 @@ export default function BookACall() {
 
           <div className="rounded-2xl bg-white border border-sand overflow-hidden">
             <Cal
-              calLink="arnau-fabrega-nscdht/meeting-arnau-fabrega-artifexone"
+              calLink="arnau-fabrega-nscdht/artifexone-ai-partnership"
               config={{
                 layout: "month_view",
                 theme: "light",

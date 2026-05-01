@@ -8,10 +8,9 @@ interface FinalCTAProps {
   verticalPhrase: string;
   heading?: string;
   subtitle?: string;
-  calLink?: string;
 }
 
-export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }: FinalCTAProps) {
+export default function FinalCTA({ verticalPhrase, heading, subtitle }: FinalCTAProps) {
   const t = useTranslations("finalCta");
 
   return (
@@ -25,7 +24,7 @@ export default function FinalCTA({ verticalPhrase, heading, subtitle, calLink }:
             {subtitle ?? t("defaultSubtitle")}
           </p>
           <Link
-            href={calLink ?? "https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"}
+            href="https://cal.com/arnau-fabrega-nscdht/artifexone-ai-partnership"
             className="inline-flex items-center justify-center gap-2 font-semibold tracking-tight text-charcoal text-base sm:text-lg bg-white rounded-xl px-6 sm:px-10 py-4 hover:opacity-90 transition-colors active:scale-95"
           >
             <span className="sm:hidden">{t("buttonShort")}</span>
